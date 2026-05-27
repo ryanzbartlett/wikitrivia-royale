@@ -1,4 +1,3 @@
-import { Router } from 'express';
 import { dbGet, dbAll, dbRun } from '../db.ts';
 
 interface Profile {
@@ -6,53 +5,39 @@ interface Profile {
     name: string;
 }
 
-const router = Router();
+export async function handleProfiles(req: Request, url: URL): Promise<Response> {
+    const id = url.pathname.split('/')[2]; // /profiles/:id
 
-router.get('/', async (_req, res) => {
-    const profiles = await dbAll<Profile>('SELECT * FROM profiles');
-    res.json(profiles);
-});
-
-router.get('/:id', async (req, res) => {
-    const profile = await dbGet<Profile>('SELECT * FROM profiles WHERE id = ?', [req.params.id]);
-    if (!profile) {
-        res.status(404).json({ error: 'Profile not found' });
-        return;
+    if (req.method === 'GET' && !id) {
+        return Response.json(dbAll<Profile>('SELECT * FROM profiles'));
     }
-    res.json(profile);
-});
 
-router.post('/', async (req, res) => {
-    const { id, name } = req.body as Partial<Profile>;
-    if (!id || !name) {
-        res.status(400).json({ error: 'id and name are required' });
-        return;
+    if (req.method === 'GET' && id) {
+        const profile = dbGet<Profile>('SELECT * FROM profiles WHERE id = ?', [id]);
+        if (!profile) return Response.json({ error: 'Profile not found' }, { status: 404 });
+        return Response.json(profile);
     }
-    await dbRun('INSERT INTO profiles (id, name) VALUES (?, ?)', [id, name]);
-    res.status(201).json({ id, name });
-});
 
-router.put('/:id', async (req, res) => {
-    const { name } = req.body as Partial<Profile>;
-    if (!name) {
-        res.status(400).json({ error: 'name is required' });
-        return;
+    if (req.method === 'POST' && !id) {
+        const { id: newId, name } = await req.json() as Partial<Profile>;
+        if (!newId || !name) return Response.json({ error: 'id and name are required' }, { status: 400 });
+        dbRun('INSERT INTO profiles (id, name) VALUES (?, ?)', [newId, name]);
+        return Response.json({ id: newId, name }, { status: 201 });
     }
-    const result = await dbRun('UPDATE profiles SET name = ? WHERE id = ?', [name, req.params.id]);
-    if (result.changes === 0) {
-        res.status(404).json({ error: 'Profile not found' });
-        return;
-    }
-    res.json({ id: req.params.id, name });
-});
 
-router.delete('/:id', async (req, res) => {
-    const result = await dbRun('DELETE FROM profiles WHERE id = ?', [req.params.id]);
-    if (result.changes === 0) {
-        res.status(404).json({ error: 'Profile not found' });
-        return;
+    if (req.method === 'PUT' && id) {
+        const { name } = await req.json() as Partial<Profile>;
+        if (!name) return Response.json({ error: 'name is required' }, { status: 400 });
+        const result = dbRun('UPDATE profiles SET name = ? WHERE id = ?', [name, id]);
+        if (result.changes === 0) return Response.json({ error: 'Profile not found' }, { status: 404 });
+        return Response.json({ id, name });
     }
-    res.status(204).send();
-});
 
-export default router;
+    if (req.method === 'DELETE' && id) {
+        const result = dbRun('DELETE FROM profiles WHERE id = ?', [id]);
+        if (result.changes === 0) return Response.json({ error: 'Profile not found' }, { status: 404 });
+        return new Response(null, { status: 204 });
+    }
+
+    return new Response('Method Not Allowed', { status: 405 });
+}

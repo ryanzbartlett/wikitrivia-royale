@@ -1,0 +1,19 @@
+services:
+  server:
+    build: ./server
+    environment:
+      DB_PATH: /data/data.db
+    volumes:
+      - db_data:/data
+    ports:
+      - "3000:3000"
+
+  web:
+    build: ./web
+    ports:
+      - "80:80"
+    depends_on:
+      - server
+
+volumes:
+  db_data:

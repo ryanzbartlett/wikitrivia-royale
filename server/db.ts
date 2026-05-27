@@ -1,39 +1,23 @@
-import sqlite3 from 'sqlite3';
+import { Database, type SQLQueryBindings } from 'bun:sqlite';
 
-const db = new sqlite3.Database('./data.db');
+const db = new Database(process.env.DB_PATH ?? './data.db');
 
-db.serialize(() => {
-    db.run(`
-        CREATE TABLE IF NOT EXISTS profiles (
-            id   TEXT PRIMARY KEY,
-            name TEXT NOT NULL
-        )
-    `);
-});
+db.run(`
+    CREATE TABLE IF NOT EXISTS profiles (
+        id   TEXT PRIMARY KEY,
+        name TEXT NOT NULL
+    )
+`);
 
-export function dbGet<T>(sql: string, params: unknown[] = []): Promise<T | undefined> {
-    return new Promise((resolve, reject) => {
-        db.get(sql, params, (err, row) => {
-            if (err) reject(err);
-            else resolve(row as T | undefined);
-        });
-    });
+export function dbGet<T>(sql: string, params: SQLQueryBindings[] = []): T | undefined {
+    return db.prepare(sql).get(...params) as T | undefined;
 }
 
-export function dbAll<T>(sql: string, params: unknown[] = []): Promise<T[]> {
-    return new Promise((resolve, reject) => {
-        db.all(sql, params, (err, rows) => {
-            if (err) reject(err);
-            else resolve(rows as T[]);
-        });
-    });
+export function dbAll<T>(sql: string, params: SQLQueryBindings[] = []): T[] {
+    return db.prepare(sql).all(...params) as T[];
 }
 
-export function dbRun(sql: string, params: unknown[] = []): Promise<sqlite3.RunResult> {
-    return new Promise((resolve, reject) => {
-        db.run(sql, params, function (err) {
-            if (err) reject(err);
-            else resolve(this);
-        });
-    });
+export function dbRun(sql: string, params: SQLQueryBindings[] = []): { changes: number } {
+    const result = db.prepare(sql).run(...params);
+    return { changes: Number(result.changes) };
 }

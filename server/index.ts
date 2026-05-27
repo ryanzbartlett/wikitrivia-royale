@@ -1,17 +1,20 @@
-import express from 'express';
-import profilesRouter from './routes/profiles.ts';
+import { handleProfiles } from './routes/profiles.ts';
 
-const app = express();
-const port = 3000;
+Bun.serve({
+    port: 3000,
+    async fetch(req) {
+        const url = new URL(req.url);
 
-app.use(express.json());
+        if (url.pathname === '/') {
+            return new Response('Hello World!');
+        }
 
-app.get('/', (_req, res) => {
-    res.send('Hello World!');
+        if (url.pathname.startsWith('/profiles')) {
+            return handleProfiles(req, url);
+        }
+
+        return new Response('Not Found', { status: 404 });
+    },
 });
 
-app.use('/profiles', profilesRouter);
-
-app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
-});
+console.log('Server listening on port 3000');
