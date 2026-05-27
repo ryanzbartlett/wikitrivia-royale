@@ -1,10 +1,13 @@
-FROM oven/bun:1-alpine AS base
+FROM oven/bun:latest
 WORKDIR /app
 
-COPY package.json bun.lock ./
-RUN bun install --frozen-lockfile
+COPY server/package.json server/bun.lock ./server/
+RUN cd server && bun install --frozen-lockfile
 
-COPY . .
+COPY server/ ./server/
+COPY shared/ ./shared/
+
+WORKDIR /app/server
 
 EXPOSE 3000
 CMD ["bun", "run", "index.ts"]

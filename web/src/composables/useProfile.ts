@@ -1,14 +1,10 @@
 import { StorageSerializers, useStorage } from '@vueuse/core';
-
-interface UserProfile {
-  id: string;
-  name: string;
-}
+import type { Profile } from '../../../shared/types.ts';
 
 export function useProfile() {
-  const profile = useStorage<UserProfile>('wtroyale:profile', null, localStorage, { serializer: StorageSerializers.object });
+  const profile = useStorage<Profile>('wtroyale:profile', null, localStorage, { serializer: StorageSerializers.object });
 
-  function setProfile(p: UserProfile): void {
+  function setProfile(p: Profile): void {
     profile.value = p;
   }
 

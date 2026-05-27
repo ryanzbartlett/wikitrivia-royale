@@ -15,7 +15,7 @@
     "noEmit": true,
 
     // Bun runtime types (globals + bun:* modules)
-    "types": ["bun-types"],
+    "types": ["bun"],
 
     // Best practices
     "strict": true,

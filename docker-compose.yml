@@ -1,6 +1,8 @@
 services:
   server:
-    build: ./server
+    build:
+      context: .
+      dockerfile: server/Dockerfile
     environment:
       DB_PATH: /data/data.db
     volumes:
@@ -9,7 +11,9 @@ services:
       - "3000:3000"
 
   web:
-    build: ./web
+    build:
+      context: .
+      dockerfile: web/Dockerfile
     ports:
       - "80:80"
     depends_on:
