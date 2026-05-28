@@ -1,2 +1,49 @@
 @import 'tailwindcss';
 @plugin 'daisyui';
+
+/* ── Botanical theme ─────────────────────────────────────────────── */
+[data-theme="botanical"] {
+  color-scheme: light;
+
+  /* Warm cream/tan backgrounds */
+  --color-base-100: oklch(97% 0.01 80);
+  --color-base-200: oklch(93% 0.015 80);
+  --color-base-300: oklch(87% 0.022 80);
+  --color-base-content: oklch(22% 0.02 80);
+
+  /* Forest green – primary actions */
+  --color-primary: oklch(40% 0.13 150);
+  --color-primary-content: oklch(98% 0 0);
+
+  /* Sage green – secondary */
+  --color-secondary: oklch(58% 0.1 150);
+  --color-secondary-content: oklch(98% 0 0);
+
+  /* Warm amber – accent */
+  --color-accent: oklch(71% 0.15 70);
+  --color-accent-content: oklch(15% 0 0);
+
+  /* Deep green-charcoal neutral */
+  --color-neutral: oklch(28% 0.04 150);
+  --color-neutral-content: oklch(96% 0 0);
+
+  /* Semantic */
+  --color-info: oklch(65% 0.13 220);
+  --color-info-content: oklch(15% 0 0);
+  --color-success: oklch(52% 0.16 150);
+  --color-success-content: oklch(98% 0 0);
+  --color-warning: oklch(74% 0.16 70);
+  --color-warning-content: oklch(15% 0 0);
+  --color-error: oklch(52% 0.2 20);
+  --color-error-content: oklch(98% 0 0);
+
+  /* Shape */
+  --radius-box: 0.5rem;
+  --radius-field: 0.375rem;
+  --radius-selector: 0.375rem;
+}
+
+/* ── Playfair Display as font-display utility ────────────────────── */
+@theme {
+  --font-display: 'Playfair Display', serif;
+}

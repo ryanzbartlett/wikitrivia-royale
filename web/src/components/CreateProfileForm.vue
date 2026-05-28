@@ -19,30 +19,29 @@ function rerollName() {
 </script>
 
 <template>
-  <div class="create-profile-form">
-    <form @submit.prevent="saveProfile">
-      <p>Create your player profile.</p>
-      <fieldset class="fieldset">
-        <legend class="fieldset-legend">
-          Name
-        </legend>
+  <div class="flex flex-col gap-4">
+    <div class="text-center">
+      <p class="text-base-content/45 text-xs uppercase tracking-widest mb-1">Choose your name</p>
+    </div>
+    <form class="flex flex-col gap-3" @submit.prevent="saveProfile">
+      <div class="flex gap-2">
         <input
           v-model="username"
           type="text"
-          class="input"
+          class="input input-bordered flex-1"
+          placeholder="Your name"
         >
         <button
           type="button"
+          class="btn btn-ghost btn-square text-lg"
+          title="Reroll name"
           @click="rerollName"
         >
-          Roll
+          ↻
         </button>
-      </fieldset>
-      <button
-        type="submit"
-        class="btn"
-      >
-        Save
+      </div>
+      <button type="submit" class="btn btn-primary w-full">
+        Start Playing
       </button>
     </form>
   </div>
