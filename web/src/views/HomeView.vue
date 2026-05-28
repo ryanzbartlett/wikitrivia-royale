@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import CreateProfileForm from '@/components/CreateProfileForm.vue';
+import Leaderboard from '@/components/Leaderboard.vue';
 import { useProfile } from '@/composables/useProfile';
 import { useRoom } from '@/composables/useRoom';
 
@@ -74,6 +75,9 @@ function handleJoinGame() {
       >
         Reset Profile
       </button>
+    </div>
+    <div class="mt-8">
+      <Leaderboard />
     </div>
   </div>
 </template>

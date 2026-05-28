@@ -1,0 +1,315 @@
+{
+  "id": "deck-03",
+  "startingCard": {
+    "qid": "Q23505",
+    "title": "George H. W. Bush becomes president of the United States",
+    "subtitle": null,
+    "year": 1989,
+    "fact": "George Herbert Walker Bush was the 41st president of the United States, serving from 1989 to 1993.",
+    "wikipediaSlug": "George_H._W._Bush",
+    "image": "George_H._W._Bush_presidential_portrait_(cropped_5).jpg",
+    "pageViews": 367835
+  },
+  "cards": [
+    {
+      "qid": "Q156608",
+      "title": "‘The Bourne Supremacy’ is released",
+      "subtitle": "Film directed by Paul Greengrass",
+      "year": 2004,
+      "fact": "The Bourne Supremacy is a 2004 American action-thriller film starring Matt Damon as Robert Ludlum's character Jason Bourne, a former CIA assassin suffering from psychogenic amnesia trying to learn more of his past when he is enveloped in a conspiracy involving the CIA and Treadstone.",
+      "wikipediaSlug": "The_Bourne_Supremacy_(film)",
+      "image": "Bourne_supremacy_ver2.jpg",
+      "pageViews": 30821
+    },
+    {
+      "qid": "Q1354667",
+      "title": "Sant'Andrea al Quirinale is completed",
+      "subtitle": "Church in Rome",
+      "year": 1567,
+      "fact": "The Church of Saint Andrew on the Quirinal is a Roman Catholic titular church in Rome, Italy, built for the Jesuit seminary on the Quirinal Hill.",
+      "wikipediaSlug": "Sant%27Andrea_al_Quirinale",
+      "image": "Sant'Andrea_al_Quirinale.jpg",
+      "pageViews": 1947
+    },
+    {
+      "qid": "Q150229",
+      "title": "Boxer Rebellion",
+      "subtitle": "Protest, riot, or uprising",
+      "year": 1899,
+      "fact": "The Boxer Rebellion, also known as the Boxer Uprising, Boxer Movement, or Yihetuan Movement, was an anti-foreign, anti-imperialist, and anti-Christian uprising in North China between 1899 and 1901, towards the end of the Qing dynasty, by the Society of Righteous and Harmonious Fists.",
+      "wikipediaSlug": "Boxer_Rebellion",
+      "image": "Taku_Forts_Landing.JPG",
+      "pageViews": 81909
+    },
+    {
+      "qid": "Q191838",
+      "title": "‘The Count of Monte Cristo’ is published",
+      "subtitle": "Book by Alexandre Dumas",
+      "year": 1844,
+      "fact": "The Count of Monte Cristo is an adventure novel by the French writer Alexandre Dumas.",
+      "wikipediaSlug": "The_Count_of_Monte_Cristo",
+      "image": "Louis_Français-Dantès_sur_son_rocher.jpg",
+      "pageViews": 323816
+    },
+    {
+      "qid": "Q12536",
+      "title": "Abbasid Caliphate is established",
+      "subtitle": "Historical state",
+      "year": 750,
+      "fact": "The Abbasid Caliphate or Abbasid Empire was the third Islamic caliphate, ruled by the Abbasid dynasty.",
+      "wikipediaSlug": "Abbasid_Caliphate",
+      "image": "Abbasid_banner.svg",
+      "pageViews": 119023
+    },
+    {
+      "qid": "Q11815",
+      "title": "James Monroe becomes president of the United States",
+      "subtitle": null,
+      "year": 1817,
+      "fact": "James Monroe was an American Founding Father who served as the fifth president of the United States from 1817 to 1825.",
+      "wikipediaSlug": "James_Monroe",
+      "image": "James_Monroe_White_House_portrait_1819_(cropped)(2).jpg",
+      "pageViews": 67423
+    },
+    {
+      "qid": "Q242596",
+      "title": "‘Malcolm in the Middle’ airs for the first time",
+      "subtitle": "American television sitcom",
+      "year": 2000,
+      "fact": "Malcolm in the Middle is an American television sitcom created by Linwood Boomer for the Fox Broadcasting Company.",
+      "wikipediaSlug": "Malcolm_in_the_Middle",
+      "image": "MitM_credits_logo.jpg",
+      "pageViews": 254525
+    },
+    {
+      "qid": "Q538390",
+      "title": "‘To Have and Have Not’ is published",
+      "subtitle": "Book by Ernest Hemingway",
+      "year": 1937,
+      "fact": "To Have and Have Not is a novel by Ernest Hemingway published in 1937 by Charles Scribner's Sons.",
+      "wikipediaSlug": "To_Have_and_Have_Not",
+      "image": "To_Have_and_Have_Note_(Hemmingway_novel)_1st_edition_cover.jpg",
+      "pageViews": 5071
+    },
+    {
+      "qid": "Q18547944",
+      "title": "‘The Martian’ is released",
+      "subtitle": "Film directed by Ridley Scott",
+      "year": 2015,
+      "fact": "The Martian is a 2015 epic science fiction survival film directed by Ridley Scott from a screenplay by Drew Goddard.",
+      "wikipediaSlug": "The_Martian_(film)",
+      "image": "The_Martian_film_poster.jpg",
+      "pageViews": 209409
+    },
+    {
+      "qid": "Q18608589",
+      "title": "‘Street Fighter V’ releases",
+      "subtitle": "Video game by Dimps",
+      "year": 2016,
+      "fact": "Street Fighter V is a 2016 fighting game developed by Capcom and Dimps and published by Capcom for PlayStation 4 and Windows.",
+      "wikipediaSlug": "Street_Fighter_V",
+      "image": "Street_Fighter_V_box_artwork.png",
+      "pageViews": 10175
+    },
+    {
+      "qid": "Q17138",
+      "title": "‘Uncharted 3: Drake's Deception’ releases",
+      "subtitle": "Video game by Naughty Dog",
+      "year": 2011,
+      "fact": "Uncharted 3: Drake's Deception is a 2011 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment for the PlayStation 3.",
+      "wikipediaSlug": "Uncharted_3:_Drake%27s_Deception",
+      "image": "Uncharted_3_Boxart.jpg",
+      "pageViews": 13888
+    },
+    {
+      "qid": "Q9545",
+      "title": "Tony Blair becomes prime minister of the United Kingdom",
+      "subtitle": null,
+      "year": 1997,
+      "fact": "Sir Anthony Charles Lynton Blair is a British politician who served as Prime Minister of the United Kingdom from 1997 to 2007 and Leader of the Labour Party from 1994 to 2007.",
+      "wikipediaSlug": "Tony_Blair",
+      "image": "Tony_Blair_(2010).jpg",
+      "pageViews": 167402
+    },
+    {
+      "qid": "Q1233203",
+      "title": "‘Herakles' Children’ premieres",
+      "subtitle": "Play by Euripides",
+      "year": -429,
+      "fact": "Children of Heracles is an Athenian tragedy written by Euripides.",
+      "wikipediaSlug": "Children_of_Heracles",
+      "image": "Associated_with_the_Karneia_Painter_-_LCS_I_283_-_the_Heraklides_in_the_sanctuary_of_Marathon_-_youths_-_Policoro_MNdS_35302_-_03.jpg",
+      "pageViews": 1051
+    },
+    {
+      "qid": "Q1323981",
+      "title": "‘El Chavo del 8’ airs for the first time",
+      "subtitle": "Mexican television sitcom",
+      "year": 1973,
+      "fact": "El Chavo, also known as El Chavo del Ocho is a Mexican television sitcom created by Chespirito and produced by Televisa.",
+      "wikipediaSlug": "El_Chavo_del_Ocho",
+      "image": "El_Chavo_(simple_logo).svg",
+      "pageViews": 27704
+    },
+    {
+      "qid": "Q498469",
+      "title": "‘Postal III’ releases",
+      "subtitle": "Video game by Running with Scissors",
+      "year": 2011,
+      "fact": "Postal III is a third-person shooter video game developed by Trashmasters and Running with Scissors, and published by Akella.",
+      "wikipediaSlug": "Postal_III",
+      "image": "Postal_3_box.png",
+      "pageViews": 4640
+    },
+    {
+      "qid": "Q5580",
+      "title": "Albrecht Dürer dies",
+      "subtitle": "German painter, printmaker, mathematician, and theorist",
+      "year": 1528,
+      "fact": "Albrecht Dürer, sometimes spelled in English as Durer or Duerer, was a German painter, printmaker, and theorist of the German Renaissance.",
+      "wikipediaSlug": "Albrecht_D%C3%BCrer",
+      "image": "Dürer_Alte_Pinakothek.jpg",
+      "pageViews": 38030
+    },
+    {
+      "qid": "Q221075",
+      "title": "‘28 Days Later’ is released",
+      "subtitle": "Film directed by Danny Boyle",
+      "year": 2002,
+      "fact": "28 Days Later is a 2002 British post-apocalyptic horror film directed by Danny Boyle and written by Alex Garland.",
+      "wikipediaSlug": "28_Days_Later",
+      "image": "28_days_later.jpg",
+      "pageViews": 144872
+    },
+    {
+      "qid": "Q259383",
+      "title": "‘Ecliptica’ is released",
+      "subtitle": "Album by Sonata Arctica",
+      "year": 1999,
+      "fact": "Ecliptica is the first full-length album by the power metal band Sonata Arctica.",
+      "wikipediaSlug": "Ecliptica",
+      "image": "SonataArctica_Ecliptica.jpg",
+      "pageViews": 1176
+    },
+    {
+      "qid": "Q146124",
+      "title": "‘Excitebike’ releases",
+      "subtitle": "Video game by Nintendo Research & Development 1",
+      "year": 1984,
+      "fact": "Excitebike is a 1984 racing video game developed and published by Nintendo for the Nintendo Entertainment System.",
+      "wikipediaSlug": "Excitebike",
+      "image": "Excitebike_cover.jpg",
+      "pageViews": 4985
+    },
+    {
+      "qid": "Q36107",
+      "title": "Muhammad Ali dies",
+      "subtitle": "American boxer",
+      "year": 2016,
+      "fact": "Muhammad Ali was an American professional boxer and activist.",
+      "wikipediaSlug": "Muhammad_Ali",
+      "image": "Muhammad_Ali_NYWTS.jpg",
+      "pageViews": 277596
+    },
+    {
+      "qid": "Q21028127",
+      "title": "Artemis III launches",
+      "subtitle": "Mission by National Aeronautics and Space Administration",
+      "year": 2027,
+      "fact": "Artemis III is planned to be the second crewed mission of the NASA-led Artemis lunar exploration program.",
+      "wikipediaSlug": "Artemis_III",
+      "image": "Artemis_III_ESM3_Engine_Nozzle_Install_Completion_(KSC-20260217-PH-JBS01_0002).jpg",
+      "pageViews": 61199
+    },
+    {
+      "qid": "Q361642",
+      "title": "Marek Grechuta dies",
+      "subtitle": "Polish singer and composer",
+      "year": 2006,
+      "fact": "Marek Michał Grechuta was a Polish singer, songwriter, composer, and lyricist.",
+      "wikipediaSlug": "Marek_Grechuta",
+      "image": "Marek_Grechuta.jpg",
+      "pageViews": 1294
+    },
+    {
+      "qid": "Q5577",
+      "title": "Salvador Dalí dies",
+      "subtitle": "Spanish artist",
+      "year": 1989,
+      "fact": "Salvador Domingo Felipe Jacinto Dalí i Domènech, Marquess of Dalí de Púbol, known as Salvador Dalí, was a Spanish surrealist artist renowned for his technical skill, precise draftsmanship, and the striking and bizarre images in his work.",
+      "wikipediaSlug": "Salvador_Dal%C3%AD",
+      "image": "Salvador_Dalí_1939.jpg",
+      "pageViews": 107584
+    },
+    {
+      "qid": "Q1575476",
+      "title": "‘Hang-On’ releases",
+      "subtitle": "Video game by Sega AM2",
+      "year": 1985,
+      "fact": "Hang-On is a 1985 racing video game developed and published by Sega for arcades.",
+      "wikipediaSlug": "Hang-On",
+      "image": "Hang_on_arcade_flyer.png",
+      "pageViews": 2456
+    },
+    {
+      "qid": "Q33391",
+      "title": "Leon Trotsky dies",
+      "subtitle": "Russian Marxist revolutionary",
+      "year": 1940,
+      "fact": "Lev Davidovich Trotsky, better known as Leon Trotsky, was a Russian revolutionary, Soviet politician and political theorist.",
+      "wikipediaSlug": "Leon_Trotsky",
+      "image": "Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg",
+      "pageViews": 124345
+    },
+    {
+      "qid": "Q852563",
+      "title": "‘The Legend of Zelda: The Wind Waker’ releases",
+      "subtitle": "Video game by Nintendo Entertainment Analysis & Development",
+      "year": 2002,
+      "fact": "The Legend of Zelda: The Wind Waker is an action-adventure game developed and published by Nintendo for the GameCube.",
+      "wikipediaSlug": "The_Legend_of_Zelda:_The_Wind_Waker",
+      "image": "The_Legend_of_Zelda_The_Wind_Waker.jpg",
+      "pageViews": 22610
+    },
+    {
+      "qid": "Q47478",
+      "title": "Swami Vivekananda dies",
+      "subtitle": "Indian Hindu monk and philosopher",
+      "year": 1902,
+      "fact": "Swami Vivekananda, born Narendranath Datta, was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.",
+      "wikipediaSlug": "Swami_Vivekananda",
+      "image": "Swami_Vivekananda-1893-09-signed.jpg",
+      "pageViews": 63894
+    },
+    {
+      "qid": "Q642230",
+      "title": "‘Keeps Gettin' Better: A Decade of Hits’ is released",
+      "subtitle": "Album by Christina Aguilera",
+      "year": 2009,
+      "fact": "Keeps Gettin' Better: A Decade of Hits is the first greatest hits album by American singer-songwriter Christina Aguilera.",
+      "wikipediaSlug": "Keeps_Gettin%27_Better:_A_Decade_of_Hits",
+      "image": "Keeps_Gettin'_Better_A_Decade_of_Hits.png",
+      "pageViews": 2178
+    },
+    {
+      "qid": "Q588963",
+      "title": "‘Phantasmagoria’ releases",
+      "subtitle": "Video game by Sierra Entertainment",
+      "year": 1995,
+      "fact": "Phantasmagoria is a point-and-click adventure horror video game designed by Roberta Williams for MS-DOS and Microsoft Windows and released by Sierra On-Line on August 24, 1995.",
+      "wikipediaSlug": "Phantasmagoria_(video_game)",
+      "image": "Sierra-Phantasmagoria.jpg",
+      "pageViews": 8023
+    },
+    {
+      "qid": "Q10285",
+      "title": "Colosseum is completed",
+      "subtitle": "Ancient Roman amphitheatre, a landmark of Rome, Italy",
+      "year": 81,
+      "fact": "The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum.",
+      "wikipediaSlug": "Colosseum",
+      "image": "Colosseo_2020.jpg",
+      "pageViews": 165467
+    }
+  ]
+}

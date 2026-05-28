@@ -1,0 +1,315 @@
+{
+  "id": "deck-02",
+  "startingCard": {
+    "qid": "Q173626",
+    "title": "‘Pac-Man’ releases",
+    "subtitle": "Video game by Namco",
+    "year": 1980,
+    "fact": "Pac-Man, originally titled Puck Man in Japan, is a 1980 maze video game developed and published by Namco for arcades.",
+    "wikipediaSlug": "Pac-Man",
+    "image": "Pac_flyer.png",
+    "pageViews": 264635
+  },
+  "cards": [
+    {
+      "qid": "Q625149",
+      "title": "Aurelian Walls is completed",
+      "subtitle": "Historic line of walls built around the city of Rome, Italy",
+      "year": 271,
+      "fact": "The Aurelian Walls are a line of city walls built between 271 AD and 275 AD in Rome, Italy, during the reign of the Roman Emperor Aurelian.",
+      "wikipediaSlug": "Aurelian_Walls",
+      "image": "Celio_-_le_mura_tra_porta_san_Sebastiano_e_porta_Ardeatina_1974.JPG",
+      "pageViews": 8946
+    },
+    {
+      "qid": "Q13915",
+      "title": "‘Xkcd’ begins",
+      "subtitle": "Webcomic created by Randall Munroe",
+      "year": 2005,
+      "fact": "xkcd is a serial webcomic created in 2005 by American author Randall Munroe.",
+      "wikipediaSlug": "Xkcd",
+      "image": "Xkcd_philosophy.png",
+      "pageViews": 14225
+    },
+    {
+      "qid": "Q161141",
+      "title": "Kapp Putsch takes place",
+      "subtitle": "Coup d'etat",
+      "year": 1920,
+      "fact": "The Kapp Putsch, also known as the Kapp–Lüttwitz Putsch, was an abortive coup d'état against the German national government in Berlin on 13 March 1920.",
+      "wikipediaSlug": "Kapp_Putsch",
+      "image": "Bundesarchiv_Bild_119-1983-0007,_Kapp-Putsch,_Marinebrigade_Erhardt_in_Berlin.jpg",
+      "pageViews": 15698
+    },
+    {
+      "qid": "Q190908",
+      "title": "‘Seven’ is released",
+      "subtitle": "Film directed by David Fincher",
+      "year": 1995,
+      "fact": "Seven is a 1995 American crime thriller film directed by David Fincher and written by Andrew Kevin Walker.",
+      "wikipediaSlug": "Seven_(1995_film)",
+      "image": "Seven_(movie)_poster.jpg",
+      "pageViews": 128572
+    },
+    {
+      "qid": "Q896",
+      "title": "Mountain Dew is founded",
+      "subtitle": "Carbonated soft drink brand",
+      "year": 1940,
+      "fact": "Mountain Dew, stylized as Mtn Dew in some countries and colloquially known as Dew in some areas, is a soft drink brand owned by PepsiCo.",
+      "wikipediaSlug": "Mountain_Dew",
+      "image": "Mountain_Dew_2025_logo.svg",
+      "pageViews": 34367
+    },
+    {
+      "qid": "Q19481",
+      "title": "Leicester City F.C. is founded",
+      "subtitle": "Football club",
+      "year": 1884,
+      "fact": "Leicester City Football Club is a professional football club based in Leicester, East Midlands, England.",
+      "wikipediaSlug": "Leicester_City_F.C.",
+      "image": "Leicester_City_crest.svg",
+      "pageViews": 114113
+    },
+    {
+      "qid": "Q153975",
+      "title": "Alitalia is founded",
+      "subtitle": "Airline",
+      "year": 1946,
+      "fact": "Alitalia - Società Aerea Italiana S.p.A., operating as Alitalia, was an Italian airline which was once the flag carrier and largest airline of Italy.",
+      "wikipediaSlug": "Alitalia",
+      "image": "Alitalia_Boeing_777-3Q8(ER)_EI-WLA_departing_JFK_Airport.jpg",
+      "pageViews": 14772
+    },
+    {
+      "qid": "Q460889",
+      "title": "Museo Nacional Centro de Arte Reina Sofía opens",
+      "subtitle": "National museum of art in Madrid, Spain",
+      "year": 1992,
+      "fact": "The Museo Nacional Centro de Arte Reina Sofía is Spain's national museum of 20th-century art.",
+      "wikipediaSlug": "Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa",
+      "image": "Museo_Nacional_Centro_de_Arte_Reina_Sofía_logo.svg",
+      "pageViews": 7530
+    },
+    {
+      "qid": "Q15228",
+      "title": "‘The Lord of the Rings’ is published",
+      "subtitle": "Book by J. R. R. Tolkien",
+      "year": 1954,
+      "fact": "The Lord of the Rings is an epic high fantasy novel written by the English author and scholar J.",
+      "wikipediaSlug": "The_Lord_of_the_Rings",
+      "image": "First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif",
+      "pageViews": 158864
+    },
+    {
+      "qid": "Q924673",
+      "title": "‘New York Herald’ launches",
+      "subtitle": "Newspaper",
+      "year": 1835,
+      "fact": "The New York Herald was a large-distribution newspaper based in New York City that existed from 1835 to 1924.",
+      "wikipediaSlug": "The_New_York_Herald",
+      "image": "New-York-Herald-June-20-1861.jpg",
+      "pageViews": 1428
+    },
+    {
+      "qid": "Q1552718",
+      "title": "Granada War begins",
+      "subtitle": "Conflict",
+      "year": 1482,
+      "fact": "The Granada War was a series of military campaigns between 1482 and 1492 during the reign of the Catholic Monarchs, Isabella I of Castile and Ferdinand II of Aragon, against the Nasrid dynasty's Emirate of Granada.",
+      "wikipediaSlug": "Granada_War",
+      "image": "La_Rendición_de_Granada_-_Pradilla.jpg",
+      "pageViews": 13488
+    },
+    {
+      "qid": "Q29179",
+      "title": "Francisco Franco dies",
+      "subtitle": "Spanish general and dictator",
+      "year": 1975,
+      "fact": "Francisco Franco Bahamonde was a Spanish general and dictator who led the Nationalist forces in overthrowing the Second Spanish Republic during the Spanish Civil War and thereafter ruled over Spain from 1939 until his death in 1975.",
+      "wikipediaSlug": "Francisco_Franco",
+      "image": "RETRATO_DEL_GRAL._FRANCISCO_FRANCO_BAHAMONDE_(adjusted_levels).jpg",
+      "pageViews": 145575
+    },
+    {
+      "qid": "Q1541914",
+      "title": "‘The Handmaid's Tale’ is published",
+      "subtitle": "Book by Margaret Atwood",
+      "year": 1985,
+      "fact": "The Handmaid's Tale is a futuristic dystopian novel by Canadian author Margaret Atwood published in 1985.",
+      "wikipediaSlug": "The_Handmaid%27s_Tale",
+      "image": "TheHandmaidsTale(1stEd).jpg",
+      "pageViews": 119290
+    },
+    {
+      "qid": "Q1396889",
+      "title": "‘Animal Farm’ is published",
+      "subtitle": "Book by George Orwell",
+      "year": 1945,
+      "fact": "Animal Farm is a satirical allegorical dystopian novella, in the form of a beast fable, by George Orwell, first published in England on 17 August 1945.",
+      "wikipediaSlug": "Animal_Farm",
+      "image": "Animal_Farm_-_1st_edition.jpg",
+      "pageViews": 125835
+    },
+    {
+      "qid": "Q272595",
+      "title": "‘Waterworld’ is released",
+      "subtitle": "Film directed by Kevin Reynolds",
+      "year": 1995,
+      "fact": "Waterworld is a 1995 American post-apocalyptic action film, directed by Kevin Reynolds and co-written by Peter Rader and David Twohy.",
+      "wikipediaSlug": "Waterworld",
+      "image": "Waterworld.jpg",
+      "pageViews": 60103
+    },
+    {
+      "qid": "Q80113",
+      "title": "Expressionism movement begins",
+      "subtitle": "Art movement",
+      "year": 1900,
+      "fact": "Expressionism is a modernist movement, initially in poetry and painting, originating in Northern Europe around the beginning of the 20th century.",
+      "wikipediaSlug": "Expressionism",
+      "image": "Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+      "pageViews": 22866
+    },
+    {
+      "qid": "Q56016",
+      "title": "Katharine Hepburn dies",
+      "subtitle": "American actress",
+      "year": 2003,
+      "fact": "Katharine Houghton Hepburn was an American actress whose career as a leading lady on stage and screen spanned six decades.",
+      "wikipediaSlug": "Katharine_Hepburn",
+      "image": "Katharine_Hepburn_publicity_photograph.jpg",
+      "pageViews": 173477
+    },
+    {
+      "qid": "Q535940",
+      "title": "‘Final Fantasy VI’ releases",
+      "subtitle": "Video game by Square",
+      "year": 1994,
+      "fact": "Final Fantasy VI, titled Final Fantasy III in its initial North American release, is a 1994 role-playing video game developed and published by Square for the Super Nintendo Entertainment System.",
+      "wikipediaSlug": "Final_Fantasy_VI",
+      "image": "Final_Fantasy_VI.jpg",
+      "pageViews": 30825
+    },
+    {
+      "qid": "Q180632",
+      "title": "‘Pope Paul III and His Grandsons’ is painted",
+      "subtitle": "Painting by Titian",
+      "year": 1546,
+      "fact": "Pope Paul III and His Grandsons is an oil on canvas painting by Titian, housed in the Museo di Capodimonte, Naples.",
+      "wikipediaSlug": "Pope_Paul_III_and_His_Grandsons",
+      "image": "Titian_–_Portrait_of_Pope_Paul_III_with_his_Grandsons_–_Google_Art_Project_–_edited.jpg",
+      "pageViews": 1027
+    },
+    {
+      "qid": "Q1467263",
+      "title": "‘Dino Crisis 2’ releases",
+      "subtitle": "Video game by Capcom",
+      "year": 2000,
+      "fact": "Dino Crisis 2 is a 2000 action-adventure game developed by Capcom Production Studio 4 and published by Capcom for the PlayStation.",
+      "wikipediaSlug": "Dino_Crisis_2",
+      "image": "Dino_Crisis_2.jpg",
+      "pageViews": 8208
+    },
+    {
+      "qid": "Q23755544",
+      "title": "‘Hidden Figures’ is released",
+      "subtitle": "Film directed by Theodore Melfi",
+      "year": 2016,
+      "fact": "Hidden Figures is a 2016 American biographical drama film co-produced and directed by Theodore Melfi, who co-wrote the screenplay with Allison Schroeder.",
+      "wikipediaSlug": "Hidden_Figures",
+      "image": "The_official_poster_for_the_film_Hidden_Figures,_2016.jpg",
+      "pageViews": 117617
+    },
+    {
+      "qid": "Q605340",
+      "title": "Wari begins",
+      "subtitle": "Archaeological culture",
+      "year": 600,
+      "fact": "The Wari were a Middle Horizon civilization that flourished in the south-central Andes and coastal area of modern-day Peru, from about 500 to 1000 AD.",
+      "wikipediaSlug": "Wari_culture",
+      "image": "Map_of_Wari_in_Peru.svg",
+      "pageViews": 3810
+    },
+    {
+      "qid": "Q548471",
+      "title": "Viktor Chernov dies",
+      "subtitle": "Russian politician",
+      "year": 1952,
+      "fact": "Viktor Mikhailovich Chernov was a Russian revolutionary, politician, and theorist who was a principal founder and leader of the Socialist Revolutionary Party (PSR).",
+      "wikipediaSlug": "Viktor_Chernov",
+      "image": "Portrait_of_Minister_VM_Chernov_Trim_Edit.jpg",
+      "pageViews": 5732
+    },
+    {
+      "qid": "Q1140518",
+      "title": "Stechkin enters service",
+      "subtitle": "Submachine gun and machine pistol",
+      "year": 1951,
+      "fact": "The Stechkin Automatic Pistol is a selective fire machine pistol manufacturered by Russian company Vytatsky Polyany Machine-Building Plant.",
+      "wikipediaSlug": "Stechkin_automatic_pistol",
+      "image": "Stechkin_APS.jpg",
+      "pageViews": 7878
+    },
+    {
+      "qid": "Q338519",
+      "title": "‘In the Middle of Nowhere’ is released",
+      "subtitle": "Album by Modern Talking",
+      "year": 1986,
+      "fact": "In the Middle of Nowhere is the fourth studio album by German duo Modern Talking, released on 10 November 1986 by Hansa Records.",
+      "wikipediaSlug": "In_the_Middle_of_Nowhere",
+      "image": "Inthemiddleofnowherealbum.jpg",
+      "pageViews": 1255
+    },
+    {
+      "qid": "Q1901313",
+      "title": "‘Discovery’ is released",
+      "subtitle": "Album by Daft Punk",
+      "year": 2001,
+      "fact": "Discovery is the second studio album by the French electronic music duo Daft Punk, released on 12 March 2001 by Virgin Records.",
+      "wikipediaSlug": "Discovery_(Daft_Punk_album)",
+      "image": "Daft_Punk_-_Discovery.png",
+      "pageViews": 30227
+    },
+    {
+      "qid": "Q201052",
+      "title": "‘American Idol’ airs for the first time",
+      "subtitle": "American singing competition",
+      "year": 2002,
+      "fact": "American Idol is an American singing competition television series created by Simon Fuller, produced by Fremantle North America and 19 Entertainment, and distributed by Fremantle North America.",
+      "wikipediaSlug": "American_Idol",
+      "image": "American_Idol_ABC_logo.png",
+      "pageViews": 104461
+    },
+    {
+      "qid": "Q193383",
+      "title": "Ottoman dynasty begins",
+      "subtitle": "Dynasty",
+      "year": 1299,
+      "fact": "The Ottoman dynasty consisted of the members of the imperial House of Osman, also known as the Ottomans.",
+      "wikipediaSlug": "Ottoman_dynasty",
+      "image": "Coat_of_arms_of_the_Ottoman_Empire_(1882–1922).svg",
+      "pageViews": 24243
+    },
+    {
+      "qid": "Q568847",
+      "title": "‘The Descent from the Cross’ is painted",
+      "subtitle": "Painting by Rogier van der Weyden",
+      "year": 1440,
+      "fact": "The Descent from the Cross is a panel painting by the Flemish artist Rogier van der Weyden created c. 1435, now in the Museo del Prado, Madrid.",
+      "wikipediaSlug": "The_Descent_from_the_Cross_(van_der_Weyden)",
+      "image": "El_Descendimiento,_by_Rogier_van_der_Weyden,_from_Prado_in_Google_Earth.jpg",
+      "pageViews": 4228
+    },
+    {
+      "qid": "Q83495",
+      "title": "‘The Matrix’ is released",
+      "subtitle": "Film directed by Lilly Wachowski",
+      "year": 1999,
+      "fact": "The Matrix is a 1999 science fiction action film written and directed by the Wachowskis.",
+      "wikipediaSlug": "The_Matrix",
+      "image": "The_Matrix.png",
+      "pageViews": 223554
+    }
+  ]
+}

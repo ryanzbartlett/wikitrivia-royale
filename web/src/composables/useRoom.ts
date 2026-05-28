@@ -1,6 +1,7 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { useProfile } from './useProfile';
+import { useGameStore } from '@/stores/game';
 import type { Room, ServerMessage } from '../../../shared/types.ts';
 
 export function useRoom() {
@@ -30,6 +31,9 @@ export function useRoom() {
     function connect(code: string): void {
         if (!profile.value) return;
 
+        const gameStore = useGameStore();
+        gameStore.myPlayerId = profile.value.id;
+
         const params = new URLSearchParams({
             roomCode: code,
             profileId: profile.value.id,
@@ -38,6 +42,8 @@ export function useRoom() {
 
         const protocol = location.protocol === 'https:' ? 'wss' : 'ws';
         ws = new WebSocket(`${protocol}://${location.host}/ws?${params}`);
+
+        gameStore.setSendFn((msg) => ws?.send(JSON.stringify(msg)));
 
         ws.onmessage = (event) => {
             const msg = JSON.parse(event.data as string) as ServerMessage;
@@ -59,6 +65,8 @@ export function useRoom() {
                         };
                     }
                     break;
+                default:
+                    gameStore.handleMessage(msg);
             }
         };
 
@@ -69,6 +77,7 @@ export function useRoom() {
     function disconnect(): void {
         ws?.close();
         ws = null;
+        useGameStore().reset();
     }
 
     return { room, error, createRoom, joinRoom, connect, disconnect };

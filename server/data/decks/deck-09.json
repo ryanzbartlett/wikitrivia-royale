@@ -1,0 +1,315 @@
+{
+  "id": "deck-09",
+  "startingCard": {
+    "qid": "Q133151",
+    "title": "Ozzy Osbourne dies",
+    "subtitle": "English musician and television personality",
+    "year": 2025,
+    "fact": "John Michael \"Ozzy\" Osbourne was an English singer, songwriter, and media personality.",
+    "wikipediaSlug": "Ozzy_Osbourne",
+    "image": "Ozzy_Osbourne_in_1970_(medium-sized_crop).jpg",
+    "pageViews": 365792
+  },
+  "cards": [
+    {
+      "qid": "Q1064850",
+      "title": "‘The Book of Mormon’ premieres",
+      "subtitle": "Musical by Matt Stone",
+      "year": 2011,
+      "fact": "The Book of Mormon is an American musical comedy with music, lyrics, and book by Trey Parker, Robert Lopez, and Matt Stone.",
+      "wikipediaSlug": "The_Book_of_Mormon_(musical)",
+      "image": "The_Book_of_Mormon_poster.jpg",
+      "pageViews": 120419
+    },
+    {
+      "qid": "Q39671",
+      "title": "Stonehenge is completed",
+      "subtitle": "Neolithic henge monument in Amesbury, Wiltshire, England, UK",
+      "year": -3000,
+      "fact": "Stonehenge is a prehistoric megalithic structure on Salisbury Plain in Wiltshire, England, two miles (3 km) west of Amesbury.",
+      "wikipediaSlug": "Stonehenge",
+      "image": "Stonehenge2007_07_30.jpg",
+      "pageViews": 115566
+    },
+    {
+      "qid": "Q35064",
+      "title": "Agatha Christie dies",
+      "subtitle": "English mystery and detective writer",
+      "year": 1976,
+      "fact": "Dame Agatha Mary Clarissa Mallowan, Lady Mallowan, usually known by her first married name, Agatha Christie, was an English author known for her 66 detective novels and 14 short-story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple.",
+      "wikipediaSlug": "Agatha_Christie",
+      "image": "Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg",
+      "pageViews": 180257
+    },
+    {
+      "qid": "Q5930190",
+      "title": "‘Road with Cypress and Star’ is painted",
+      "subtitle": "Painting by Vincent van Gogh",
+      "year": 1890,
+      "fact": "Road with Cypress and Star, also known as Country Road in Provence by Night, is an 1890 oil-on-canvas painting by Dutch post-Impressionist painter Vincent van Gogh.",
+      "wikipediaSlug": "Road_with_Cypress_and_Star",
+      "image": "Vincent_van_Gogh_-_Road_with_Cypress_and_Star_-_c._12-15_May_1890.jpg",
+      "pageViews": 1506
+    },
+    {
+      "qid": "Q294832",
+      "title": "Alexandru Ioan Cuza dies",
+      "subtitle": "First ruler of the United Principalities of Moldavia and Wallachia",
+      "year": 1873,
+      "fact": "Alexandru Ioan Cuza was the first domnitor (prince) of the Romanian Principalities through his double election as Prince of Moldavia on 5 January 1859 and Prince of Wallachia on 24 January 1859, which resulted in the unification of the two states.",
+      "wikipediaSlug": "Alexandru_Ioan_Cuza",
+      "image": "Alexandru_Ioan_Cuza_-_Photo_by_Carol_Popp_de_Szathmáry.jpg",
+      "pageViews": 6418
+    },
+    {
+      "qid": "Q222001",
+      "title": "‘In Utero’ is released",
+      "subtitle": "Album by Nirvana",
+      "year": 1993,
+      "fact": "In Utero is the third and final studio album by the American rock band Nirvana, released in September 1993 by DGC Records.",
+      "wikipediaSlug": "In_Utero",
+      "image": "In_Utero_(Nirvana)_album_cover.jpg",
+      "pageViews": 33963
+    },
+    {
+      "qid": "Q1245981",
+      "title": "Do J Wal first flies",
+      "subtitle": "Aircraft by Dornier",
+      "year": 1922,
+      "fact": "The Dornier Do J Wal (\"whale\") is a twin-engine German flying boat of the 1920s designed by Dornier Flugzeugwerke and manufactured in five different countries.",
+      "wikipediaSlug": "Dornier_Do_J_Wal",
+      "image": "PlusUltra.JPG",
+      "pageViews": 1597
+    },
+    {
+      "qid": "Q188712",
+      "title": "Empire of Japan is established",
+      "subtitle": "Historical state",
+      "year": 1868,
+      "fact": "The Empire of Japan, also known as the Japanese Empire or Imperial Japan, was the period of Japanese history spanning 79 years, starting from the Meiji Restoration on 3 January 1868, until the Constitution of Japan took effect on 3 May 1947.",
+      "wikipediaSlug": "Empire_of_Japan",
+      "image": "Flag_of_Japan_(1870–1999).svg",
+      "pageViews": 123785
+    },
+    {
+      "qid": "Q344590",
+      "title": "‘Actually’ is released",
+      "subtitle": "Album by Pet Shop Boys",
+      "year": 1987,
+      "fact": "Actually is the second studio album by English synth-pop duo Pet Shop Boys, released on 7 September 1987 by Parlophone in the United Kingdom and by EMI Manhattan in North America.",
+      "wikipediaSlug": "Actually",
+      "image": "Pet_Shop_Boys_-_Actually.png",
+      "pageViews": 7619
+    },
+    {
+      "qid": "Q275187",
+      "title": "‘Letters from Iwo Jima’ is released",
+      "subtitle": "Film directed by Clint Eastwood",
+      "year": 2006,
+      "fact": "Letters from Iwo Jima is a 2006 Japanese-language American war film directed and co-produced by Clint Eastwood, starring Ken Watanabe and Kazunari Ninomiya.",
+      "wikipediaSlug": "Letters_from_Iwo_Jima",
+      "image": "Letters_from_Iwo_Jima.jpg",
+      "pageViews": 21365
+    },
+    {
+      "qid": "Q814899",
+      "title": "Beiteddine Palace is completed",
+      "subtitle": "Building in Lebanon",
+      "year": 1818,
+      "fact": "Beiteddine Palace is an 18th-century palace in Beiteddine, Lebanon, built by Bashir II.",
+      "wikipediaSlug": "Beiteddine_Palace",
+      "image": "Courtyard_at_Beiteddine_Palace_-_2009.jpg",
+      "pageViews": 1263
+    },
+    {
+      "qid": "Q58024",
+      "title": "‘EBay’ launches",
+      "subtitle": "Website",
+      "year": 1995,
+      "fact": "eBay Inc. is an American multinational e-commerce company based in San Jose, California, that allows users to buy or view items via retail sales through online marketplaces and websites in 190 markets worldwide.",
+      "wikipediaSlug": "EBay",
+      "image": "EBay_logo.svg",
+      "pageViews": 90959
+    },
+    {
+      "qid": "Q281355",
+      "title": "STS-29 launches",
+      "subtitle": "Mission by National Aeronautics and Space Administration",
+      "year": 1989,
+      "fact": "STS-29 was the 28th NASA Space Shuttle mission, during which Space Shuttle Discovery inserted a Tracking and Data Relay Satellite (TDRS) into Earth orbit.",
+      "wikipediaSlug": "STS-29",
+      "image": "Earth_through_the_bay_door2.jpg",
+      "pageViews": 1294
+    },
+    {
+      "qid": "Q940785",
+      "title": "Sabaeans is established",
+      "subtitle": "Historical state",
+      "year": -1199,
+      "fact": "Sheba, or Saba, was an ancient South Arabian kingdom that existed in Yemen before 275 CE.",
+      "wikipediaSlug": "Sabaeans",
+      "image": "Yemen_100_BC.svg",
+      "pageViews": 7690
+    },
+    {
+      "qid": "Q189080",
+      "title": "Lou Reed dies",
+      "subtitle": "American rock musician",
+      "year": 2013,
+      "fact": "Lewis Allan Reed was an American musician, songwriter and poet.",
+      "wikipediaSlug": "Lou_Reed",
+      "image": "Lou_Reed_1966(cropped).jpg",
+      "pageViews": 108920
+    },
+    {
+      "qid": "Q457289",
+      "title": "‘Siddhartha’ is published",
+      "subtitle": "Book by Hermann Hesse",
+      "year": 1922,
+      "fact": "Siddhartha: An Indian novel is a 1922 novel by Hermann Hesse that deals with the spiritual journey of self-discovery of a man named Siddhartha during the time of the Gautama Buddha.",
+      "wikipediaSlug": "Siddhartha_(novel)",
+      "image": "Vorzugsausgabe_der_Erstauflage_von_1922,_Originalverlagseinband.JPG",
+      "pageViews": 36228
+    },
+    {
+      "qid": "Q20948236",
+      "title": "‘Train to Busan’ is released",
+      "subtitle": "Film directed by Yeon Sang-ho",
+      "year": 2016,
+      "fact": "Train to Busan is a 2016 South Korean action horror film directed by Yeon Sang-ho and written by Park Joo-suk.",
+      "wikipediaSlug": "Train_to_Busan",
+      "image": "Train_to_Busan.jpg",
+      "pageViews": 54869
+    },
+    {
+      "qid": "Q348955",
+      "title": "Edwin of Northumbria becomes King of Northumbria",
+      "subtitle": null,
+      "year": 616,
+      "fact": "Edwin, also known as Eadwine or Æduinus, was the King of Deira and Bernicia – which later became known as Northumbria – from around 616 until his death.",
+      "wikipediaSlug": "Edwin_of_Northumbria",
+      "image": "Saint_King_Edwin_of_Northumbria.jpg",
+      "pageViews": 4972
+    },
+    {
+      "qid": "Q283111",
+      "title": "Professor Moriarty first appears",
+      "subtitle": "Fictional character from Sherlock Holmes",
+      "year": 1893,
+      "fact": "Professor James Moriarty is a fictional character and criminal mastermind created by Sir Arthur Conan Doyle to be a formidable enemy for the author's fictional detective Sherlock Holmes.",
+      "wikipediaSlug": "Professor_Moriarty",
+      "image": "The_Adventure_of_the_Final_Problem_03.jpg",
+      "pageViews": 247521
+    },
+    {
+      "qid": "Q210435",
+      "title": "J. Edgar Hoover dies",
+      "subtitle": "American law enforcement administrator",
+      "year": 1972,
+      "fact": "John Edgar Hoover was an American law enforcement administrator who served as the fifth and final director of the Bureau of Investigation (BOI) and the first director of the Federal Bureau of Investigation (FBI).",
+      "wikipediaSlug": "J._Edgar_Hoover",
+      "image": "Hoover-JEdgar-LOC.jpg",
+      "pageViews": 118040
+    },
+    {
+      "qid": "Q19518278",
+      "title": "Diogo Jota dies",
+      "subtitle": "Portuguese association football player",
+      "year": 2025,
+      "fact": "Diogo José Teixeira da Silva, commonly known as Diogo Jota, was a Portuguese professional footballer who played as a forward and winger.",
+      "wikipediaSlug": "Diogo_Jota",
+      "image": "Diogo_Jota_2025_Cropped.jpg",
+      "pageViews": 116004
+    },
+    {
+      "qid": "Q16957",
+      "title": "German Democratic Republic is established",
+      "subtitle": "Historical state",
+      "year": 1949,
+      "fact": "East Germany, officially the German Democratic Republic (GDR), was a country in Central Europe from its formation on 7 October 1949 until its reunification with West Germany on 3 October 1990.",
+      "wikipediaSlug": "East_Germany",
+      "image": "Flag_of_the_German_Democratic_Republic.svg",
+      "pageViews": 109955
+    },
+    {
+      "qid": "Q175940",
+      "title": "Tejas first flies",
+      "subtitle": "Aircraft by Hindustan Aeronautics Limited",
+      "year": 2001,
+      "fact": "The HAL Tejas is an Indian single-engine, 4.5 generation, delta wing, multirole combat aircraft designed by the Aeronautical Development Agency and manufactured by Hindustan Aeronautics Limited (HAL) for the Indian Air Force (IAF) and the Indian Navy.",
+      "wikipediaSlug": "HAL_Tejas",
+      "image": "HAL_Tejas_(LA-5018)_of_Squadron_18_Flying_Bullets.jpg",
+      "pageViews": 58197
+    },
+    {
+      "qid": "Q838003",
+      "title": "‘Command & Conquer: Renegade’ releases",
+      "subtitle": "Video game by Westwood Studios",
+      "year": 2002,
+      "fact": "Command & Conquer: Renegade is a first- and third-person shooter video game developed by Westwood Studios and is part of the Command & Conquer series.",
+      "wikipediaSlug": "Command_%26_Conquer:_Renegade",
+      "image": "Cncren-cover.jpg",
+      "pageViews": 3938
+    },
+    {
+      "qid": "Q4558721",
+      "title": "‘Angry Birds’ releases",
+      "subtitle": "Video game by Rovio Entertainment",
+      "year": 2009,
+      "fact": "Angry Birds is a 2009 puzzle video game developed by Rovio Entertainment and published by Chillingo.",
+      "wikipediaSlug": "Angry_Birds_(video_game)",
+      "image": "Angry_Birds_promo_art.png",
+      "pageViews": 13831
+    },
+    {
+      "qid": "Q1194825",
+      "title": "‘Super Metroid’ releases",
+      "subtitle": "Video game by Nintendo Research & Development 1",
+      "year": 1994,
+      "fact": "Super Metroid is a 1994 action-adventure game developed by Nintendo and Intelligent Systems and published by Nintendo for the Super Nintendo Entertainment System (SNES).",
+      "wikipediaSlug": "Super_Metroid",
+      "image": "Smetroidbox.jpg",
+      "pageViews": 11874
+    },
+    {
+      "qid": "Q1419944",
+      "title": "T-38 enters service",
+      "subtitle": "Soviet amphibious tank",
+      "year": 1937,
+      "fact": "The T-38 amphibious scout tank was a Soviet amphibious and reconnaissance light tank that saw service in World War II.",
+      "wikipediaSlug": "T-38_tank",
+      "image": "T-38_tank.JPG",
+      "pageViews": 2331
+    },
+    {
+      "qid": "Q228820",
+      "title": "Zulfiqar enters service",
+      "subtitle": "Main battle tank",
+      "year": 1993,
+      "fact": "Zulfiqar is an Iranian main battle tank, conceived by Brigadier General Mir-Younes Masoumzadeh, deputy ground force commander for research and self-sufficiency of the armed forces.",
+      "wikipediaSlug": "Zulfiqar_(tank)",
+      "image": "Sacred_Defence_Week_parade,_2012,_in_Tehran_(107).jpg",
+      "pageViews": 12121
+    },
+    {
+      "qid": "Q725552",
+      "title": "‘Misery’ is released",
+      "subtitle": "Film directed by Rob Reiner",
+      "year": 1990,
+      "fact": "Misery is a 1990 American psychological horror thriller film directed by Rob Reiner from a screenplay by William Goldman.",
+      "wikipediaSlug": "Misery_(film)",
+      "image": "Misery_(1990_film_poster).png",
+      "pageViews": 116389
+    },
+    {
+      "qid": "Q186425",
+      "title": "White Hart Lane opens",
+      "subtitle": "Sports stadium",
+      "year": 1899,
+      "fact": "White Hart Lane was a football stadium in Tottenham, North London and the home of Tottenham Hotspur from 1899 to 2017.",
+      "wikipediaSlug": "White_Hart_Lane",
+      "image": "White_Hart_Lane_from_South_End.JPG",
+      "pageViews": 17855
+    }
+  ]
+}

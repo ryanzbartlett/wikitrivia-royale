@@ -1,0 +1,315 @@
+{
+  "id": "deck-04",
+  "startingCard": {
+    "qid": "Q15897",
+    "title": "Amy Winehouse dies",
+    "subtitle": "British singer-songwriter",
+    "year": 2011,
+    "fact": "Amy Jade Winehouse was a British singer, songwriter, musician, and businesswoman.",
+    "wikipediaSlug": "Amy_Winehouse",
+    "image": "Amy_Winehouse_f4962007_crop.jpg",
+    "pageViews": 310822
+  },
+  "cards": [
+    {
+      "qid": "Q12967",
+      "title": "Leopold II of Belgium becomes King of the Belgians",
+      "subtitle": null,
+      "year": 1865,
+      "fact": "Leopold II was the second king of the Belgians from 1865 to 1909, and the founder and sole owner of the Congo Free State from 1885 to 1908.",
+      "wikipediaSlug": "Leopold_II_of_Belgium",
+      "image": "Leopold_ii_garter_knight.jpg",
+      "pageViews": 105458
+    },
+    {
+      "qid": "Q313333",
+      "title": "Cao Pi becomes Emperor of China",
+      "subtitle": null,
+      "year": 220,
+      "fact": "Cao Pi, courtesy name Zihuan, was the first emperor of the state of Cao Wei in the Three Kingdoms period of China.",
+      "wikipediaSlug": "Cao_Pi",
+      "image": "Cao_Pi_Tang.jpg",
+      "pageViews": 6233
+    },
+    {
+      "qid": "Q15819565",
+      "title": "‘The Pinkprint’ is released",
+      "subtitle": "Album by Nicki Minaj",
+      "year": 2014,
+      "fact": "The Pinkprint is the third studio album by rapper Nicki Minaj.",
+      "wikipediaSlug": "The_Pinkprint",
+      "image": "Nicki_Minaj_-_The_Pinkprint_(Official_Album_Cover).png",
+      "pageViews": 6618
+    },
+    {
+      "qid": "Q155494",
+      "title": "BMP-1 enters service",
+      "subtitle": "Soviet infantry fighting vehicle family",
+      "year": 1966,
+      "fact": "The BMP-1 is a Soviet amphibious tracked infantry fighting vehicle that has been in service from 1966 to the present.",
+      "wikipediaSlug": "BMP-1",
+      "image": "BWP-1_Baltops_2016_0283.jpg",
+      "pageViews": 19578
+    },
+    {
+      "qid": "Q713529",
+      "title": "Battle of the River Plate takes place",
+      "subtitle": "Battle in American Theater",
+      "year": 1939,
+      "fact": "The Battle of the River Plate was fought in the South Atlantic on 13 December 1939 as the first British naval battle of the Second World War.",
+      "wikipediaSlug": "Battle_of_the_River_Plate",
+      "image": "HMS_Achilles_(70).jpg",
+      "pageViews": 16723
+    },
+    {
+      "qid": "Q169898",
+      "title": "Scuderia Ferrari is founded",
+      "subtitle": "Formula 1 team",
+      "year": 1929,
+      "fact": "Ferrari S.p.A, currently competing as Scuderia Ferrari HP, is the racing division of luxury Italian auto manufacturer Ferrari and the racing team that competes in Formula One racing.",
+      "wikipediaSlug": "Scuderia_Ferrari",
+      "image": "Scuderia_Ferrari_HP_logo_24.svg",
+      "pageViews": 108892
+    },
+    {
+      "qid": "Q5301",
+      "title": "TeX is created",
+      "subtitle": "Programming or computer language",
+      "year": 1978,
+      "fact": "TeX, stylized as TeX, is a typesetting program that was designed and written by computer scientist and Stanford University professor Donald Knuth and first released in 1978.",
+      "wikipediaSlug": "TeX",
+      "image": "TeX_logo.svg",
+      "pageViews": 15652
+    },
+    {
+      "qid": "Q110111",
+      "title": "Gunnar Nordahl dies",
+      "subtitle": "Swedish association football player",
+      "year": 1995,
+      "fact": "Nils Gunnar Nordahl was a Swedish professional footballer.",
+      "wikipediaSlug": "Gunnar_Nordahl",
+      "image": "Gunnar_Nordahl_-_AC_Milan.jpg",
+      "pageViews": 6590
+    },
+    {
+      "qid": "Q54054",
+      "title": "Władysław IV Vasa becomes King of Poland",
+      "subtitle": null,
+      "year": 1632,
+      "fact": "Władysław IV Vasa or Ladislaus IV was King of Poland, Grand Duke of Lithuania and claimant of the thrones of Sweden and Russia.",
+      "wikipediaSlug": "W%C5%82adys%C5%82aw_IV_Vasa",
+      "image": "Rubens_Wladyslaw_Vasa.jpg",
+      "pageViews": 7907
+    },
+    {
+      "qid": "Q12554",
+      "title": "Middle Ages begins",
+      "subtitle": "Historical era",
+      "year": 476,
+      "fact": "In the history of Europe, the Middle Ages or medieval period lasted approximately from the 5th to late 15th centuries, comparable with the post-classical period of global history.",
+      "wikipediaSlug": "Middle_Ages",
+      "image": "Canterbury_Cathedral,_window_nXV_detail_(46220634195).jpg",
+      "pageViews": 127008
+    },
+    {
+      "qid": "Q83410",
+      "title": "Cary Grant dies",
+      "subtitle": "British-American actor",
+      "year": 1986,
+      "fact": "Cary Grant was an English-American actor.",
+      "wikipediaSlug": "Cary_Grant",
+      "image": "Cary_Grant_(1958).jpg",
+      "pageViews": 143124
+    },
+    {
+      "qid": "Q48340",
+      "title": "‘CNN’ launches",
+      "subtitle": "Website",
+      "year": 1980,
+      "fact": "The Cable News Network (CNN) is an American multinational news media company and the flagship namesake property of CNN Worldwide, a division of Warner Bros.",
+      "wikipediaSlug": "CNN",
+      "image": "CNN_Logo_(2014).svg",
+      "pageViews": 133098
+    },
+    {
+      "qid": "Q211374",
+      "title": "‘New York Post’ launches",
+      "subtitle": "Newspaper",
+      "year": 1801,
+      "fact": "The New York Post (NY Post), founded as the New York Evening Post (originally New-York Evening Post), is an American conservative daily tabloid newspaper published in New York City.",
+      "wikipediaSlug": "New_York_Post",
+      "image": "New_York_Post_Cover.webp",
+      "pageViews": 44794
+    },
+    {
+      "qid": "Q1851730",
+      "title": "May Coup takes place",
+      "subtitle": "Coup d'etat",
+      "year": 1926,
+      "fact": "The May Coup was a coup d'état carried out in Poland by Marshal Józef Piłsudski from 12 to 14 May 1926.",
+      "wikipediaSlug": "May_Coup_(Poland)",
+      "image": "Piłsudski_May_1926.jpg",
+      "pageViews": 3193
+    },
+    {
+      "qid": "Q155726",
+      "title": "Battle of Narva takes place",
+      "subtitle": "Battle in Great Northern War",
+      "year": 1700,
+      "fact": "The Battle of Narva on 30 November 1700 was an early battle in the Great Northern War.",
+      "wikipediaSlug": "Battle_of_Narva_(1700)",
+      "image": "Narva_1700.png",
+      "pageViews": 5027
+    },
+    {
+      "qid": "Q130866",
+      "title": "‘TLC’ launches",
+      "subtitle": "TV channel",
+      "year": 1972,
+      "fact": "TLC is an American premium multinational cable and satellite television network owned by the Networks division of Warner Bros.",
+      "wikipediaSlug": "TLC_(TV_network)",
+      "image": "TLC_Logo.svg",
+      "pageViews": 16167
+    },
+    {
+      "qid": "Q16738115",
+      "title": "‘Redeemer of Souls’ is released",
+      "subtitle": "Album by Judas Priest",
+      "year": 2014,
+      "fact": "Redeemer of Souls is the seventeenth studio album by English heavy metal band Judas Priest, which was released in the US on 8 July 2014, in Europe on 11 July, and in the UK on 14 July.",
+      "wikipediaSlug": "Redeemer_of_Souls",
+      "image": "JudasPriestRedeemerSouls.png",
+      "pageViews": 3770
+    },
+    {
+      "qid": "Q1705028",
+      "title": "Sanae Takaichi becomes prime minister of Japan",
+      "subtitle": null,
+      "year": 2025,
+      "fact": "Sanae Takaichi is a Japanese politician who has been Prime Minister of Japan and President of the Liberal Democratic Party (LDP) since October 2025.",
+      "wikipediaSlug": "Sanae_Takaichi",
+      "image": "Official_portrait_of_Sanae_Takaichi,_Prime_Minister_of_Japan_(HD).jpg",
+      "pageViews": 283354
+    },
+    {
+      "qid": "Q246474",
+      "title": "New Synagogue Berlin is completed",
+      "subtitle": "Synagoge in Berlin",
+      "year": 1859,
+      "fact": "The New Synagogue on Oranienburger Straße in Berlin is a mid-19th century synagogue built as the main place of worship for the city's Jewish community, succeeding the Old Synagogue which the community outgrew.",
+      "wikipediaSlug": "New_Synagogue_(Berlin)",
+      "image": "Neue_Synagoge,_Berlin-Mitte,_160328,_ako.jpg",
+      "pageViews": 1495
+    },
+    {
+      "qid": "Q17167",
+      "title": "Roman Republic is established",
+      "subtitle": "Historical state",
+      "year": -508,
+      "fact": "The Roman Republic was the era of classical Roman civilisation beginning with the overthrow of the Roman Kingdom and ending in 27 BC with the establishment of the Roman Empire following the War of Actium.",
+      "wikipediaSlug": "Roman_Republic",
+      "image": "Roman_republic,_territory_44_BC.svg",
+      "pageViews": 102326
+    },
+    {
+      "qid": "Q55522899",
+      "title": "‘Jujutsu Kaisen’ begins",
+      "subtitle": "Japanese manga series",
+      "year": 2018,
+      "fact": "Jujutsu Kaisen is a Japanese manga series written and illustrated by Gege Akutami.",
+      "wikipediaSlug": "Jujutsu_Kaisen",
+      "image": "Jujutsu_kaisen.jpg",
+      "pageViews": 301703
+    },
+    {
+      "qid": "Q504063",
+      "title": "‘Discogs’ launches",
+      "subtitle": "Website",
+      "year": 2000,
+      "fact": "Discogs is an online database and marketplace for audio recordings, including commercial releases, promotional releases, and bootleg or off-label releases.",
+      "wikipediaSlug": "Discogs",
+      "image": "Discogs_logo_black.svg",
+      "pageViews": 22570
+    },
+    {
+      "qid": "Q1542544",
+      "title": "Ryan X-13 Vertijet first flies",
+      "subtitle": "Aircraft by Ryan Aeronautical",
+      "year": 1956,
+      "fact": "The Ryan X-13 Vertijet is an experimental tail-sitting vertical take-off and landing (VTOL) jet aircraft built by Ryan Aeronautical and flown in the United States in the 1950s.",
+      "wikipediaSlug": "Ryan_X-13_Vertijet",
+      "image": "Ryan_X-13.jpg",
+      "pageViews": 1508
+    },
+    {
+      "qid": "Q19056536",
+      "title": "‘Honeymoon’ is released",
+      "subtitle": "Album by Lana Del Rey",
+      "year": 2015,
+      "fact": "Honeymoon is the fourth studio album by American singer-songwriter, and record producer Lana Del Rey.",
+      "wikipediaSlug": "Honeymoon_(Lana_Del_Rey_album)",
+      "image": "Lana_Del_Rey_-_Honeymoon_(Official_Album_Cover).png",
+      "pageViews": 12822
+    },
+    {
+      "qid": "Q688214",
+      "title": "Lion Monument is created",
+      "subtitle": "Memorial in city of Lucerne, Switzerland",
+      "year": 1821,
+      "fact": "The Lion Monument, or the Lion of Lucerne, is a rock relief in Lucerne, Switzerland, designed by Bertel Thorvaldsen and hewn in 1820–21 by Lukas Ahorn.",
+      "wikipediaSlug": "Lion_Monument",
+      "image": "Lion_Monument.jpg",
+      "pageViews": 8096
+    },
+    {
+      "qid": "Q4985",
+      "title": "Herman Melville dies",
+      "subtitle": "American writer and poet",
+      "year": 1891,
+      "fact": "Herman Melville was an American writer of the American Renaissance period.",
+      "wikipediaSlug": "Herman_Melville",
+      "image": "Herman_Melville_by_Joseph_O_Eaton.jpg",
+      "pageViews": 49938
+    },
+    {
+      "qid": "Q220955",
+      "title": "‘Erin Brockovich’ is released",
+      "subtitle": "Film directed by Steven Soderbergh",
+      "year": 2000,
+      "fact": "Erin Brockovich is a 2000 American biographical legal drama film directed by Steven Soderbergh and written by Susannah Grant.",
+      "wikipediaSlug": "Erin_Brockovich_(film)",
+      "image": "Erin_Brockovich_(film_poster).jpg",
+      "pageViews": 110976
+    },
+    {
+      "qid": "Q9701",
+      "title": "Emperor Taizong of Tang becomes Emperor of China",
+      "subtitle": null,
+      "year": 626,
+      "fact": "Emperor Taizong of Tang, previously Prince of Qin, personal name Li Shimin, was the second emperor of the Tang dynasty of China, ruling from 626 to 649.",
+      "wikipediaSlug": "Emperor_Taizong_of_Tang",
+      "image": "TangTaizong.jpg",
+      "pageViews": 22477
+    },
+    {
+      "qid": "Q10859",
+      "title": "Spanish Civil War begins",
+      "subtitle": "Conflict",
+      "year": 1936,
+      "fact": "The Spanish Civil War was fought from 1936 to 1939 between the Republicans and the Nationalist rebels.",
+      "wikipediaSlug": "Spanish_Civil_War",
+      "image": "Испанская_11_интербригада_в_бою_под_Бельчите._1937-edit.jpg",
+      "pageViews": 134939
+    },
+    {
+      "qid": "Q319344",
+      "title": "Abercrombie & Fitch is founded",
+      "subtitle": "American fashion retailer",
+      "year": 1892,
+      "fact": "Abercrombie & Fitch Co.",
+      "wikipediaSlug": "Abercrombie_%26_Fitch",
+      "image": "Abercrombie_&_Fitch_store_in_New_York_City.jpg",
+      "pageViews": 29170
+    }
+  ]
+}

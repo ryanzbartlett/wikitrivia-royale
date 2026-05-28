@@ -1,0 +1,315 @@
+{
+  "id": "deck-05",
+  "startingCard": {
+    "qid": "Q15860072",
+    "title": "Russo-Ukrainian war begins",
+    "subtitle": "Conflict",
+    "year": 2014,
+    "fact": "The Russo-Ukrainian war began in February 2014 and is ongoing.",
+    "wikipediaSlug": "Russo-Ukrainian_war",
+    "image": "Anti-terrorist_operation_in_eastern_Ukraine_(War_Ukraine)_(27843153986).jpg",
+    "pageViews": 355000
+  },
+  "cards": [
+    {
+      "qid": "Q28091065",
+      "title": "‘Anne with an E’ airs for the first time",
+      "subtitle": "Canadian drama television series",
+      "year": 2017,
+      "fact": "Anne with an E is a Canadian period drama television series loosely adapted from Lucy Maud Montgomery's 1908 classic work of children's literature, Anne of Green Gables.",
+      "wikipediaSlug": "Anne_with_an_E",
+      "image": "Anne_TV_series_intertitle.png",
+      "pageViews": 49471
+    },
+    {
+      "qid": "Q11774",
+      "title": "Gupta Empire is established",
+      "subtitle": "Historical state",
+      "year": 320,
+      "fact": "The Gupta Empire was an Indian empire during the classical period of the Indian subcontinent which existed from the mid 3rd century to mid 6th century CE.",
+      "wikipediaSlug": "Gupta_Empire",
+      "image": "South_Asia_historical_AD375_EN.svg",
+      "pageViews": 44407
+    },
+    {
+      "qid": "Q34479",
+      "title": "Hirohito becomes Emperor of Japan",
+      "subtitle": null,
+      "year": 1926,
+      "fact": "Emperor Shōwa, known colloquially by his personal name Hirohito, was the 124th emperor of Japan according to the traditional order of succession, reigning from 1926 until his death in 1989.",
+      "wikipediaSlug": "Hirohito",
+      "image": "Hirohito_in_dress_uniform_(cropped).jpg",
+      "pageViews": 153733
+    },
+    {
+      "qid": "Q48246",
+      "title": "Ernst Haeckel dies",
+      "subtitle": "German zoologist",
+      "year": 1919,
+      "fact": "Ernst Heinrich Philipp August Haeckel was a German zoologist, naturalist, eugenicist, philosopher, physician, professor, marine biologist and artist.",
+      "wikipediaSlug": "Ernst_Haeckel",
+      "image": "Ernst_Haeckel_5.jpg",
+      "pageViews": 12853
+    },
+    {
+      "qid": "Q165725",
+      "title": "Balkan Wars begins",
+      "subtitle": "Conflict",
+      "year": 1912,
+      "fact": "The Balkan Wars were two conflicts that took place in the Balkan states in 1912 and 1913.",
+      "wikipediaSlug": "Balkan_Wars",
+      "image": "Luleburgaz_Battle_Postcard.jpg",
+      "pageViews": 33701
+    },
+    {
+      "qid": "Q249660",
+      "title": "‘On Every Street’ is released",
+      "subtitle": "Album by Dire Straits",
+      "year": 1991,
+      "fact": "On Every Street is the sixth and final studio album by British rock band Dire Straits, released on 9 September 1991 by Vertigo Records internationally, and by Warner Bros.",
+      "wikipediaSlug": "On_Every_Street",
+      "image": "Dire_Straits_-_On_Every_Street.jpg",
+      "pageViews": 9417
+    },
+    {
+      "qid": "Q774178",
+      "title": "Aura is completed",
+      "subtitle": "Mixed-use skyscraper in Toronto, Ontario, Canada",
+      "year": 2014,
+      "fact": "Aura is a mixed-use skyscraper completed in 2014 in Toronto, Ontario, Canada.",
+      "wikipediaSlug": "Aura_(Toronto)",
+      "image": "Aura_College_Park_2025-05-18.jpg",
+      "pageViews": 1183
+    },
+    {
+      "qid": "Q8663",
+      "title": "Korean War begins",
+      "subtitle": "Conflict",
+      "year": 1950,
+      "fact": "The Korean War was an armed conflict on the Korean Peninsula fought between North Korea and South Korea and their allies.",
+      "wikipediaSlug": "Korean_War",
+      "image": "Chosin.jpg",
+      "pageViews": 283088
+    },
+    {
+      "qid": "Q584729",
+      "title": "‘Pericles, Prince of Tyre’ premieres",
+      "subtitle": "Play by William Shakespeare",
+      "year": 1609,
+      "fact": "Pericles, Prince of Tyre is a Jacobean play written at least in part by William Shakespeare and included in modern editions of his collected works despite questions over its authorship, as it was not included in the First Folio.",
+      "wikipediaSlug": "Pericles,_Prince_of_Tyre",
+      "image": "Pericles_1609.jpg",
+      "pageViews": 5144
+    },
+    {
+      "qid": "Q213417",
+      "title": "New York Yankees is founded",
+      "subtitle": "MLB franchise",
+      "year": 1901,
+      "fact": "The New York Yankees are an American professional baseball team based in the New York City borough of the Bronx.",
+      "wikipediaSlug": "New_York_Yankees",
+      "image": "New_York_Yankees_Primary_Logo.svg",
+      "pageViews": 89950
+    },
+    {
+      "qid": "Q43332",
+      "title": "Pompeii is completed",
+      "subtitle": "Ancient Roman city near modern Naples, Italy",
+      "year": -600,
+      "fact": "Pompeii was a city in what is now the municipality of Pompei, near Naples, in the Campania region of Italy.",
+      "wikipediaSlug": "Pompeii",
+      "image": "Theathres_of_Pompeii.jpg",
+      "pageViews": 103073
+    },
+    {
+      "qid": "Q7207",
+      "title": "Elizabeth I of England becomes queen of England",
+      "subtitle": null,
+      "year": 1558,
+      "fact": "Elizabeth I was Queen of England and Ireland from 17 November 1558 until her death in 1603.",
+      "wikipediaSlug": "Elizabeth_I",
+      "image": "Darnley_stage_3.jpg",
+      "pageViews": 287819
+    },
+    {
+      "qid": "Q272121",
+      "title": "‘Ænima’ is released",
+      "subtitle": "Album by Tool",
+      "year": 1996,
+      "fact": "Ænima is the second studio album by the American rock band Tool.",
+      "wikipediaSlug": "%C3%86nima",
+      "image": "Aenima.jpg",
+      "pageViews": 20502
+    },
+    {
+      "qid": "Q275956",
+      "title": "‘Saint Seiya’ begins",
+      "subtitle": "Japanese manga series",
+      "year": 1986,
+      "fact": "Saint Seiya, also known as Saint Seiya: Knights of the Zodiac or simply Knights of the Zodiac, is a Japanese manga series written and illustrated by Masami Kurumada.",
+      "wikipediaSlug": "Saint_Seiya",
+      "image": "Saint_Seiya_1.png",
+      "pageViews": 21211
+    },
+    {
+      "qid": "Q728480",
+      "title": "Battle of Rocroi takes place",
+      "subtitle": "Battle in Thirty Years' War",
+      "year": 1643,
+      "fact": "The Battle of Rocroi, fought on 19 May 1643, was a major engagement of the Thirty Years' War between a French army, led by the 21-year-old Duke of Enghien and Spanish forces under General Francisco de Melo only five days after the accession of Louis XIV to the throne of France after his father's death.",
+      "wikipediaSlug": "Battle_of_Rocroi",
+      "image": "La_Bataille_de_Rocroi.jpg",
+      "pageViews": 5811
+    },
+    {
+      "qid": "Q889373",
+      "title": "Boeing E-7 Wedgetail first flies",
+      "subtitle": "Aircraft by Boeing",
+      "year": 2004,
+      "fact": "The Boeing E-7 Wedgetail, also marketed as the Boeing 737 AEW&C, is a twin-engine airborne early warning and control aircraft originally designed for the Royal Australian Air Force (RAAF).",
+      "wikipediaSlug": "Boeing_E-7_Wedgetail",
+      "image": "A30-001_in_flight_over_the_United_States_in_April_2025_(cropped).jpg",
+      "pageViews": 137037
+    },
+    {
+      "qid": "Q7268",
+      "title": "Emperor Guangwu of Han becomes Emperor of China",
+      "subtitle": null,
+      "year": 25,
+      "fact": "Emperor Guangwu of Han, personal name Liu Xiu (劉秀), courtesy name Wenshu (文叔), was the founding emperor of the Chinese Eastern Han dynasty.",
+      "wikipediaSlug": "Emperor_Guangwu_of_Han",
+      "image": "Han_Guangwu_Di.jpg",
+      "pageViews": 5797
+    },
+    {
+      "qid": "Q662653",
+      "title": "British Somaliland is established",
+      "subtitle": "Historical state",
+      "year": 1884,
+      "fact": "British Somaliland, officially the Somaliland Protectorate, was a protectorate of the United Kingdom in the territory of modern Somaliland.",
+      "wikipediaSlug": "British_Somaliland",
+      "image": "Flag_of_British_Somaliland_(1903–1950).svg",
+      "pageViews": 9377
+    },
+    {
+      "qid": "Q335697",
+      "title": "Anthony Albanese becomes prime minister of Australia",
+      "subtitle": null,
+      "year": 2022,
+      "fact": "Anthony Norman Albanese is an Australian politician who has served as the 31st prime minister of Australia since 2022.",
+      "wikipediaSlug": "Anthony_Albanese",
+      "image": "Anthony_Albanese_portrait_(re-crop).jpg",
+      "pageViews": 102328
+    },
+    {
+      "qid": "Q18747",
+      "title": "West Ham United F.C. is founded",
+      "subtitle": "Football club",
+      "year": 1895,
+      "fact": "West Ham United Football Club is a professional football club based in Stratford, East London, England.",
+      "wikipediaSlug": "West_Ham_United_F.C.",
+      "image": "West_Ham_United_FC_logo.svg",
+      "pageViews": 131623
+    },
+    {
+      "qid": "Q313494",
+      "title": "Gabriel Bethlen becomes Apostolic King of Hungary",
+      "subtitle": null,
+      "year": 1620,
+      "fact": "Gabriel Bethlen was Prince of Transylvania from 1613 to 1629 and Duke of Opole from 1622 to 1625.",
+      "wikipediaSlug": "Gabriel_Bethlen",
+      "image": "Gabor_Bethlen-Hungary_National_Musem.jpg",
+      "pageViews": 2811
+    },
+    {
+      "qid": "Q230552",
+      "title": "‘Back to the Future Part III’ is released",
+      "subtitle": "Film directed by Robert Zemeckis",
+      "year": 1990,
+      "fact": "Back to the Future Part III is a 1990 American science fiction Western film and the third installment of the Back to the Future trilogy.",
+      "wikipediaSlug": "Back_to_the_Future_Part_III",
+      "image": "Back_to_the_Future_Part_III.jpg",
+      "pageViews": 40457
+    },
+    {
+      "qid": "Q926534",
+      "title": "‘Evil Empire’ is released",
+      "subtitle": "Album by Rage Against the Machine",
+      "year": 1996,
+      "fact": "Evil Empire is the second studio album by the American rock band Rage Against the Machine, released on April 16, 1996, by Epic Records.",
+      "wikipediaSlug": "Evil_Empire_(album)",
+      "image": "Rage_Against_the_Machine_-_Evil_Empire.png",
+      "pageViews": 12491
+    },
+    {
+      "qid": "Q337078",
+      "title": "‘The Big Lebowski’ is released",
+      "subtitle": "Film directed by Joel Coen",
+      "year": 1998,
+      "fact": "The Big Lebowski is a 1998 crime comedy film written, directed, produced and co-edited by Joel and Ethan Coen, and starring Jeff Bridges, John Goodman, Julianne Moore, Steve Buscemi and John Turturro.",
+      "wikipediaSlug": "The_Big_Lebowski",
+      "image": "Biglebowskiposter.jpg",
+      "pageViews": 111919
+    },
+    {
+      "qid": "Q1164863",
+      "title": "‘Escape from Monkey Island’ releases",
+      "subtitle": "Video game by Lucasfilm Games",
+      "year": 2000,
+      "fact": "Escape from Monkey Island is a 2000 adventure game developed and published by LucasArts.",
+      "wikipediaSlug": "Escape_from_Monkey_Island",
+      "image": "Escape_from_Monkey_Island_artwork.jpg",
+      "pageViews": 3945
+    },
+    {
+      "qid": "Q170329",
+      "title": "Indiana Pacers is founded",
+      "subtitle": "NBA franchise",
+      "year": 1967,
+      "fact": "The Indiana Pacers are an American professional basketball team based in Indianapolis.",
+      "wikipediaSlug": "Indiana_Pacers",
+      "image": "Indiana_Pacers.svg",
+      "pageViews": 33502
+    },
+    {
+      "qid": "Q5332757",
+      "title": "‘Echo and Narcissus’ is painted",
+      "subtitle": "Painting by John William Waterhouse",
+      "year": 1903,
+      "fact": "Echo and Narcissus is a 1903 oil painting by John William Waterhouse.",
+      "wikipediaSlug": "Echo_and_Narcissus_(Waterhouse_painting)",
+      "image": "John_William_Waterhouse_-_Echo_and_Narcissus_-_Google_Art_Project.jpg",
+      "pageViews": 1699
+    },
+    {
+      "qid": "Q215112",
+      "title": "Second Boer War begins",
+      "subtitle": "Conflict",
+      "year": 1899,
+      "fact": "The Second Boer War, also known as the Boer War, Transvaal War, Anglo–Boer War, or the South African War, was a conflict fought between the British Empire and the Boer republics over Britain's influence in Southern Africa.",
+      "wikipediaSlug": "Second_Boer_War",
+      "image": "Second_Boer_War_Collage.png",
+      "pageViews": 107221
+    },
+    {
+      "qid": "Q170564",
+      "title": "‘Terminator 2: Judgment Day’ is released",
+      "subtitle": "Film directed by James Cameron",
+      "year": 1991,
+      "fact": "Terminator 2: Judgment Day is a 1991 American science fiction action film directed by James Cameron, who co-wrote the script with William Wisher.",
+      "wikipediaSlug": "Terminator_2:_Judgment_Day",
+      "image": "Terminator_2-Judgment_Day.png",
+      "pageViews": 102365
+    },
+    {
+      "qid": "Q1501534",
+      "title": "Ishak Pasha Palace is completed",
+      "subtitle": "Palace in Turkey",
+      "year": 1784,
+      "fact": "Ishak Pasha Palace is a semi-ruined palace and administrative complex located in the Doğubeyazıt district of Ağrı province of eastern Turkey.",
+      "wikipediaSlug": "Ishak_Pasha_Palace",
+      "image": "00_3411_İshak_Paşa_Sarayı_-_Turkey.jpg",
+      "pageViews": 1709
+    }
+  ]
+}

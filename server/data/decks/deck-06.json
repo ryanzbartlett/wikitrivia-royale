@@ -1,0 +1,315 @@
+{
+  "id": "deck-06",
+  "startingCard": {
+    "qid": "Q117085614",
+    "title": "‘One Battle After Another’ is released",
+    "subtitle": "Film directed by Paul Thomas Anderson",
+    "year": 2025,
+    "fact": "One Battle After Another is a 2025 American epic action-thriller film produced, written, and directed by Paul Thomas Anderson.",
+    "wikipediaSlug": "One_Battle_After_Another",
+    "image": "One_Battle_After_Another.jpg",
+    "pageViews": 3039902
+  },
+  "cards": [
+    {
+      "qid": "Q995874",
+      "title": "‘Fallout Tactics: Brotherhood of Steel’ releases",
+      "subtitle": "Video game by Micro Forté",
+      "year": 2001,
+      "fact": "Fallout Tactics: A Post Nuclear Tactical Combat Game, or simply Fallout Tactics, is a turn-based real-time tactical role-playing game set in the post-apocalyptic Fallout universe.",
+      "wikipediaSlug": "Fallout_Tactics:_Brotherhood_of_Steel",
+      "image": "Fallout_Tactics_Box.jpg",
+      "pageViews": 7551
+    },
+    {
+      "qid": "Q478317",
+      "title": "Coritiba F.C. is founded",
+      "subtitle": "Football club",
+      "year": 1909,
+      "fact": "Coritiba Foot Ball Club, commonly known as Coritiba and colloquially referred to as the Coxa, is a Brazilian football club from Curitiba, the capital city of the Brazilian state of Paraná.",
+      "wikipediaSlug": "Coritiba_Foot_Ball_Club",
+      "image": "Coritiba_Foot_Ball_Club_logo.svg",
+      "pageViews": 22177
+    },
+    {
+      "qid": "Q935",
+      "title": "Isaac Newton dies",
+      "subtitle": "English mathematician and physicist",
+      "year": 1727,
+      "fact": "Sir Isaac Newton was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, author and inventor.",
+      "wikipediaSlug": "Isaac_Newton",
+      "image": "Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg",
+      "pageViews": 223895
+    },
+    {
+      "qid": "Q1266330",
+      "title": "Dunvegan Castle is completed",
+      "subtitle": "Castle in Duirinish, Highland, Scotland, UK",
+      "year": 1220,
+      "fact": "Dunvegan Castle is located 1 mile (1.6 km) to the north of Dunvegan on the Isle of Skye, off the west coast of Scotland.",
+      "wikipediaSlug": "Dunvegan_Castle",
+      "image": "Highland_-_Dunvegan_Castle_-_20240524140144.jpg",
+      "pageViews": 3469
+    },
+    {
+      "qid": "Q2089016",
+      "title": "Dusit Palace is completed",
+      "subtitle": "Thai royal residence compound",
+      "year": 1899,
+      "fact": "Dusit Palace is a compound of royal residences in Bangkok, Thailand.",
+      "wikipediaSlug": "Dusit_Palace",
+      "image": "Aerial_view_of_Dusit_Palace,_Bangkok_Thailand.jpg",
+      "pageViews": 3247
+    },
+    {
+      "qid": "Q108941",
+      "title": "Carrie Fisher dies",
+      "subtitle": "American actress, writer and screenwriter",
+      "year": 2016,
+      "fact": "Carrie Frances Fisher was an American actress and writer.",
+      "wikipediaSlug": "Carrie_Fisher",
+      "image": "Carrie_Fisher_2013-a_straightened.jpg",
+      "pageViews": 192620
+    },
+    {
+      "qid": "Q3521099",
+      "title": "‘The Grand Budapest Hotel’ is released",
+      "subtitle": "Film directed by Wes Anderson",
+      "year": 2014,
+      "fact": "The Grand Budapest Hotel is a 2014 comedy-drama film written and directed by Wes Anderson.",
+      "wikipediaSlug": "The_Grand_Budapest_Hotel",
+      "image": "The_Grand_Budapest_Hotel.png",
+      "pageViews": 142219
+    },
+    {
+      "qid": "Q2456262",
+      "title": "‘True Crime: Streets of LA’ releases",
+      "subtitle": "Video game by Luxoflux",
+      "year": 2003,
+      "fact": "True Crime: Streets of LA is a 2003 open world action-adventure video game developed by Luxoflux and published by Activision for GameCube, PlayStation 2 and Xbox in November 2003, for Microsoft Windows in May 2004, and by Aspyr for Mac OS X in March 2005.",
+      "wikipediaSlug": "True_Crime:_Streets_of_LA",
+      "image": "True_Crime_-_Streets_of_LA_coverart.jpg",
+      "pageViews": 8477
+    },
+    {
+      "qid": "Q150943",
+      "title": "Gene Hackman dies",
+      "subtitle": "American actor",
+      "year": 2025,
+      "fact": "Eugene Allen Hackman was an American actor.",
+      "wikipediaSlug": "Gene_Hackman",
+      "image": "Gene_Hackman_in_the_White_House,_1987.jpg",
+      "pageViews": 192703
+    },
+    {
+      "qid": "Q484675",
+      "title": "‘Léon: The Professional’ is released",
+      "subtitle": "Film directed by Luc Besson",
+      "year": 1994,
+      "fact": "Léon is a 1994 French English-language action-thriller film written and directed by Luc Besson.",
+      "wikipediaSlug": "L%C3%A9on:_The_Professional",
+      "image": "Leon-poster.jpg",
+      "pageViews": 100714
+    },
+    {
+      "qid": "Q170019",
+      "title": "‘D.Gray-man’ begins",
+      "subtitle": "Japanese manga series",
+      "year": 2004,
+      "fact": "D.Gray-man is a Japanese manga series written and illustrated by Katsura Hoshino.",
+      "wikipediaSlug": "D.Gray-man",
+      "image": "D.Gray-man_1.png",
+      "pageViews": 13740
+    },
+    {
+      "qid": "Q7765993",
+      "title": "‘The SpongeBob Movie: Sponge Out of Water’ is released",
+      "subtitle": "Film directed by Mike Mitchell",
+      "year": 2015,
+      "fact": "The SpongeBob Movie: Sponge Out of Water is a 2015 American animated adventure comedy film based on the television series SpongeBob SquarePants.",
+      "wikipediaSlug": "The_SpongeBob_Movie:_Sponge_Out_of_Water",
+      "image": "The_SpongeBob_Movie,_Sponge_Out_of_Water_(2015_film).jpg",
+      "pageViews": 16905
+    },
+    {
+      "qid": "Q181878",
+      "title": "Rani Lakshmibai dies",
+      "subtitle": "Queen of a princely state in India",
+      "year": 1858,
+      "fact": "The Rani of Jhansi, also known as Rani Lakshmibai, was one of the leading figures of the Indian Rebellion of 1857.",
+      "wikipediaSlug": "Rani_of_Jhansi",
+      "image": "Rani_of_jhansi.jpg",
+      "pageViews": 48196
+    },
+    {
+      "qid": "Q730553",
+      "title": "Battle of Myriokephalon takes place",
+      "subtitle": "Battle in Byzantine–Seljuq Wars",
+      "year": 1176,
+      "fact": "The Battle of Myriokephalon was a battle between the Byzantine Empire and the Seljuk Turks in the mountains west of Iconium (Konya) in west-central Anatolia on 17 September 1176.",
+      "wikipediaSlug": "Battle_of_Myriokephalon",
+      "image": "Crusades_surprised_by_turks.jpg",
+      "pageViews": 3892
+    },
+    {
+      "qid": "Q133028",
+      "title": "Richard III of England becomes king of England",
+      "subtitle": null,
+      "year": 1483,
+      "fact": "Richard III was King of England from 26 June 1483 until his death in 1485.",
+      "wikipediaSlug": "Richard_III_of_England",
+      "image": "Richard_III_portrait.jpg",
+      "pageViews": 179016
+    },
+    {
+      "qid": "Q1287859",
+      "title": "Mussenden Temple is completed",
+      "subtitle": "Library building in Castlerock, County Londonderry, Northern Ireland",
+      "year": 1799,
+      "fact": "Mussenden Temple is a small circular building located on cliffs near Castlerock in County Londonderry, high above the Atlantic Ocean on the north-western coast of Northern Ireland.",
+      "wikipediaSlug": "Mussenden_Temple",
+      "image": "Mussenden_Temple,_Northern_Ireland._Built_between_1783_and_1785_cropped.jpg",
+      "pageViews": 1603
+    },
+    {
+      "qid": "Q891163",
+      "title": "Bojangles' Famous Chicken 'n Biscuits is founded",
+      "subtitle": "American regional fast food chain",
+      "year": 1977,
+      "fact": "Bojangles OpCo, LLC., doing business as Bojangles, is an American regional chain of fast food restaurants that specializes in Cajun-seasoned fried chicken and buttermilk biscuits and primarily serves the Southeastern United States.",
+      "wikipediaSlug": "Bojangles_(restaurant)",
+      "image": "A_Bojangles_fast_food_restaurant_in_Hiawassee,_Georgia,_United_States_02.jpg",
+      "pageViews": 12233
+    },
+    {
+      "qid": "Q650829",
+      "title": "Toronto Blue Jays is founded",
+      "subtitle": "MLB franchise",
+      "year": 1977,
+      "fact": "The Toronto Blue Jays are a Canadian professional baseball team based in Toronto.",
+      "wikipediaSlug": "Toronto_Blue_Jays",
+      "image": "Toronto_Blue_Jay_Primary_Logo.svg",
+      "pageViews": 145283
+    },
+    {
+      "qid": "Q24278982",
+      "title": "‘Indiana Jones and the Dial of Destiny’ is released",
+      "subtitle": "Film directed by James Mangold",
+      "year": 2023,
+      "fact": "Indiana Jones and the Dial of Destiny is a 2023 American action-adventure film directed by James Mangold and written by Mangold, David Koepp, Jez Butterworth and John-Henry Butterworth.",
+      "wikipediaSlug": "Indiana_Jones_and_the_Dial_of_Destiny",
+      "image": "Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg",
+      "pageViews": 98426
+    },
+    {
+      "qid": "Q568769",
+      "title": "‘SoundCloud’ launches",
+      "subtitle": "Website",
+      "year": 2007,
+      "fact": "SoundCloud is a German audio streaming service owned and operated by SoundCloud Global Limited & Co.",
+      "wikipediaSlug": "SoundCloud",
+      "image": "SoundCloud_Homepage.png",
+      "pageViews": 37509
+    },
+    {
+      "qid": "Q21083982",
+      "title": "‘South Park: The Fractured But Whole’ releases",
+      "subtitle": "Video game by Ubisoft San Francisco",
+      "year": 2017,
+      "fact": "South Park: The Fractured but Whole is a 2017 role-playing video game developed by Ubisoft San Francisco and published by Ubisoft in collaboration with South Park Digital Studios.",
+      "wikipediaSlug": "South_Park:_The_Fractured_but_Whole",
+      "image": "South_Park_The_Fractured_but_Whole_cover_art.jpg",
+      "pageViews": 8886
+    },
+    {
+      "qid": "Q335443",
+      "title": "Al-Mu'izz li-Din Allah becomes Fatimid Caliph",
+      "subtitle": null,
+      "year": 953,
+      "fact": "Abu Tamim Ma'ad al-Mu'izz li-Din Allah was the fourth Fatimid caliph and the 14th Ismaili imam, reigning from 953 to 975.",
+      "wikipediaSlug": "Al-Mu%27izz_li-Din_Allah",
+      "image": "Fatimiden-_Abu_Tamim_al-Muizz_-_Münzkabinett,_Berlin_-_5545286.jpg",
+      "pageViews": 3431
+    },
+    {
+      "qid": "Q132324293",
+      "title": "‘DeepSeek’ launches",
+      "subtitle": "Mobile app",
+      "year": 2025,
+      "fact": "DeepSeek is a generative artificial intelligence chatbot developed by the Chinese company DeepSeek.",
+      "wikipediaSlug": "DeepSeek_(chatbot)",
+      "image": "DeepSeek_chatbot_example_screenshot.png",
+      "pageViews": 14180
+    },
+    {
+      "qid": "Q23010088",
+      "title": "‘Spider-Man: Homecoming’ is released",
+      "subtitle": "Film directed by Jon Watts",
+      "year": 2017,
+      "fact": "Spider-Man: Homecoming is a 2017 American superhero film based on the Marvel Comics character Spider-Man.",
+      "wikipediaSlug": "Spider-Man:_Homecoming",
+      "image": "Spider-Man_Homecoming_poster.jpg",
+      "pageViews": 142641
+    },
+    {
+      "qid": "Q165529",
+      "title": "Memphis Grizzlies is founded",
+      "subtitle": "NBA franchise",
+      "year": 1995,
+      "fact": "The Memphis Grizzlies are an American professional basketball team based in Memphis, Tennessee.",
+      "wikipediaSlug": "Memphis_Grizzlies",
+      "image": "Memphis_Grizzlies.svg",
+      "pageViews": 32320
+    },
+    {
+      "qid": "Q512468",
+      "title": "Garuda Indonesia is founded",
+      "subtitle": "Airline",
+      "year": 1947,
+      "fact": "Garuda Indonesia is the flag carrier of Indonesia, headquartered at Soekarno–Hatta International Airport near Jakarta.",
+      "wikipediaSlug": "Garuda_Indonesia",
+      "image": "Garuda_Indonesia,_Boeing_777-300ER,_PK-GIG_-_NRT.jpg",
+      "pageViews": 21280
+    },
+    {
+      "qid": "Q44473",
+      "title": "O. J. Simpson dies",
+      "subtitle": "American football player and actor",
+      "year": 2024,
+      "fact": "Orenthal James Simpson, also known by his nickname \"the Juice\", was an American professional football player, actor, and media personality who played in the National Football League (NFL) for 11 seasons, primarily with the Buffalo Bills.",
+      "wikipediaSlug": "O._J._Simpson",
+      "image": "O.J._Simpson_1990_·_DN-ST-91-03444_crop.JPEG",
+      "pageViews": 217065
+    },
+    {
+      "qid": "Q102180106",
+      "title": "‘Deadpool & Wolverine’ is released",
+      "subtitle": "Film directed by Shawn Levy",
+      "year": 2024,
+      "fact": "Deadpool & Wolverine is a 2024 American superhero film based on Marvel Comics featuring the characters Deadpool and Wolverine.",
+      "wikipediaSlug": "Deadpool_%26_Wolverine",
+      "image": "Deadpool_&_Wolverine_poster.jpg",
+      "pageViews": 135203
+    },
+    {
+      "qid": "Q660004",
+      "title": "Second Russo-Turkish War begins",
+      "subtitle": "Conflict",
+      "year": 1676,
+      "fact": "The Russo-Turkish War of 1672–1681, a war between the Tsardom of Russia and Ottoman Empire, caused by Turkish expansionism in the second half of the 17th century.",
+      "wikipediaSlug": "Russo-Turkish_War_(1672%E2%80%931681)",
+      "image": "Czehryn,_by_Jan_Jansson,_circa_1663.jpg",
+      "pageViews": 1274
+    },
+    {
+      "qid": "Q479882",
+      "title": "OpenVMS is released",
+      "subtitle": "Operating System",
+      "year": 1977,
+      "fact": "OpenVMS, often referred to as just VMS, is a multi-user, multiprocessing and virtual memory-based operating system.",
+      "wikipediaSlug": "OpenVMS",
+      "image": "DECwindows-openvms-v7.3-1.png",
+      "pageViews": 8826
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "id": "deck-08",
+  "startingCard": {
+    "qid": "Q692",
+    "title": "William Shakespeare dies",
+    "subtitle": "English playwright and poet",
+    "year": 1616,
+    "fact": "William Shakespeare was an English playwright, poet and actor.",
+    "wikipediaSlug": "William_Shakespeare",
+    "image": "William_Shakespeare_by_John_Taylor,_edited.jpg",
+    "pageViews": 730302
+  },
+  "cards": [
+    {
+      "qid": "Q48673898",
+      "title": "‘Green Book’ is released",
+      "subtitle": "Film directed by Peter Farrelly",
+      "year": 2018,
+      "fact": "Green Book is a 2018 American biographical comedy-drama film directed by Peter Farrelly.",
+      "wikipediaSlug": "Green_Book_(film)",
+      "image": "Green_Book_(2018_poster).png",
+      "pageViews": 139500
+    },
+    {
+      "qid": "Q1195260",
+      "title": "‘Animal Crossing: City Folk’ releases",
+      "subtitle": "Video game by Nintendo Entertainment Analysis & Development",
+      "year": 2008,
+      "fact": "Animal Crossing: City Folk, released as Animal Crossing: Let's Go to the City in PAL territories, is a 2008 social simulation game developed and published by Nintendo for the Wii console and the third game in the Animal Crossing series.",
+      "wikipediaSlug": "Animal_Crossing:_City_Folk",
+      "image": "Cityfolkbox.jpg",
+      "pageViews": 6231
+    },
+    {
+      "qid": "Q11806",
+      "title": "John Adams becomes president of the United States",
+      "subtitle": null,
+      "year": 1797,
+      "fact": "John Adams was a Founding Father and the second president of the United States from 1797 to 1801.",
+      "wikipediaSlug": "John_Adams",
+      "image": "John_Adams_Portrait.jpg",
+      "pageViews": 148954
+    },
+    {
+      "qid": "Q4509219",
+      "title": "‘Inferno’ is published",
+      "subtitle": "Book by Dante Alighieri",
+      "year": 1304,
+      "fact": "Inferno is the first part of the Italian writer Dante Alighieri's 14th-century narrative poem The Divine Comedy, followed by Purgatorio and Paradiso.",
+      "wikipediaSlug": "Inferno_(Dante)",
+      "image": "Inferno.jpg",
+      "pageViews": 123822
+    },
+    {
+      "qid": "Q1127337",
+      "title": "Battle of Mons Graupius takes place",
+      "subtitle": "Battle in Roman conquest of Britain",
+      "year": 83,
+      "fact": "The Battle of Mons Graupius was, according to Tacitus, a Roman military victory in what is now Scotland, taking place in AD 83 or, less probably, 84.",
+      "wikipediaSlug": "Battle_of_Mons_Graupius",
+      "image": "Agricola.Campaigns.80.84.jpg",
+      "pageViews": 4517
+    },
+    {
+      "qid": "Q222824",
+      "title": "2S7 Pion enters service",
+      "subtitle": "Soviet self-propelled artillery",
+      "year": 1976,
+      "fact": "The 2S7 Pion (\"peony\") or 2S7M Malka is a Soviet self-propelled 203 mm cannon.",
+      "wikipediaSlug": "2S7_Pion",
+      "image": "Army-2018-29.jpg",
+      "pageViews": 7126
+    },
+    {
+      "qid": "Q13417189",
+      "title": "‘Interstellar’ is released",
+      "subtitle": "Film directed by Christopher Nolan",
+      "year": 2014,
+      "fact": "Interstellar is a 2014 epic science fiction film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan.",
+      "wikipediaSlug": "Interstellar_(film)",
+      "image": "Interstellar_film_poster.jpg",
+      "pageViews": 337367
+    },
+    {
+      "qid": "Q614237",
+      "title": "Nusretiye Mosque is completed",
+      "subtitle": "Mosque in İstanbul, Turkey",
+      "year": 1826,
+      "fact": "The Nusretiye Mosque is an ornate mosque located in Tophane district of Beyoğlu, Istanbul, Turkey.",
+      "wikipediaSlug": "Nusretiye_Mosque",
+      "image": "Nusretiye_Mosque_-_March_2022.jpg",
+      "pageViews": 1623
+    },
+    {
+      "qid": "Q376178",
+      "title": "Straits Settlements is established",
+      "subtitle": "Colony",
+      "year": 1826,
+      "fact": "The Straits Settlements were a group of British territories located in Southeast Asia.",
+      "wikipediaSlug": "Straits_Settlements",
+      "image": "Flag_of_the_British_Straits_Settlements_(1925–1946).svg",
+      "pageViews": 16067
+    },
+    {
+      "qid": "Q1071800",
+      "title": "‘The Chronicles of Riddick: Escape from Butcher Bay’ releases",
+      "subtitle": "Video game by Starbreeze Studios",
+      "year": 2004,
+      "fact": "The Chronicles of Riddick: Escape from Butcher Bay is a 2004 action-adventure stealth game developed by Starbreeze Studios and Tigon Studios and published by Vivendi Universal Games.",
+      "wikipediaSlug": "The_Chronicles_of_Riddick:_Escape_from_Butcher_Bay",
+      "image": "RiddickButcherBay.jpg",
+      "pageViews": 7726
+    },
+    {
+      "qid": "Q248874",
+      "title": "Browning Hi-Power enters service",
+      "subtitle": "American-Belgian semi-automatic pistol",
+      "year": 1935,
+      "fact": "The Browning Hi-Power or 1935 Browning 9mm GP or Grand Puissance pistol is a single-action, semi-automatic pistol available in the 9×19mm Parabellum and.40 S&W calibers.",
+      "wikipediaSlug": "Browning_Hi-Power",
+      "image": "FN_Hi_Power.jpg",
+      "pageViews": 48137
+    },
+    {
+      "qid": "Q467864",
+      "title": "People's Socialist Republic of Albania is established",
+      "subtitle": "Historical state",
+      "year": 1946,
+      "fact": "The People's Socialist Republic of Albania was the communist state that existed in Albania from 10 January 1946 to 29 April 1991.",
+      "wikipediaSlug": "People%27s_Socialist_Republic_of_Albania",
+      "image": "Flag_of_Albania_(1946–1992).svg",
+      "pageViews": 20012
+    },
+    {
+      "qid": "Q1316",
+      "title": "Saddam Hussein dies",
+      "subtitle": null,
+      "year": 2006,
+      "fact": "Saddam Hussein was an Iraqi politician and revolutionary who served as the fifth president of Iraq from 1979 until his overthrow in 2003 during the United States-led invasion of Iraq.",
+      "wikipediaSlug": "Saddam_Hussein",
+      "image": "Saddam_Hussein_in_1998.png",
+      "pageViews": 617352
+    },
+    {
+      "qid": "Q2501284",
+      "title": "‘The Great Bathers’ is painted",
+      "subtitle": "Painting by Pierre-Auguste Renoir",
+      "year": 1884,
+      "fact": "Les Grandes Baigneuses, or The Large Bathers, is a painting by Pierre-Auguste Renoir made between 1884 and 1887.",
+      "wikipediaSlug": "Les_Grandes_Baigneuses_(Renoir)",
+      "image": "Pierre-Auguste_Renoir,_French_-_The_Large_Bathers_-_Google_Art_Project.jpg",
+      "pageViews": 1507
+    },
+    {
+      "qid": "Q8682",
+      "title": "Real Madrid Club de Fútbol is founded",
+      "subtitle": "Football club",
+      "year": 1902,
+      "fact": "Real Madrid Club de Fútbol, commonly referred to as Real Madrid, is a Spanish professional association football club based in Madrid.",
+      "wikipediaSlug": "Real_Madrid_CF",
+      "image": "Real_Madrid_CF.svg",
+      "pageViews": 374093
+    },
+    {
+      "qid": "Q134309",
+      "title": "Charles IX of France becomes king of France",
+      "subtitle": null,
+      "year": 1560,
+      "fact": "Charles IX was King of France from 1560 until his death in 1574.",
+      "wikipediaSlug": "Charles_IX_of_France",
+      "image": "Portrait_of_King_Charles_IX_of_France_(1550–1574),_by_After_François_Clouet.jpg",
+      "pageViews": 30101
+    },
+    {
+      "qid": "Q129308",
+      "title": "John, King of England becomes king of England",
+      "subtitle": null,
+      "year": 1199,
+      "fact": "John was King of England from 1199 until his death in 1216.",
+      "wikipediaSlug": "John,_King_of_England",
+      "image": "Jan_tomb.jpg",
+      "pageViews": 109182
+    },
+    {
+      "qid": "Q1143285",
+      "title": "‘Streets of Rage’ releases",
+      "subtitle": "Video game",
+      "year": 1991,
+      "fact": "Streets of Rage is a 1991 beat 'em up video game developed and published by Sega for the Sega Genesis.",
+      "wikipediaSlug": "Streets_of_Rage_(video_game)",
+      "image": "Streets_of_Rage_(cover).jpg",
+      "pageViews": 4445
+    },
+    {
+      "qid": "Q192137",
+      "title": "Sukhoi Su-25 first flies",
+      "subtitle": "Aircraft by Sukhoi",
+      "year": 1975,
+      "fact": "The Sukhoi Su-25 Grach is a subsonic, single-seat, twin-engine jet aircraft developed in the Soviet Union by Sukhoi.",
+      "wikipediaSlug": "Sukhoi_Su-25",
+      "image": "Sukhoi_Su-25_of_the_Russian_Air_Force_landing_at_Vladivostok_(8683076150).jpg",
+      "pageViews": 48712
+    },
+    {
+      "qid": "Q193344",
+      "title": "Miyamoto Musashi dies",
+      "subtitle": "Japanese swordsman, philosopher, strategist, writer, artist, and rōnin",
+      "year": 1645,
+      "fact": "Miyamoto Musashi was a Japanese swordsman, strategist, artist, and writer who became renowned through stories of his unique double-bladed swordsmanship and undefeated record in his 62 duels.",
+      "wikipediaSlug": "Miyamoto_Musashi",
+      "image": "Miyamoto_Musashi_Self-Portrait.jpg",
+      "pageViews": 152499
+    },
+    {
+      "qid": "Q49100",
+      "title": "Yom Kippur War begins",
+      "subtitle": "Conflict",
+      "year": 1973,
+      "fact": "The Yom Kippur War, also known as the 1973 Arab–Israeli War, the fourth Arab–Israeli War, the October War, or the Ramadan War, was fought from 6 to 25 October 1973 between Israel and a coalition of Arab states led by Egypt and Syria.",
+      "wikipediaSlug": "Yom_Kippur_War",
+      "image": "Yom_Kippur_War_map.svg",
+      "pageViews": 196917
+    },
+    {
+      "qid": "Q374516",
+      "title": "Tahmasp II becomes Safavid shah",
+      "subtitle": null,
+      "year": 1729,
+      "fact": "Tahmasp II was the penultimate Safavid shah of Iran, ruling from 1722 to 1732.",
+      "wikipediaSlug": "Tahmasp_II",
+      "image": "Nadir_at_the_court_of_Shah_Tahmasp_II.jpg",
+      "pageViews": 13392
+    },
+    {
+      "qid": "Q7232",
+      "title": "Emperor Yuan of Han becomes Emperor of China",
+      "subtitle": null,
+      "year": -47,
+      "fact": "Emperor Yuan of Han, personal name Liu Shi, was an emperor of the Chinese Han dynasty.",
+      "wikipediaSlug": "Emperor_Yuan_of_Han",
+      "image": "Jieyu_Fighting_against_Bear_by_Jin_Tingbiao.jpg",
+      "pageViews": 2187
+    },
+    {
+      "qid": "Q104049",
+      "title": "Sidney Poitier dies",
+      "subtitle": "Bahamian and American actor and diplomat",
+      "year": 2022,
+      "fact": "Sidney Poitier was a Bahamian-American actor, film director, activist, and diplomat.",
+      "wikipediaSlug": "Sidney_Poitier",
+      "image": "Sidney_Poitier_1968.jpg",
+      "pageViews": 110731
+    },
+    {
+      "qid": "Q864943",
+      "title": "‘Sid Meier's Colonization’ releases",
+      "subtitle": "Video game by MicroProse",
+      "year": 1994,
+      "fact": "Sid Meier's Colonization is a turn-based strategy video game by Brian Reynolds and Sid Meier.",
+      "wikipediaSlug": "Sid_Meier%27s_Colonization",
+      "image": "Colonization_cover.jpg",
+      "pageViews": 2621
+    },
+    {
+      "qid": "Q219086",
+      "title": "Mungo Park dies",
+      "subtitle": "Scottish naturalist and explorer of the African continent",
+      "year": 1806,
+      "fact": "Mungo Park was a Scottish explorer of West Africa.",
+      "wikipediaSlug": "Mungo_Park_(explorer)",
+      "image": "Mungo_Park_portrait_bw.jpg",
+      "pageViews": 6113
+    },
+    {
+      "qid": "Q56881140",
+      "title": "‘Little Women’ is released",
+      "subtitle": "Film directed by Greta Gerwig",
+      "year": 2019,
+      "fact": "Little Women is a 2019 American period drama film written and directed by Greta Gerwig.",
+      "wikipediaSlug": "Little_Women_(2019_film)",
+      "image": "Little_Women_(2019_film).jpeg",
+      "pageViews": 80566
+    },
+    {
+      "qid": "Q1060323",
+      "title": "‘The Legend of Zelda: Link's Awakening’ releases",
+      "subtitle": "Video game by Nintendo Entertainment Analysis & Development",
+      "year": 1993,
+      "fact": "The Legend of Zelda: Link's Awakening is a 1993 action-adventure game developed and published by Nintendo for the Game Boy.",
+      "wikipediaSlug": "The_Legend_of_Zelda:_Link%27s_Awakening",
+      "image": "Link's_Awakening.png",
+      "pageViews": 17769
+    },
+    {
+      "qid": "Q156280",
+      "title": "Leopold Mozart dies",
+      "subtitle": "German composer",
+      "year": 1787,
+      "fact": "Johann Georg Leopold Mozart was a German composer, violinist, and music theorist.",
+      "wikipediaSlug": "Leopold_Mozart",
+      "image": "Leopold_Mozart.jpg",
+      "pageViews": 11831
+    },
+    {
+      "qid": "Q2579964",
+      "title": "‘Ray Donovan’ airs for the first time",
+      "subtitle": "American crime drama television series",
+      "year": 2013,
+      "fact": "Ray Donovan is an American crime drama television series created by Ann Biderman for Showtime.",
+      "wikipediaSlug": "Ray_Donovan",
+      "image": "Ray_Donovan_(Logo).png",
+      "pageViews": 37416
+    }
+  ]
+}

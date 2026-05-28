@@ -9,6 +9,17 @@ db.run(`
     )
 `);
 
+db.run(`
+    CREATE TABLE IF NOT EXISTS leaderboard (
+        id           INTEGER PRIMARY KEY AUTOINCREMENT,
+        profile_id   TEXT    NOT NULL,
+        profile_name TEXT    NOT NULL,
+        score        INTEGER NOT NULL,
+        game_code    TEXT    NOT NULL,
+        played_at    TEXT    NOT NULL
+    )
+`);
+
 export function dbGet<T>(sql: string, params: SQLQueryBindings[] = []): T | undefined {
     return db.prepare(sql).get(...params) as T | undefined;
 }

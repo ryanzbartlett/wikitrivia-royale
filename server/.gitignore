@@ -176,3 +176,6 @@ dist
 
 # Sqlite db
 *.db
+
+# Downloaded raw card data (run server/scripts/download-cards.ts to regenerate)
+data/cards-raw.json

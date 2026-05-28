@@ -1,0 +1,315 @@
+{
+  "id": "deck-07",
+  "startingCard": {
+    "qid": "Q29251",
+    "title": "McDonnell Douglas F-15 Eagle first flies",
+    "subtitle": "Aircraft by McDonnell Douglas",
+    "year": 1972,
+    "fact": "The McDonnell Douglas F-15 Eagle is an American twin-engine, all-weather fighter aircraft designed by McDonnell Douglas.",
+    "wikipediaSlug": "McDonnell_Douglas_F-15_Eagle",
+    "image": "F-15C_Eagle_from_the_44th_Fighter_Squadron_flies_during_a_routine_training_exercise_April_15,_2019.jpg",
+    "pageViews": 319109
+  },
+  "cards": [
+    {
+      "qid": "Q1362236",
+      "title": "Neo Química Arena opens",
+      "subtitle": "Sports stadium",
+      "year": 2014,
+      "fact": "Arena Corinthians, also known as the Neo Química Arena for sponsorship reasons, is a sports stadium located in São Paulo, Brazil.",
+      "wikipediaSlug": "Arena_Corinthians",
+      "image": "ARENA_CORINTHIANS.jpg",
+      "pageViews": 4795
+    },
+    {
+      "qid": "Q35236",
+      "title": "Herbert Hoover becomes president of the United States",
+      "subtitle": null,
+      "year": 1929,
+      "fact": "Herbert Clark Hoover was the 31st president of the United States, serving from 1929 to 1933.",
+      "wikipediaSlug": "Herbert_Hoover",
+      "image": "President_Hoover_portrait.jpg",
+      "pageViews": 127851
+    },
+    {
+      "qid": "Q155358",
+      "title": "‘Music’ is released",
+      "subtitle": "Album by Madonna",
+      "year": 2000,
+      "fact": "Music is the eighth studio album by American singer Madonna, released on September 18, 2000, by Maverick and Warner Bros.",
+      "wikipediaSlug": "Music_(Madonna_album)",
+      "image": "Music_Madonna.png",
+      "pageViews": 15787
+    },
+    {
+      "qid": "Q920675",
+      "title": "Ford Fusion Americas debuts",
+      "subtitle": "Car model by Ford Motor Company",
+      "year": 2006,
+      "fact": "The Ford Fusion is a mid-size car that was manufactured and marketed by the Ford Motor Company.",
+      "wikipediaSlug": "Ford_Fusion_(Americas)",
+      "image": "2019_Ford_Fusion_Titanium_Energi,_front_2.29.20.jpg",
+      "pageViews": 21968
+    },
+    {
+      "qid": "Q2461245",
+      "title": "Franchi SPAS-15 enters service",
+      "subtitle": "Firearm",
+      "year": 1984,
+      "fact": "The Franchi SPAS-15 is a dual-mode 12 gauge combat shotgun manufactured by the Italian company Luigi Franchi S.P.A.",
+      "wikipediaSlug": "Franchi_SPAS-15",
+      "image": "SPAS15.jpg",
+      "pageViews": 4869
+    },
+    {
+      "qid": "Q2942482",
+      "title": "Se Cathedral is completed",
+      "subtitle": "Church in Velha Goa, India",
+      "year": 1562,
+      "fact": "The Sé Catedral de Santa Catarina, known as Se Cathedral, is the cathedral of the Latin Church Archdiocese of Goa and Daman and the seat of the Patriarch of the East Indies.",
+      "wikipediaSlug": "Se_Cathedral",
+      "image": "Se_Cathedral_from_Rua_Direita.jpg",
+      "pageViews": 2143
+    },
+    {
+      "qid": "Q208484",
+      "title": "Lebanese Civil War begins",
+      "subtitle": "Conflict",
+      "year": 1975,
+      "fact": "The Lebanese Civil War was a multifaceted armed conflict that took place from 1975 to 1990.",
+      "wikipediaSlug": "Lebanese_Civil_War",
+      "image": "USS_New_Jersey_firing_in_Beirut,_1984.jpg",
+      "pageViews": 102011
+    },
+    {
+      "qid": "Q232774",
+      "title": "‘Transformers: Dark of the Moon’ is released",
+      "subtitle": "Film directed by Michael Bay",
+      "year": 2011,
+      "fact": "Transformers: Dark of the Moon is a 2011 American science fiction action film based on Hasbro's Transformers toy line.",
+      "wikipediaSlug": "Transformers:_Dark_of_the_Moon",
+      "image": "Transformers_dark_of_the_moon_ver5.jpg",
+      "pageViews": 47179
+    },
+    {
+      "qid": "Q275031",
+      "title": "Ilyushin Il-14 first flies",
+      "subtitle": "Aircraft by Avia",
+      "year": 1950,
+      "fact": "The Ilyushin Il-14 is a Soviet twin-engine commercial and military personnel and cargo transport aircraft that first flew in 1950, and entered service in 1954.",
+      "wikipediaSlug": "Ilyushin_Il-14",
+      "image": "Aeroflot_Ilyushin_Il-14_at_Arlanda,_November_1970.jpg",
+      "pageViews": 4967
+    },
+    {
+      "qid": "Q1796098",
+      "title": "‘Brera Madonna’ is painted",
+      "subtitle": "Painting by Piero della Francesca",
+      "year": 1472,
+      "fact": "The Brera Madonna is a painting by the Italian Renaissance master Piero della Francesca, executed in 1472–1474.",
+      "wikipediaSlug": "Brera_Madonna",
+      "image": "Piero_della_Francesca_046.jpg",
+      "pageViews": 1156
+    },
+    {
+      "qid": "Q661222",
+      "title": "‘King John’ premieres",
+      "subtitle": "Play by William Shakespeare",
+      "year": 1623,
+      "fact": "The Life and Death of King John, by William Shakespeare, is a history play about the reign of John, King of England, the son of Henry II and Eleanor of Aquitaine, and the father of Henry III.",
+      "wikipediaSlug": "King_John_(play)",
+      "image": "Herbert_Beerbohm_Tree_(1852–1917),_as_King_John_in_'King_John'_by_William_Shakespeare_Charles_A._Buchel_(1872–1950)_Victoria_and_Albert_Museum.jpg",
+      "pageViews": 6559
+    },
+    {
+      "qid": "Q1638622",
+      "title": "‘Adoration of the Magi’ is painted",
+      "subtitle": "Painting by Leonardo da Vinci",
+      "year": 1482,
+      "fact": "The Adoration of the Magi is an unfinished early painting by the Italian Renaissance artist Leonardo da Vinci.",
+      "wikipediaSlug": "Adoration_of_the_Magi_(Leonardo)",
+      "image": "Adoration_of_the_Magi_(Leonardo).jpg",
+      "pageViews": 4842
+    },
+    {
+      "qid": "Q328482",
+      "title": "‘Black Sabbath’ is released",
+      "subtitle": "Album by Black Sabbath",
+      "year": 1970,
+      "fact": "Black Sabbath is the debut studio album by the English heavy metal band Black Sabbath, released on 13 February 1970 by Vertigo Records in the United Kingdom and on 1 June 1970 by Warner Bros.",
+      "wikipediaSlug": "Black_Sabbath_(album)",
+      "image": "Black_Sabbath_debut_album.jpg",
+      "pageViews": 31439
+    },
+    {
+      "qid": "Q172345",
+      "title": "Erik the Red dies",
+      "subtitle": "Explorer and founder of the first viking settlement in Greenland",
+      "year": 1003,
+      "fact": "Erik Thorvaldsson, known as Erik the Red, was a Norse explorer, described in medieval and Icelandic saga sources as having founded the first European settlement in Greenland.",
+      "wikipediaSlug": "Erik_the_Red",
+      "image": "Eric_the_Red.png",
+      "pageViews": 24749
+    },
+    {
+      "qid": "Q8743",
+      "title": "Thomas Edison dies",
+      "subtitle": "American inventor and businessman",
+      "year": 1931,
+      "fact": "Thomas Alva Edison was an American inventor and businessman.",
+      "wikipediaSlug": "Thomas_Edison",
+      "image": "Thomas_Edison2.jpg",
+      "pageViews": 135808
+    },
+    {
+      "qid": "Q6743",
+      "title": "May 68",
+      "subtitle": "Protest, riot, or uprising",
+      "year": 1968,
+      "fact": "May 68 was a period of widespread protests, strikes, and civil unrest in France that began in May 1968 and became one of the most significant social uprisings in modern European history.",
+      "wikipediaSlug": "May_68",
+      "image": "11-12.06.68_Mai_68._Nuit_d'émeutes._Manif._Barricades.Dégâts_(1968)_-_53Fi1037.jpg",
+      "pageViews": 29957
+    },
+    {
+      "qid": "Q12012222",
+      "title": "L3/35 enters service",
+      "subtitle": "Type of Tankette",
+      "year": 1935,
+      "fact": "The L3/35, also known as the Carro Veloce CV-35, was an Italian tankette that saw combat before and during World War II.",
+      "wikipediaSlug": "L3/35",
+      "image": "Carro_Leggero_3_35-001.jpg",
+      "pageViews": 8532
+    },
+    {
+      "qid": "Q1430",
+      "title": "Marcus Aurelius becomes Roman emperor",
+      "subtitle": null,
+      "year": 161,
+      "fact": "Marcus Aurelius Antoninus was Roman emperor from 161 to 180 and a Stoic philosopher.",
+      "wikipediaSlug": "Marcus_Aurelius",
+      "image": "MSR-ra-61-b-1-DM.jpg",
+      "pageViews": 207577
+    },
+    {
+      "qid": "Q142292",
+      "title": "‘Traffic’ is released",
+      "subtitle": "Film directed by Steven Soderbergh",
+      "year": 2000,
+      "fact": "Traffic is a 2000 American crime drama film directed by Steven Soderbergh and written by Stephen Gaghan.",
+      "wikipediaSlug": "Traffic_(2000_film)",
+      "image": "Traffic2000Poster.jpg",
+      "pageViews": 44727
+    },
+    {
+      "qid": "Q57063",
+      "title": "Philipp Lenard dies",
+      "subtitle": "German physicist",
+      "year": 1947,
+      "fact": "Philipp Eduard Anton von Lenard was a Hungarian–German experimental physicist who received the Nobel Prize in Physics in 1905 for his work on cathode rays.",
+      "wikipediaSlug": "Philipp_Lenard",
+      "image": "Phillipp_Lenard_in_1900.jpg",
+      "pageViews": 5128
+    },
+    {
+      "qid": "Q317799",
+      "title": "Ahmad Shah Qajar becomes shah",
+      "subtitle": null,
+      "year": 1909,
+      "fact": "Ahmad Shah Qajar was the shah of Iran (Persia) from 16 July 1909 to 15 December 1925, and the seventh and final ruling member of the Qajar dynasty.",
+      "wikipediaSlug": "Ahmad_Shah_Qajar",
+      "image": "AhmadShahQajar2.jpg",
+      "pageViews": 147455
+    },
+    {
+      "qid": "Q205973",
+      "title": "Edmonton Oilers is founded",
+      "subtitle": "NHL franchise",
+      "year": 1972,
+      "fact": "The Edmonton Oilers are a professional ice hockey team based in Edmonton.",
+      "wikipediaSlug": "Edmonton_Oilers",
+      "image": "Logo_Edmonton_Oilers.svg",
+      "pageViews": 45620
+    },
+    {
+      "qid": "Q55178974",
+      "title": "‘Jurassic World Dominion’ is released",
+      "subtitle": "Film directed by Colin Trevorrow",
+      "year": 2022,
+      "fact": "Jurassic World Dominion is a 2022 American science fiction action film directed by Colin Trevorrow, who co-wrote the screenplay with Emily Carmichael.",
+      "wikipediaSlug": "Jurassic_World_Dominion",
+      "image": "JurassicWorldDominion_Poster.jpeg",
+      "pageViews": 162680
+    },
+    {
+      "qid": "Q128976",
+      "title": "Alec Douglas-Home becomes prime minister of the United Kingdom",
+      "subtitle": null,
+      "year": 1963,
+      "fact": "Alexander Frederick Douglas-Home, Baron Home of the Hirsel, known as Lord Dunglass from 1918 to 1951 and the Earl of Home from 1951 to 1963, was a British statesman and Conservative politician who served as Prime Minister of the United Kingdom from 1963 to 1964.",
+      "wikipediaSlug": "Alec_Douglas-Home",
+      "image": "Alec_Douglas-Home_(c1963).jpg",
+      "pageViews": 30462
+    },
+    {
+      "qid": "Q127332",
+      "title": "Charlotte Brontë dies",
+      "subtitle": "British novelist and poet",
+      "year": 1855,
+      "fact": "Charlotte Nicholls, commonly known by her maiden name Charlotte Brontë, was an English novelist and poet, and was the elder sister of Emily, Anne and Branwell Brontë.",
+      "wikipediaSlug": "Charlotte_Bront%C3%AB",
+      "image": "Charlotte_Brontë_by_Patrick_Branwell_Brontë_restored.jpg",
+      "pageViews": 109819
+    },
+    {
+      "qid": "Q113127312",
+      "title": "‘Fallout’ airs for the first time",
+      "subtitle": "American television series",
+      "year": 2024,
+      "fact": "Fallout is an American post-apocalyptic drama television series created by Graham Wagner and Geneva Robertson-Dworet for Amazon Prime Video.",
+      "wikipediaSlug": "Fallout_(American_TV_series)",
+      "image": "Fallout_television_series_logo.svg",
+      "pageViews": 241793
+    },
+    {
+      "qid": "Q572590",
+      "title": "Antonov An-72 first flies",
+      "subtitle": "Aircraft by Antonov",
+      "year": 1977,
+      "fact": "The Antonov An-72 is a transport aircraft, developed and produced by the Ukrainian aircraft manufacturer Antonov.",
+      "wikipediaSlug": "Antonov_An-72",
+      "image": "Russian_Air_Force_-_Antonov_An-72.jpg",
+      "pageViews": 6966
+    },
+    {
+      "qid": "Q199688",
+      "title": "Almohad Caliphate is established",
+      "subtitle": "Historical state",
+      "year": 1121,
+      "fact": "The Almohad Caliphate or Almohad Empire was a North African empire ruled by a Berber Muslim dynasty in the 12th and 13th centuries.",
+      "wikipediaSlug": "Almohad_Caliphate",
+      "image": "Almohad_dynasty_en.svg",
+      "pageViews": 22472
+    },
+    {
+      "qid": "Q151432",
+      "title": "McDonnell Douglas F-4 Phantom II first flies",
+      "subtitle": "Aircraft by McDonnell Douglas",
+      "year": 1958,
+      "fact": "The McDonnell Douglas F-4 Phantom II is an American tandem two-seat, twin-engine, all-weather, long-range supersonic jet interceptor and fighter-bomber that was developed by McDonnell Aircraft for the United States Navy.",
+      "wikipediaSlug": "McDonnell_Douglas_F-4_Phantom_II",
+      "image": "QF-4_Holloman_AFB.jpg",
+      "pageViews": 183283
+    },
+    {
+      "qid": "Q44301",
+      "title": "Jim Morrison dies",
+      "subtitle": "American singer and poet; lead vocalist of The Doors",
+      "year": 1971,
+      "fact": "James Douglas Morrison was an American singer-songwriter and poet who was the lead vocalist and primary lyricist of the rock band the Doors.",
+      "wikipediaSlug": "Jim_Morrison",
+      "image": "Jim_Morrison_-_Young_Lion_(1967)_(1).jpg",
+      "pageViews": 135863
+    }
+  ]
+}

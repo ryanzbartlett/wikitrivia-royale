@@ -1,0 +1,315 @@
+{
+  "id": "deck-10",
+  "startingCard": {
+    "qid": "Q22686",
+    "title": "Donald Trump becomes president of the United States",
+    "subtitle": null,
+    "year": 2017,
+    "fact": "Donald John Trump is an American politician, media personality, and businessman who is the 47th president of the United States.",
+    "wikipediaSlug": "Donald_Trump",
+    "image": "Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+    "pageViews": 2423340
+  },
+  "cards": [
+    {
+      "qid": "Q772988",
+      "title": "Khalifa International Stadium opens",
+      "subtitle": "Sports stadium",
+      "year": 1976,
+      "fact": "Khalifa International Stadium is a multi-purpose stadium located in Al Rayyan, Qatar, around 9 kilometres west from the centre of Doha.",
+      "wikipediaSlug": "Khalifa_International_Stadium",
+      "image": "Khalifa-newStadium-Doha-2016-PTFE_roof.jpg",
+      "pageViews": 3442
+    },
+    {
+      "qid": "Q19083",
+      "title": "Kingdom of Iberia is established",
+      "subtitle": "Historical state",
+      "year": -298,
+      "fact": "In Greco-Roman geography, Iberia was an exonym for the Georgian kingdom of Kartli, known after its core province.",
+      "wikipediaSlug": "Kingdom_of_Iberia",
+      "image": "Kartli_-_drosha_jvari.svg",
+      "pageViews": 10995
+    },
+    {
+      "qid": "Q312517",
+      "title": "Condor Flugdienst is founded",
+      "subtitle": "Airline",
+      "year": 1955,
+      "fact": "Condor, legally incorporated as Condor Flugdienst GmbH, is a German airline based in Neu Isenburg, Hesse.",
+      "wikipediaSlug": "Condor_(airline)",
+      "image": "D-ANRH_Condor_A330-900neo_Beach.jpg",
+      "pageViews": 24955
+    },
+    {
+      "qid": "Q127367",
+      "title": "‘The Lord of the Rings: The Fellowship of the Ring’ is released",
+      "subtitle": "Film directed by Peter Jackson",
+      "year": 2001,
+      "fact": "The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson.",
+      "wikipediaSlug": "The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring",
+      "image": "Lord_Rings_Fellowship_Ring.jpg",
+      "pageViews": 111464
+    },
+    {
+      "qid": "Q154581",
+      "title": "‘Gangs of New York’ is released",
+      "subtitle": "Film directed by Martin Scorsese",
+      "year": 2002,
+      "fact": "Gangs of New York is a 2002 epic historical drama film directed by Martin Scorsese and written by Jay Cocks, Steven Zaillian, and Kenneth Lonergan, based on Herbert Asbury's 1928 book The Gangs of New York.",
+      "wikipediaSlug": "Gangs_of_New_York",
+      "image": "Gangs_of_New_York_Poster.jpg",
+      "pageViews": 101240
+    },
+    {
+      "qid": "Q203534",
+      "title": "Pedro de Valdivia dies",
+      "subtitle": "Spanish conquistador, first royal governor of Chile",
+      "year": 1554,
+      "fact": "Pedro Gutiérrez de Valdivia or Valdiva was a Spanish conquistador and the first Governor of Colonial Chile.",
+      "wikipediaSlug": "Pedro_de_Valdivia",
+      "image": "Pedro_de_Valdivia.jpg",
+      "pageViews": 4923
+    },
+    {
+      "qid": "Q36023",
+      "title": "Calvin Coolidge becomes president of the United States",
+      "subtitle": null,
+      "year": 1923,
+      "fact": "Calvin Coolidge was the 30th president of the United States, serving from 1923 to 1929.",
+      "wikipediaSlug": "Calvin_Coolidge",
+      "image": "President_Calvin_Coolidge,_1924_portrait_photograph_(3x4_cropped).jpeg",
+      "pageViews": 110047
+    },
+    {
+      "qid": "Q1816946",
+      "title": "Stridsvagn m/42 enters service",
+      "subtitle": "Type of medium tank",
+      "year": 1943,
+      "fact": "Stridsvagn m/42 was a Swedish medium tank in service in the World War II period.",
+      "wikipediaSlug": "Stridsvagn_m/42",
+      "image": "Stridsvagn_m42_Revinge_2012-2.jpg",
+      "pageViews": 2969
+    },
+    {
+      "qid": "Q641805",
+      "title": "Nawaf Al-Ahmad Al-Jaber Al-Sabah dies",
+      "subtitle": "Emir of Kuwait",
+      "year": 2023,
+      "fact": "Sheikh Nawaf Al-Ahmad Al-Jaber Al-Sabah was Emir of Kuwait from 2020 until his death in 2023.",
+      "wikipediaSlug": "Nawaf_Al-Ahmad_Al-Jaber_Al-Sabah",
+      "image": "Nawaf_Al-Ahmad_Al-Jaber_Al-Sabah_(cropped).jpg",
+      "pageViews": 13011
+    },
+    {
+      "qid": "Q17182277",
+      "title": "Prometheus is created",
+      "subtitle": "Art Deco sculpture by Paul Manship",
+      "year": 1934,
+      "fact": "Prometheus is a 1934 gilded, cast bronze sculpture by Paul Manship, located above the lower plaza at Rockefeller Center in Manhattan, New York City.",
+      "wikipediaSlug": "Prometheus_(Manship)",
+      "image": "Rockefeller_Center_Prometheus.jpg",
+      "pageViews": 1814
+    },
+    {
+      "qid": "Q16985303",
+      "title": "Hungry Howie's Pizza is founded",
+      "subtitle": "American pizza chain",
+      "year": 1973,
+      "fact": "Hungry Howie's Pizza & Subs, Inc., also known as Hungry Howie's Pizza, is a franchise and the 11th largest pizza chain in the United States, with over 550 locations.",
+      "wikipediaSlug": "Hungry_Howie%27s_Pizza",
+      "image": "Hungry_Howie's_on_Pensacola_Street,_Tallahassee,_Florida.jpg",
+      "pageViews": 2930
+    },
+    {
+      "qid": "Q152115",
+      "title": "Duchy of Warsaw is established",
+      "subtitle": "Historical state",
+      "year": 1807,
+      "fact": "The Duchy of Warsaw was a French client state established by Napoleon Bonaparte in 1807, during the Napoleonic Wars.",
+      "wikipediaSlug": "Duchy_of_Warsaw",
+      "image": "Grand_Coat_of_Arms_of_Duchy_of_Warsaw.svg",
+      "pageViews": 13790
+    },
+    {
+      "qid": "Q40475",
+      "title": "Joan Crawford dies",
+      "subtitle": "American actress",
+      "year": 1977,
+      "fact": "Joan Crawford was an American actress.",
+      "wikipediaSlug": "Joan_Crawford",
+      "image": "JCrawford39.jpg",
+      "pageViews": 110688
+    },
+    {
+      "qid": "Q1432832",
+      "title": "Grand Mosque is completed",
+      "subtitle": "Mosque in Kuwait City, Kuwait",
+      "year": 1986,
+      "fact": "The Grand Mosque, located in Kuwait City, is the largest mosque in Kuwait.",
+      "wikipediaSlug": "Grand_Mosque_of_Kuwait",
+      "image": "Kuwait_City_Grand_Mosque_Exterior_South_Facade_5.jpg",
+      "pageViews": 1838
+    },
+    {
+      "qid": "Q1331175",
+      "title": "UGM-73 Poseidon enters service",
+      "subtitle": "Two-stage solid-fuel nuclear-armed submarine-launched ballistic missile",
+      "year": 1971,
+      "fact": "The UGM-73 Poseidon missile was the second US Navy nuclear-armed submarine-launched ballistic missile (SLBM) system, powered by a two-stage solid-fuel rocket.",
+      "wikipediaSlug": "UGM-73_Poseidon",
+      "image": "Poseidon_C-3_SLBM.jpg",
+      "pageViews": 4798
+    },
+    {
+      "qid": "Q160847",
+      "title": "Hideki Tojo becomes prime minister of Japan",
+      "subtitle": null,
+      "year": 1941,
+      "fact": "Hideki Tojo was a Japanese military officer and politician who served as Prime Minister of Japan from 1941 to 1944 during World War II.",
+      "wikipediaSlug": "Hideki_Tojo",
+      "image": "Hideki_Tojo_Portrait_1941_(3x4_cropped)(2).jpg",
+      "pageViews": 67641
+    },
+    {
+      "qid": "Q3242848",
+      "title": "First War of Scottish Independence begins",
+      "subtitle": "Conflict",
+      "year": 1296,
+      "fact": "The First War of Scottish Independence was the first of a series of wars between England and Scotland.",
+      "wikipediaSlug": "First_War_of_Scottish_Independence",
+      "image": "The_Battle_of_Stirling_Bridge.jpg",
+      "pageViews": 16666
+    },
+    {
+      "qid": "Q208204",
+      "title": "‘Finding Neverland’ is released",
+      "subtitle": "Film directed by Marc Forster",
+      "year": 2004,
+      "fact": "Finding Neverland is a 2004 biographical drama film about author and playwright J.M.",
+      "wikipediaSlug": "Finding_Neverland_(film)",
+      "image": "Findingneverlandposter.jpg",
+      "pageViews": 25056
+    },
+    {
+      "qid": "Q31202708",
+      "title": "‘Top Gun: Maverick’ is released",
+      "subtitle": "Film directed by Joseph Kosinski",
+      "year": 2022,
+      "fact": "Top Gun: Maverick is a 2022 American action drama film directed by Joseph Kosinski and written by Ehren Kruger, Eric Warren Singer, and Christopher McQuarrie, from a story by Peter Craig and Justin Marks.",
+      "wikipediaSlug": "Top_Gun:_Maverick",
+      "image": "Top_Gun_Maverick_Poster.jpg",
+      "pageViews": 167309
+    },
+    {
+      "qid": "Q743309",
+      "title": "Los Angeles Angels is founded",
+      "subtitle": "MLB franchise",
+      "year": 1960,
+      "fact": "The Los Angeles Angels are an American professional baseball team based in Anaheim, California, within the Greater Los Angeles area.",
+      "wikipediaSlug": "Los_Angeles_Angels",
+      "image": "Los_Angeles_Angels_of_Anaheim.svg",
+      "pageViews": 49352
+    },
+    {
+      "qid": "Q139319",
+      "title": "Russian Republic is established",
+      "subtitle": "Historical state",
+      "year": 1917,
+      "fact": "The Russian Republic was the short-lived Russian state which controlled, de jure, the territory of the former Russian Empire after its proclamation by the Russian Provisional Government on 1 September 1917 in a decree signed by Alexander Kerensky as Minister-Chairman and Alexander Zarudny as Minister of Justice.",
+      "wikipediaSlug": "Russian_Republic",
+      "image": "Flag_of_Russia_(1896–1918).svg",
+      "pageViews": 29582
+    },
+    {
+      "qid": "Q464039",
+      "title": "Chōkei becomes Emperor of Japan",
+      "subtitle": null,
+      "year": 1368,
+      "fact": "Emperor Chōkei was the 98th emperor of Japan, according to the traditional order of succession.",
+      "wikipediaSlug": "Emperor_Ch%C5%8Dkei",
+      "image": "Emperor_Chokei.jpg",
+      "pageViews": 1381
+    },
+    {
+      "qid": "Q30487",
+      "title": "Mikhail Gorbachev wins the Nobel Peace Prize",
+      "subtitle": null,
+      "year": 1990,
+      "fact": "Mikhail Sergeyevich Gorbachev was a Soviet and Russian politician who was the last leader of the Soviet Union from 1985 until the country's dissolution in 1991.",
+      "wikipediaSlug": "Mikhail_Gorbachev",
+      "image": "RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
+      "pageViews": 161214
+    },
+    {
+      "qid": "Q9333",
+      "title": "Laozi dies",
+      "subtitle": "Semi-legendary Chinese philosopher, founder of Taoism",
+      "year": -500,
+      "fact": "Laozi, formerly Latinized as Laocius, was a legendary Chinese philosopher considered to be the author of the Tao Te Ching, one of the foundational texts of Taoism.",
+      "wikipediaSlug": "Laozi",
+      "image": "Laozi_(Chinese_characters).svg",
+      "pageViews": 163101
+    },
+    {
+      "qid": "Q19593",
+      "title": "Celtic F.C. is founded",
+      "subtitle": "Football club",
+      "year": 1887,
+      "fact": "The Celtic Football Club, commonly known as Celtic, is a professional football club in Glasgow, Scotland.",
+      "wikipediaSlug": "Celtic_F.C.",
+      "image": "CelticFC_League_Performance.svg",
+      "pageViews": 118681
+    },
+    {
+      "qid": "Q833012",
+      "title": "‘Murder Is Easy’ is published",
+      "subtitle": "Book by Agatha Christie",
+      "year": 1939,
+      "fact": "Murder Is Easy is a detective fiction novel by Agatha Christie first published in the UK by the Collins Crime Club in June 1939, and in the US by Dodd, Mead and Company in September the same year under the title Easy to Kill.",
+      "wikipediaSlug": "Murder_Is_Easy",
+      "image": "Murder_is_Easy_First_Edition_Cover_1939.jpg",
+      "pageViews": 7496
+    },
+    {
+      "qid": "Q14116",
+      "title": "MacOS is released",
+      "subtitle": "Operating System",
+      "year": 2001,
+      "fact": "macOS is a proprietary Unix operating system, derived from OPENSTEP for Mach and FreeBSD, which has been marketed and developed by Apple since 2001.",
+      "wikipediaSlug": "MacOS",
+      "image": "MacOS_Tahoe_screenshot.png",
+      "pageViews": 144010
+    },
+    {
+      "qid": "Q352742",
+      "title": "‘Adblock Plus’ launches",
+      "subtitle": "Mobile app",
+      "year": 2006,
+      "fact": "Adblock Plus (ABP) is a free and open-source browser extension for content-filtering and ad blocking.",
+      "wikipediaSlug": "Adblock_Plus",
+      "image": "Adblock_Plus_2014_Logo.svg",
+      "pageViews": 3982
+    },
+    {
+      "qid": "Q5592",
+      "title": "Michelangelo dies",
+      "subtitle": "Italian artist and architect",
+      "year": 1564,
+      "fact": "Michelangelo di Lodovico Buonarroti Simoni, known mononymously as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance.",
+      "wikipediaSlug": "Michelangelo",
+      "image": "Michelangelo_Daniele_da_Volterra_(dettaglio).jpg",
+      "pageViews": 120750
+    },
+    {
+      "qid": "Q17150",
+      "title": "‘Uncharted: Drake's Fortune’ releases",
+      "subtitle": "Video game by Naughty Dog",
+      "year": 2007,
+      "fact": "Uncharted: Drake's Fortune is a 2007 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment for the PlayStation 3.",
+      "wikipediaSlug": "Uncharted:_Drake%27s_Fortune",
+      "image": "Uncharted_Drake's_Fortune.jpg",
+      "pageViews": 16931
+    }
+  ]
+}
