@@ -32,3 +32,21 @@ export function joinRoom(code: string, player: Profile): Room | null {
     }
     return room;
 }
+
+export function leaveRoom(code: string, profileId: string): Room | null {
+    const room = rooms.get(code);
+    if (!room) return null;
+
+    room.players = room.players.filter(p => p.id !== profileId);
+
+    if (room.players.length === 0) {
+        rooms.delete(code);
+        return null;
+    }
+
+    if (room.hostId === profileId) {
+        room.hostId = room.players[0].id;
+    }
+
+    return room;
+}
