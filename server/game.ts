@@ -137,15 +137,16 @@ export function computeRoundResults(gameState: GameState): RoundResult[] {
         if (correct) {
             scoreDelta = player.heat + 1;
             newHeat = player.heat + 1;
-            // Insert card into timeline maintaining sort by year
-            const insertAt = player.timeline.findIndex(c => c.year > currentCard.year);
-            if (insertAt === -1) {
-                player.timeline.push(currentCard);
-            } else {
-                player.timeline.splice(insertAt, 0, currentCard);
-            }
         } else {
             newLives = player.lives - 1;
+        }
+
+        // Always insert card into timeline at its correct chronological position
+        const insertAt = player.timeline.findIndex(c => c.year > currentCard.year);
+        if (insertAt === -1) {
+            player.timeline.push(currentCard);
+        } else {
+            player.timeline.splice(insertAt, 0, currentCard);
         }
 
         const eliminated = newLives <= 0;

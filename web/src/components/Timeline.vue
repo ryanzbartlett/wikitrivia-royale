@@ -5,6 +5,8 @@ import CardTile from './CardTile.vue';
 const props = defineProps<{
   cards: Card[];
   disabled?: boolean;
+  incorrectCardQids?: string[];
+  pendingCardQid?: string | null;
 }>();
 
 const emit = defineEmits<{
@@ -23,7 +25,14 @@ const emit = defineEmits<{
     <div v-else class="w-2" />
 
     <template v-for="(card, i) in props.cards" :key="card.qid">
-      <CardTile :card="card" :show-year="true" variant="placed" size="sm" />
+      <CardTile
+        :card="card"
+        :show-year="card.qid !== props.pendingCardQid"
+        :variant="card.qid === props.pendingCardQid ? 'pending'
+          : props.incorrectCardQids?.includes(card.qid) ? 'incorrect'
+          : 'placed'"
+        size="sm"
+      />
 
       <!-- Gap after card i: afterIndex = i -->
       <button

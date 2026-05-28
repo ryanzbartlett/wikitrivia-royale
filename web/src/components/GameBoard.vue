@@ -76,6 +76,8 @@ const currentCardVariant = computed(() => {
           <Timeline
             :cards="game.myTimeline"
             :disabled="!isPlacing || game.myHasPlaced"
+            :incorrect-card-qids="game.myIncorrectCardQids"
+            :pending-card-qid="game.myPendingCardQid"
             @place="game.placeCard"
           />
         </div>

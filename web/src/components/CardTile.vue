@@ -4,7 +4,7 @@ import type { Card } from '../../../shared/types.ts';
 const props = withDefaults(defineProps<{
   card: Card;
   showYear?: boolean;
-  variant?: 'default' | 'correct' | 'incorrect' | 'placed';
+  variant?: 'default' | 'correct' | 'incorrect' | 'placed' | 'pending';
   size?: 'sm' | 'md';
 }>(), { showYear: false, variant: 'default', size: 'md' });
 
@@ -13,6 +13,7 @@ const borderClass: Record<string, string> = {
   correct: 'border-success',
   incorrect: 'border-error',
   placed: 'border-base-300 opacity-70',
+  pending: 'border-primary opacity-80',
 };
 </script>
 
@@ -30,8 +31,8 @@ const borderClass: Record<string, string> = {
       />
     </figure>
     <div class="card-body p-2 gap-0.5">
-      <p class="text-xs font-semibold leading-tight line-clamp-2">{{ props.card.title }}</p>
-      <p class="text-xs opacity-60 leading-tight line-clamp-1">{{ props.card.subtitle }}</p>
+      <p class="text-xs font-semibold leading-tight">{{ props.card.title }}</p>
+      <p class="text-xs opacity-60 leading-tight">{{ props.card.subtitle }}</p>
       <p class="text-sm font-bold mt-1" :class="props.showYear ? '' : 'opacity-40'">
         {{ props.showYear ? props.card.year : '????' }}
       </p>
