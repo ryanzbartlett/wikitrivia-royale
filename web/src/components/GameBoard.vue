@@ -65,6 +65,14 @@ const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced
     <!-- ── Main scroll area ───────────────────────── -->
     <div class="flex-1 overflow-y-auto flex flex-col items-center px-4 py-5 gap-4">
 
+      <!-- Spectating banner -->
+      <div
+        v-if="game.myEliminated"
+        class="w-full max-w-sm rounded-lg px-4 py-2 text-xs text-center text-base-content/50 bg-base-200 italic"
+      >
+        You've been eliminated — spectating
+      </div>
+
       <!-- Current card -->
       <div class="flex flex-col items-center gap-2">
         <p class="text-xs uppercase tracking-[0.2em] text-base-content/40">
@@ -102,7 +110,7 @@ const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced
         <p class="text-xs uppercase tracking-[0.2em] text-base-content/40 mb-2">Your timeline</p>
         <Timeline
           :cards="game.myTimeline"
-          :disabled="!isPlacing || game.myHasPlaced"
+          :disabled="!isPlacing || game.myHasPlaced || game.myEliminated"
           :incorrect-card-qids="game.myIncorrectCardQids"
           :pending-card-qid="game.myPendingCardQid"
           @place="game.placeCard"

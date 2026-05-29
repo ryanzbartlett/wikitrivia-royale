@@ -19,6 +19,7 @@ export const useGameStore = defineStore('game', () => {
     const timeLeft = ref(0);
     const myIncorrectCardQids = ref<string[]>([]);
     const myPendingCardQid = ref<string | null>(null);
+    const myEliminated = ref(false);
 
     function setSendFn(fn: (msg: ClientMessage) => void) {
         sendFn = fn;
@@ -52,6 +53,7 @@ export const useGameStore = defineStore('game', () => {
                 roundResults.value = null;
                 myIncorrectCardQids.value = [];
                 myPendingCardQid.value = null;
+                myEliminated.value = false;
                 break;
 
             case 'card_revealed':
@@ -87,6 +89,7 @@ export const useGameStore = defineStore('game', () => {
                     myScore.value = myResult.newScore;
                     myLives.value = myResult.newLives;
                     myHeat.value = myResult.newHeat;
+                    if (myResult.eliminated) myEliminated.value = true;
                     if (currentCard.value) {
                         const card = currentCard.value;
                         if (!myResult.correct) {
@@ -122,7 +125,7 @@ export const useGameStore = defineStore('game', () => {
     }
 
     function placeCard(afterIndex: number) {
-        if (gamePhase.value !== 'placing' || myHasPlaced.value) return;
+        if (gamePhase.value !== 'placing' || myHasPlaced.value || myEliminated.value) return;
         myHasPlaced.value = true;
 
         // Optimistically insert the card into the timeline at the chosen position
@@ -157,6 +160,7 @@ export const useGameStore = defineStore('game', () => {
         myPlayerId.value = '';
         myIncorrectCardQids.value = [];
         myPendingCardQid.value = null;
+        myEliminated.value = false;
         sendFn = null;
     }
 
@@ -164,7 +168,7 @@ export const useGameStore = defineStore('game', () => {
         gamePhase, currentCard, myTimeline,
         myLives, myScore, myHeat, myHasPlaced,
         allPlayerStats, roundResults, timerSeconds, timeLeft,
-        myPlayerId, myIncorrectCardQids, myPendingCardQid,
+        myPlayerId, myIncorrectCardQids, myPendingCardQid, myEliminated,
         setSendFn, handleMessage, startGame, placeCard, reset,
     };
 });
