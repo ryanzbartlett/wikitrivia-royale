@@ -18,6 +18,7 @@ export interface Card {
     fact: string;
     wikipediaSlug: string;
     image: string;
+    imageHash: string; // MD5-based Wikimedia path prefix, e.g. "8/8f"
     pageViews: number;
 }
 

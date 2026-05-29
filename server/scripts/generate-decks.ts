@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
+import { createHash } from 'crypto';
 
 interface RawCard {
     qid: string;
@@ -9,7 +10,13 @@ interface RawCard {
     fact: string;
     wikipediaSlug: string;
     image: string;
+    imageHash?: string;
     pageViews: number;
+}
+
+function wikimediaHash(filename: string): string {
+    const md5 = createHash('md5').update(filename).digest('hex');
+    return `${md5[0]}/${md5.slice(0, 2)}`;
 }
 
 interface GameDeck {
@@ -67,10 +74,12 @@ for (let i = 0; i < NUM_DECKS; i++) {
 
     const playCards = shuffle([...hardCards, ...mediumCards, ...easyCards.filter(c => c.qid !== startingCard.qid)]);
 
+    const withHash = (c: RawCard) => ({ ...c, imageHash: wikimediaHash(c.image) });
+
     decks.push({
         id: `deck-${String(i + 1).padStart(2, '0')}`,
-        startingCard,
-        cards: playCards,
+        startingCard: withHash(startingCard),
+        cards: playCards.map(withHash),
     });
 }
 

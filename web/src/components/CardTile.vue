@@ -38,7 +38,7 @@ const imageHeightClass: Record<string, string> = {
     <div :class="[imageHeightClass[props.size], 'bg-base-200 overflow-hidden']">
       <img
         v-if="props.card.image"
-        :src="`https://upload.wikimedia.org/wikipedia/commons/thumb/${props.card.image.charAt(0)}/${props.card.image.charAt(0)}${props.card.image.charAt(1)}/${props.card.image}/160px-${props.card.image}`"
+        :src="`https://upload.wikimedia.org/wikipedia/commons/thumb/${props.card.imageHash}/${props.card.image}/250px-${props.card.image}`"
         :alt="props.card.title"
         class="h-full w-full object-cover"
         @error="($event.target as HTMLImageElement).style.display='none'"
