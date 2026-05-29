@@ -20,6 +20,8 @@ export const useGameStore = defineStore('game', () => {
     const myIncorrectCardQids = ref<string[]>([]);
     const myPendingCardQid = ref<string | null>(null);
     const myEliminated = ref(false);
+    // Per-player card history accumulated from round_results, keyed by year for timeline ordering
+    const playerHistory = ref<Record<string, { year: number; result: 'correct' | 'incorrect' }[]>>({});
 
     function setSendFn(fn: (msg: ClientMessage) => void) {
         sendFn = fn;
@@ -54,6 +56,10 @@ export const useGameStore = defineStore('game', () => {
                 myIncorrectCardQids.value = [];
                 myPendingCardQid.value = null;
                 myEliminated.value = false;
+                // Seed every player's history with the anchor card (always correct, already on the timeline)
+                playerHistory.value = Object.fromEntries(
+                    msg.playerStats.map(p => [p.playerId, [{ year: msg.startingCard.year, result: 'correct' as const }]]),
+                );
                 break;
 
             case 'card_revealed':
@@ -77,6 +83,14 @@ export const useGameStore = defineStore('game', () => {
                 gamePhase.value = 'results';
                 allPlayerStats.value = msg.playerStats;
                 roundResults.value = msg.results;
+
+                // Accumulate per-player dot history, storing year so dots can be sorted chronologically
+                const next = { ...playerHistory.value };
+                for (const r of msg.results) {
+                    const prev = next[r.playerId] ?? [];
+                    next[r.playerId] = [...prev, { year: msg.cardYear, result: r.correct ? 'correct' : 'incorrect' }];
+                }
+                playerHistory.value = next;
 
                 // Remove the optimistically placed card so we can re-insert at correct position
                 if (myPendingCardQid.value) {
@@ -161,6 +175,7 @@ export const useGameStore = defineStore('game', () => {
         myIncorrectCardQids.value = [];
         myPendingCardQid.value = null;
         myEliminated.value = false;
+        playerHistory.value = {};
         sendFn = null;
     }
 
@@ -168,7 +183,7 @@ export const useGameStore = defineStore('game', () => {
         gamePhase, currentCard, myTimeline,
         myLives, myScore, myHeat, myHasPlaced,
         allPlayerStats, roundResults, timerSeconds, timeLeft,
-        myPlayerId, myIncorrectCardQids, myPendingCardQid, myEliminated,
+        myPlayerId, myIncorrectCardQids, myPendingCardQid, myEliminated, playerHistory,
         setSendFn, handleMessage, startGame, placeCard, reset,
     };
 });

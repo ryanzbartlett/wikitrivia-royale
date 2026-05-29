@@ -125,6 +125,7 @@ const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced
         :key="stats.playerId"
         :stats="stats"
         :is-self="stats.playerId === (profile?.id ?? '')"
+        :history="game.playerHistory[stats.playerId]"
       />
     </div>
 
