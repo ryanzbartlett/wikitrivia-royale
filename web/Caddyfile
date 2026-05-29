@@ -1,12 +1,19 @@
 {$SERVER_NAME} {
 	encode gzip
 
-	# API and WebSocket go straight to the Bun server
-	reverse_proxy /api/* server:3000
-	reverse_proxy /ws     server:3000
+	# API and WebSocket proxy — matched and handled first, before any rewrite
+	handle /api/* {
+		reverse_proxy server:3000
+	}
 
-	# Everything else is the Vue SPA
-	root * /srv
-	try_files {path} /index.html
-	file_server
+	handle /ws {
+		reverse_proxy server:3000
+	}
+
+	# Everything else: serve the Vue SPA with HTML5 history fallback
+	handle {
+		root * /srv
+		try_files {path} /index.html
+		file_server
+	}
 }
