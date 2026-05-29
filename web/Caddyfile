@@ -1,0 +1,12 @@
+{$SERVER_NAME} {
+	encode gzip
+
+	# API and WebSocket go straight to the Bun server
+	reverse_proxy /api/* server:3000
+	reverse_proxy /ws     server:3000
+
+	# Everything else is the Vue SPA
+	root * /srv
+	try_files {path} /index.html
+	file_server
+}

@@ -1,3 +1,4 @@
+# ── Build ─────────────────────────────────────────────────────────
 FROM node:22-alpine AS build
 WORKDIR /app
 
@@ -10,7 +11,8 @@ COPY shared/ ./shared/
 WORKDIR /app/web
 RUN npm run build
 
-FROM nginx:alpine AS serve
-COPY --from=build /app/web/dist /usr/share/nginx/html
-COPY web/nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
+# ── Serve ─────────────────────────────────────────────────────────
+FROM caddy:alpine AS serve
+COPY --from=build /app/web/dist /srv
+COPY web/Caddyfile /etc/caddy/Caddyfile
+EXPOSE 80 443 443/udp

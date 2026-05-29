@@ -7,8 +7,7 @@ services:
       DB_PATH: /data/data.db
     volumes:
       - db_data:/data
-    ports:
-      - "3000:3000"
+    # No host port binding — only reachable by other containers on this network
 
   web:
     build:
@@ -16,8 +15,19 @@ services:
       dockerfile: web/Dockerfile
     ports:
       - "80:80"
+      - "443:443"
+      - "443:443/udp"   # HTTP/3
+    volumes:
+      - caddy_data:/data      # Caddy stores Let's Encrypt certs here
+      - caddy_config:/config  # Caddy runtime config
+    environment:
+      # Set to your domain in production (e.g. SERVER_NAME=yourdomain.com in .env)
+      # Defaults to :80 so plain `docker compose up` works locally without HTTPS
+      SERVER_NAME: ${SERVER_NAME:-:80}
     depends_on:
       - server
 
 volumes:
   db_data:
+  caddy_data:
+  caddy_config:
