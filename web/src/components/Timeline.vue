@@ -15,14 +15,17 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <div class="flex items-center gap-1 overflow-x-auto pb-2">
-    <!-- Gap before first card: afterIndex = -1 -->
+  <div class="flex items-stretch gap-0.5 overflow-x-auto pb-2 select-none">
+
+    <!-- Drop zone before first card -->
     <button
       v-if="!props.disabled"
-      class="btn btn-xs btn-ghost min-w-6 h-12 border-dashed border-2 border-base-300 hover:border-primary"
+      class="group flex items-center justify-center w-7 shrink-0 rounded border-2 border-dashed border-base-300 hover:border-primary hover:bg-primary/5 transition-colors"
       @click="emit('place', -1)"
-    >+</button>
-    <div v-else class="w-2" />
+    >
+      <span class="text-base-content/30 group-hover:text-primary text-xs transition-colors">+</span>
+    </button>
+    <div v-else class="w-1 shrink-0" />
 
     <template v-for="(card, i) in props.cards" :key="card.qid">
       <CardTile
@@ -34,13 +37,15 @@ const emit = defineEmits<{
         size="sm"
       />
 
-      <!-- Gap after card i: afterIndex = i -->
+      <!-- Drop zone after card i -->
       <button
         v-if="!props.disabled"
-        class="btn btn-xs btn-ghost min-w-6 h-12 border-dashed border-2 border-base-300 hover:border-primary"
+        class="group flex items-center justify-center w-7 shrink-0 rounded border-2 border-dashed border-base-300 hover:border-primary hover:bg-primary/5 transition-colors"
         @click="emit('place', i)"
-      >+</button>
-      <div v-else class="w-2" />
+      >
+        <span class="text-base-content/30 group-hover:text-primary text-xs transition-colors">+</span>
+      </button>
+      <div v-else class="w-1 shrink-0" />
     </template>
   </div>
 </template>
