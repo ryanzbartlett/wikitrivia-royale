@@ -40,7 +40,8 @@ const imageHeightClass: Record<string, string> = {
         v-if="props.card.image"
         :src="`https://upload.wikimedia.org/wikipedia/commons/thumb/${props.card.imageHash}/${props.card.image}/250px-${props.card.image}`"
         :alt="props.card.title"
-        class="h-full w-full object-cover"
+        draggable="false"
+        class="h-full w-full object-cover pointer-events-none"
         @error="($event.target as HTMLImageElement).style.display='none'"
       />
     </div>

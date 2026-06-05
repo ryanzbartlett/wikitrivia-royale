@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useGameStore } from '@/stores/game';
 import { useProfile } from '@/composables/useProfile';
 import CardTile from './CardTile.vue';
@@ -23,6 +23,24 @@ const currentCardVariant = computed(() => {
 
 const activePlayers = computed(() => game.allPlayerStats.filter(p => !p.eliminated));
 const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced).length);
+
+const canPlace = computed(() => isPlacing.value && !game.myHasPlaced && !game.myEliminated);
+const isDragging = ref(false);
+
+function onCardDragStart(e: DragEvent) {
+    e.dataTransfer?.setData('text/plain', 'card');
+    if (e.dataTransfer) e.dataTransfer.effectAllowed = 'move';
+    isDragging.value = true;
+}
+
+function onCardDragEnd() {
+    isDragging.value = false;
+}
+
+function handlePlace(afterIndex: number) {
+    isDragging.value = false;
+    game.placeCard(afterIndex);
+}
 </script>
 
 <template>
@@ -78,13 +96,23 @@ const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced
         <p class="text-xs uppercase tracking-[0.2em] text-base-content/40">
           {{ isPlacing ? 'Where does this go?' : 'Answer revealed' }}
         </p>
-        <CardTile
-          v-if="game.currentCard"
-          :card="game.currentCard"
-          :show-year="isResults"
-          :variant="currentCardVariant"
-          size="lg"
-        />
+        <div
+          :draggable="canPlace"
+          :class="canPlace ? 'cursor-grab active:cursor-grabbing' : ''"
+          @dragstart="onCardDragStart"
+          @dragend="onCardDragEnd"
+        >
+          <CardTile
+            v-if="game.currentCard"
+            :card="game.currentCard"
+            :show-year="isResults"
+            :variant="currentCardVariant"
+            size="lg"
+          />
+        </div>
+        <p v-if="canPlace" class="text-[10px] text-base-content/30 italic">
+          drag into timeline or tap a slot
+        </p>
       </div>
 
       <!-- Result feedback banner -->
@@ -113,7 +141,8 @@ const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced
           :disabled="!isPlacing || game.myHasPlaced || game.myEliminated"
           :incorrect-card-qids="game.myIncorrectCardQids"
           :pending-card-qid="game.myPendingCardQid"
-          @place="game.placeCard"
+          :is-dragging="isDragging"
+          @place="handlePlace"
         />
       </div>
     </div>
