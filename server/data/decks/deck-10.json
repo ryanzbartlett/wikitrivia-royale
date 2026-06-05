@@ -9,7 +9,7 @@
     "wikipediaSlug": "Alexander_the_Great",
     "image": "Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg",
     "pageViews": 372082,
-    "imageHash": "4/49"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/250px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg"
   },
   "cards": [
     {
@@ -21,7 +21,7 @@
       "wikipediaSlug": "Zorba_the_Greek_(film)",
       "image": "Zorba_the_Greek_poster.jpg",
       "pageViews": 19251,
-      "imageHash": "e/e0"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Zorba_the_Greek_poster.jpg/250px-Zorba_the_Greek_poster.jpg"
     },
     {
       "qid": "Q63981675",
@@ -32,7 +32,7 @@
       "wikipediaSlug": "Tokyo_Revengers",
       "image": "Tokyo_Revengers_volume_1_cover.jpg",
       "pageViews": 39116,
-      "imageHash": "b/b1"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Tokyo_Revengers_volume_1_cover.jpg/250px-Tokyo_Revengers_volume_1_cover.jpg"
     },
     {
       "qid": "Q208484",
@@ -43,7 +43,7 @@
       "wikipediaSlug": "Lebanese_Civil_War",
       "image": "USS_New_Jersey_firing_in_Beirut,_1984.jpg",
       "pageViews": 102011,
-      "imageHash": "3/3f"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/USS_New_Jersey_firing_in_Beirut%2C_1984.jpg/250px-USS_New_Jersey_firing_in_Beirut%2C_1984.jpg"
     },
     {
       "qid": "Q194455",
@@ -54,7 +54,7 @@
       "wikipediaSlug": "Sukhoi_Su-57",
       "image": "Sukhoi_Design_Bureau,_054,_Sukhoi_T-50_(Su-57_prototype)_(49581303977).jpg",
       "pageViews": 162922,
-      "imageHash": "0/0e"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Sukhoi_Design_Bureau%2C_054%2C_Sukhoi_T-50_%28Su-57_prototype%29_%2849581303977%29.jpg/250px-Sukhoi_Design_Bureau%2C_054%2C_Sukhoi_T-50_%28Su-57_prototype%29_%2849581303977%29.jpg"
     },
     {
       "qid": "Q51668",
@@ -65,7 +65,7 @@
       "wikipediaSlug": "The_Passion_of_the_Christ",
       "image": "The_Passion_of_the_Christ_poster.png",
       "pageViews": 146305,
-      "imageHash": "c/c4"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/The_Passion_of_the_Christ_poster.png/250px-The_Passion_of_the_Christ_poster.png"
     },
     {
       "qid": "Q250825",
@@ -76,7 +76,7 @@
       "wikipediaSlug": "Samsung_Galaxy_Note_II",
       "image": "Samsung_Galaxy_Note_II.png",
       "pageViews": 2716,
-      "imageHash": "b/b9"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Samsung_Galaxy_Note_II.png/250px-Samsung_Galaxy_Note_II.png"
     },
     {
       "qid": "Q753721",
@@ -87,7 +87,7 @@
       "wikipediaSlug": "Modena_Cathedral",
       "image": "Modena-Ghirlandina.jpg",
       "pageViews": 1514,
-      "imageHash": "6/6a"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Modena-Ghirlandina.jpg/250px-Modena-Ghirlandina.jpg"
     },
     {
       "qid": "Q505476",
@@ -98,7 +98,7 @@
       "wikipediaSlug": "Avicii",
       "image": "Avicii_2014_003cr.jpg",
       "pageViews": 215264,
-      "imageHash": "8/83"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Avicii_2014_003cr.jpg/250px-Avicii_2014_003cr.jpg"
     },
     {
       "qid": "Q2002270",
@@ -109,7 +109,7 @@
       "wikipediaSlug": "Mozambican_War_of_Independence",
       "image": "Mozambican_War_of_Independence.jpg",
       "pageViews": 6182,
-      "imageHash": "f/fd"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mozambican_War_of_Independence.jpg/250px-Mozambican_War_of_Independence.jpg"
     },
     {
       "qid": "Q171669",
@@ -120,7 +120,7 @@
       "wikipediaSlug": "One_Flew_Over_the_Cuckoo%27s_Nest_(film)",
       "image": "One_Flew_Over_the_Cuckoo's_Nest_poster.jpg",
       "pageViews": 118668,
-      "imageHash": "2/26"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/One_Flew_Over_the_Cuckoo%27s_Nest_poster.jpg/250px-One_Flew_Over_the_Cuckoo%27s_Nest_poster.jpg"
     },
     {
       "qid": "Q328523",
@@ -131,7 +131,7 @@
       "wikipediaSlug": "Impression,_Sunrise",
       "image": "Monet_-_Impression,_Sunrise.jpg",
       "pageViews": 21159,
-      "imageHash": "5/59"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/250px-Monet_-_Impression%2C_Sunrise.jpg"
     },
     {
       "qid": "Q472228",
@@ -142,7 +142,7 @@
       "wikipediaSlug": "The_Mysterious_Affair_at_Styles",
       "image": "American_cover_of_«The_Mysterious_Affair_at_Styles».png",
       "pageViews": 14050,
-      "imageHash": "1/1b"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/American_cover_of_%C2%ABThe_Mysterious_Affair_at_Styles%C2%BB.png/250px-American_cover_of_%C2%ABThe_Mysterious_Affair_at_Styles%C2%BB.png"
     },
     {
       "qid": "Q132351",
@@ -153,7 +153,7 @@
       "wikipediaSlug": "The_Usual_Suspects",
       "image": "Usual_suspects_ver1.jpg",
       "pageViews": 111854,
-      "imageHash": "9/9c"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Usual_suspects_ver1.jpg/250px-Usual_suspects_ver1.jpg"
     },
     {
       "qid": "Q272608",
@@ -164,7 +164,7 @@
       "wikipediaSlug": "Mulholland_Drive_(film)",
       "image": "Mulholland.png",
       "pageViews": 122280,
-      "imageHash": "0/0f"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Mulholland.png/250px-Mulholland.png"
     },
     {
       "qid": "Q1140023",
@@ -175,7 +175,7 @@
       "wikipediaSlug": "Giotto%27s_Campanile",
       "image": "CampanileGiotto-01.jpg",
       "pageViews": 3873,
-      "imageHash": "6/69"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/CampanileGiotto-01.jpg/250px-CampanileGiotto-01.jpg"
     },
     {
       "qid": "Q18722",
@@ -186,7 +186,7 @@
       "wikipediaSlug": "Senusret_II",
       "image": "Upper_part_of_portrait_statue_of_pharaoh_Sesostris_II_with_nemes_and_ritual_beard_01_(cropped).jpg",
       "pageViews": 3673,
-      "imageHash": "5/57"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Upper_part_of_portrait_statue_of_pharaoh_Sesostris_II_with_nemes_and_ritual_beard_01_%28cropped%29.jpg/250px-Upper_part_of_portrait_statue_of_pharaoh_Sesostris_II_with_nemes_and_ritual_beard_01_%28cropped%29.jpg"
     },
     {
       "qid": "Q119807",
@@ -197,7 +197,7 @@
       "wikipediaSlug": "Gemini_7",
       "image": "Gemini_6_7.jpg",
       "pageViews": 4821,
-      "imageHash": "8/8d"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Gemini_6_7.jpg/250px-Gemini_6_7.jpg"
     },
     {
       "qid": "Q268576",
@@ -208,7 +208,7 @@
       "wikipediaSlug": "Neferirkare_Kakai",
       "image": "Neferirkare_Kakai_2.png",
       "pageViews": 1984,
-      "imageHash": "0/0b"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Neferirkare_Kakai_2.png/250px-Neferirkare_Kakai_2.png"
     },
     {
       "qid": "Q132545",
@@ -219,7 +219,7 @@
       "wikipediaSlug": "Henry_II_of_France",
       "image": "Henry_II_of_France-François_Clouet_(altered).jpg",
       "pageViews": 48093,
-      "imageHash": "e/ec"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Henry_II_of_France-Fran%C3%A7ois_Clouet_%28altered%29.jpg/250px-Henry_II_of_France-Fran%C3%A7ois_Clouet_%28altered%29.jpg"
     },
     {
       "qid": "Q739924",
@@ -230,7 +230,7 @@
       "wikipediaSlug": "Superunknown",
       "image": "Superunknown.jpg",
       "pageViews": 19274,
-      "imageHash": "3/3a"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Superunknown.jpg/250px-Superunknown.jpg"
     },
     {
       "qid": "Q2273753",
@@ -241,7 +241,7 @@
       "wikipediaSlug": "Kirby%27s_Dream_Land_2",
       "image": "Kirbys-dream-land-2-gameboy-boxart.png",
       "pageViews": 3335,
-      "imageHash": "1/1b"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Kirbys-dream-land-2-gameboy-boxart.png/250px-Kirbys-dream-land-2-gameboy-boxart.png"
     },
     {
       "qid": "Q4295",
@@ -252,7 +252,7 @@
       "wikipediaSlug": "Peter_Abelard",
       "image": "Piotr_Abelard_(cropped).jpg",
       "pageViews": 13306,
-      "imageHash": "e/e3"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Piotr_Abelard_%28cropped%29.jpg/250px-Piotr_Abelard_%28cropped%29.jpg"
     },
     {
       "qid": "Q128967",
@@ -263,7 +263,7 @@
       "wikipediaSlug": "Edward_Heath",
       "image": "Edward_Heath_4_Allan_Warren.jpg",
       "pageViews": 52152,
-      "imageHash": "1/16"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edward_Heath_4_Allan_Warren.jpg/250px-Edward_Heath_4_Allan_Warren.jpg"
     },
     {
       "qid": "Q3437287",
@@ -274,7 +274,7 @@
       "wikipediaSlug": "Greece%E2%80%93Bosnia_and_Herzegovina_Friendship_Building",
       "image": "Greece–Bosnia_and_Herzegovina_Friendship_Building_(by_Pudelek).jpg",
       "pageViews": 1143,
-      "imageHash": "0/04"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Greece%E2%80%93Bosnia_and_Herzegovina_Friendship_Building_%28by_Pudelek%29.jpg/250px-Greece%E2%80%93Bosnia_and_Herzegovina_Friendship_Building_%28by_Pudelek%29.jpg"
     },
     {
       "qid": "Q8581",
@@ -285,7 +285,7 @@
       "wikipediaSlug": "Saladin",
       "image": "Al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._AH_564-589_(1169-1193_CE)_Æ_Dirham_(30.1mm,_13.28_g,_6h)._Without_mint-name._Dated_AH_586_(AD_1190-91)._Sultan_sitting_facing,_cross-legged,_on_high-backed_throne_(obverse).jpg",
       "pageViews": 170884,
-      "imageHash": "7/7c"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Al-Nasir_I_Salah_al-Din_Yusuf_%28Saladin%29._AH_564-589_%281169-1193_CE%29_%C3%86_Dirham_%2830.1mm%2C_13.28_g%2C_6h%29._Without_mint-name._Dated_AH_586_%28AD_1190-91%29._Sultan_sitting_facing%2C_cross-legged%2C_on_high-backed_throne_%28obverse%29.jpg/250px-Al-Nasir_I_Salah_al-Din_Yusuf_%28Saladin%29._AH_564-589_%281169-1193_CE%29_%C3%86_Dirham_%2830.1mm%2C_13.28_g%2C_6h%29._Without_mint-name._Dated_AH_586_%28AD_1190-91%29._Sultan_sitting_facing%2C_cross-legged%2C_on_high-backed_throne_%28obverse%29.jpg"
     },
     {
       "qid": "Q890474",
@@ -296,7 +296,7 @@
       "wikipediaSlug": "Raspberry_Pi_OS",
       "image": "Raspberry_Pi_OS_13_screenshot.png",
       "pageViews": 13864,
-      "imageHash": "3/32"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Raspberry_Pi_OS_13_screenshot.png/250px-Raspberry_Pi_OS_13_screenshot.png"
     },
     {
       "qid": "Q8575586",
@@ -307,7 +307,7 @@
       "wikipediaSlug": "Umayyad_Caliphate",
       "image": "Umayyad_Caliphate_720_AD_(orthographic_projection).svg",
       "pageViews": 132532,
-      "imageHash": "c/c9"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Umayyad_Caliphate_720_AD_%28orthographic_projection%29.svg/250px-Umayyad_Caliphate_720_AD_%28orthographic_projection%29.svg.png"
     },
     {
       "qid": "Q108941",
@@ -318,7 +318,7 @@
       "wikipediaSlug": "Carrie_Fisher",
       "image": "Carrie_Fisher_2013-a_straightened.jpg",
       "pageViews": 192620,
-      "imageHash": "0/03"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Carrie_Fisher_2013-a_straightened.jpg/250px-Carrie_Fisher_2013-a_straightened.jpg"
     },
     {
       "qid": "Q2665664",
@@ -329,7 +329,7 @@
       "wikipediaSlug": "Prussian_Crusade",
       "image": "Prussian_clans_13th_century.png",
       "pageViews": 3753,
-      "imageHash": "b/b8"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Prussian_clans_13th_century.png/250px-Prussian_clans_13th_century.png"
     },
     {
       "qid": "Q70802",
@@ -340,7 +340,7 @@
       "wikipediaSlug": "French_Third_Republic",
       "image": "Flag_of_France.svg",
       "pageViews": 48104,
-      "imageHash": "c/c3"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/250px-Flag_of_France.svg.png"
     }
   ]
 }
