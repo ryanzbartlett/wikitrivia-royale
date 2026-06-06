@@ -9,7 +9,7 @@
     "wikipediaSlug": "Arsenal_F.C.",
     "image": "Arsenal_FC.svg",
     "pageViews": 382908,
-    "imageHash": "5/53"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/250px-Arsenal_FC.svg.png"
   },
   "cards": [
     {
@@ -21,7 +21,7 @@
       "wikipediaSlug": "Lemon8",
       "image": "Lemon8_icon.png",
       "pageViews": 5193,
-      "imageHash": "3/35"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Lemon8_icon.png/250px-Lemon8_icon.png"
     },
     {
       "qid": "Q204443",
@@ -32,7 +32,7 @@
       "wikipediaSlug": "Clockwork_Angels",
       "image": "Rush_Clockwork_Angels_artwork.png",
       "pageViews": 8321,
-      "imageHash": "4/4c"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Rush_Clockwork_Angels_artwork.png/250px-Rush_Clockwork_Angels_artwork.png"
     },
     {
       "qid": "Q567884",
@@ -43,7 +43,7 @@
       "wikipediaSlug": "Another_(novel)",
       "image": "Another_(novel)_Cover.JPG",
       "pageViews": 6792,
-      "imageHash": "c/cc"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Another_%28novel%29_Cover.JPG/250px-Another_%28novel%29_Cover.JPG"
     },
     {
       "qid": "Q336471",
@@ -54,7 +54,7 @@
       "wikipediaSlug": "Qutuz",
       "image": "صورة_تمثال_سيف_الدين_قطز_crop.jpg",
       "pageViews": 6476,
-      "imageHash": "e/e5"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/%D8%B5%D9%88%D8%B1%D8%A9_%D8%AA%D9%85%D8%AB%D8%A7%D9%84_%D8%B3%D9%8A%D9%81_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D9%82%D8%B7%D8%B2_crop.jpg/250px-%D8%B5%D9%88%D8%B1%D8%A9_%D8%AA%D9%85%D8%AB%D8%A7%D9%84_%D8%B3%D9%8A%D9%81_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D9%82%D8%B7%D8%B2_crop.jpg"
     },
     {
       "qid": "Q2553829",
@@ -65,7 +65,7 @@
       "wikipediaSlug": "Lost_Girls_(graphic_novel)",
       "image": "Lost_girls_single-volume_hardcover_edition.jpg",
       "pageViews": 4348,
-      "imageHash": "6/67"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Lost_girls_single-volume_hardcover_edition.jpg/250px-Lost_girls_single-volume_hardcover_edition.jpg"
     },
     {
       "qid": "Q1409",
@@ -76,7 +76,7 @@
       "wikipediaSlug": "Caligula",
       "image": "Caligula.Carlsberg_Glyptotek.(cropped).jpg",
       "pageViews": 120558,
-      "imageHash": "1/1c"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Caligula.Carlsberg_Glyptotek.%28cropped%29.jpg/250px-Caligula.Carlsberg_Glyptotek.%28cropped%29.jpg"
     },
     {
       "qid": "Q97388790",
@@ -87,7 +87,7 @@
       "wikipediaSlug": "EFootball",
       "image": "EFootball_logo.svg",
       "pageViews": 28113,
-      "imageHash": "e/ee"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/EFootball_logo.svg/250px-EFootball_logo.svg.png"
     },
     {
       "qid": "Q575922",
@@ -98,7 +98,7 @@
       "wikipediaSlug": "Mars_Polar_Lander",
       "image": "Mars_Polar_Lander_-_artist_depiction.png",
       "pageViews": 3005,
-      "imageHash": "9/96"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Mars_Polar_Lander_-_artist_depiction.png/250px-Mars_Polar_Lander_-_artist_depiction.png"
     },
     {
       "qid": "Q842257",
@@ -109,7 +109,7 @@
       "wikipediaSlug": "Mil_Mi-10",
       "image": "Mil_Mi-10_Московский_вертолетный_завод_имени_Миля.jpg",
       "pageViews": 4065,
-      "imageHash": "8/82"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Mil_Mi-10_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D0%BB%D0%B5%D1%82%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%9C%D0%B8%D0%BB%D1%8F.jpg/250px-Mil_Mi-10_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B2%D0%B5%D1%80%D1%82%D0%BE%D0%BB%D0%B5%D1%82%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8_%D0%9C%D0%B8%D0%BB%D1%8F.jpg"
     },
     {
       "qid": "Q23894629",
@@ -120,7 +120,7 @@
       "wikipediaSlug": "Eternals_(film)",
       "image": "Eternals_(film)_poster.jpeg",
       "pageViews": 109362,
-      "imageHash": "9/9b"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Eternals_%28film%29_poster.jpeg/250px-Eternals_%28film%29_poster.jpeg"
     },
     {
       "qid": "Q46720",
@@ -131,7 +131,7 @@
       "wikipediaSlug": "Valentinian_I",
       "image": "Gold_Solidus_of_Valens,_Antioch.jpg",
       "pageViews": 13033,
-      "imageHash": "0/04"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Gold_Solidus_of_Valens%2C_Antioch.jpg/250px-Gold_Solidus_of_Valens%2C_Antioch.jpg"
     },
     {
       "qid": "Q116178289",
@@ -142,7 +142,7 @@
       "wikipediaSlug": "Soyuz_MS-28",
       "image": "Soyuz_MS-28_rollout_01.jpg",
       "pageViews": 4102,
-      "imageHash": "e/e8"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Soyuz_MS-28_rollout_01.jpg/250px-Soyuz_MS-28_rollout_01.jpg"
     },
     {
       "qid": "Q21001",
@@ -153,7 +153,7 @@
       "wikipediaSlug": "Moon_Jae-in",
       "image": "Moon_Jae-in_May_2017.jpg",
       "pageViews": 25012,
-      "imageHash": "2/21"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Moon_Jae-in_May_2017.jpg/250px-Moon_Jae-in_May_2017.jpg"
     },
     {
       "qid": "Q749928",
@@ -164,7 +164,7 @@
       "wikipediaSlug": "Echo_of_Moscow",
       "image": "Echo_of_moscow_logo.svg",
       "pageViews": 2951,
-      "imageHash": "9/9c"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Echo_of_moscow_logo.svg/250px-Echo_of_moscow_logo.svg.png"
     },
     {
       "qid": "Q2413520",
@@ -175,7 +175,7 @@
       "wikipediaSlug": "The_Pizza_Company",
       "image": "The_Pizza_Company_Logo_(2023).svg",
       "pageViews": 2268,
-      "imageHash": "3/39"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/The_Pizza_Company_Logo_%282023%29.svg/250px-The_Pizza_Company_Logo_%282023%29.svg.png"
     },
     {
       "qid": "Q189326",
@@ -186,7 +186,7 @@
       "wikipediaSlug": "Qajar_dynasty",
       "image": "Coat_of_arms_of_Persia_(endonym;_Iran)_in_the_1860s.jpg",
       "pageViews": 115010,
-      "imageHash": "e/e0"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Coat_of_arms_of_Persia_%28endonym%3B_Iran%29_in_the_1860s.jpg/250px-Coat_of_arms_of_Persia_%28endonym%3B_Iran%29_in_the_1860s.jpg"
     },
     {
       "qid": "Q112761982",
@@ -197,7 +197,7 @@
       "wikipediaSlug": "The_Bear_(TV_series)",
       "image": "The_Bear_Title_Card.jpg",
       "pageViews": 154755,
-      "imageHash": "d/d7"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Bear_Title_Card.jpg/250px-The_Bear_Title_Card.jpg"
     },
     {
       "qid": "Q83410",
@@ -208,7 +208,7 @@
       "wikipediaSlug": "Cary_Grant",
       "image": "Cary_Grant_(1958).jpg",
       "pageViews": 143124,
-      "imageHash": "2/28"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cary_Grant_%281958%29.jpg/250px-Cary_Grant_%281958%29.jpg"
     },
     {
       "qid": "Q40475",
@@ -219,7 +219,7 @@
       "wikipediaSlug": "Joan_Crawford",
       "image": "JCrawford39.jpg",
       "pageViews": 110688,
-      "imageHash": "4/49"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/JCrawford39.jpg/250px-JCrawford39.jpg"
     },
     {
       "qid": "Q1340365",
@@ -230,7 +230,7 @@
       "wikipediaSlug": "Westgate_Las_Vegas",
       "image": "Westgate_Las_Vegas.jpg",
       "pageViews": 11605,
-      "imageHash": "0/03"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Westgate_Las_Vegas.jpg/250px-Westgate_Las_Vegas.jpg"
     },
     {
       "qid": "Q130531",
@@ -241,7 +241,7 @@
       "wikipediaSlug": "Hieronymus_Bosch",
       "image": "Jheronimus_Bosch_(cropped).jpg",
       "pageViews": 48492,
-      "imageHash": "2/2d"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jheronimus_Bosch_%28cropped%29.jpg/250px-Jheronimus_Bosch_%28cropped%29.jpg"
     },
     {
       "qid": "Q535940",
@@ -252,7 +252,7 @@
       "wikipediaSlug": "Final_Fantasy_VI",
       "image": "Final_Fantasy_VI.jpg",
       "pageViews": 30825,
-      "imageHash": "0/05"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Final_Fantasy_VI.jpg/250px-Final_Fantasy_VI.jpg"
     },
     {
       "qid": "Q21079862",
@@ -263,7 +263,7 @@
       "wikipediaSlug": "Cars_3",
       "image": "Cars_3_poster.jpg",
       "pageViews": 50752,
-      "imageHash": "9/94"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Cars_3_poster.jpg/250px-Cars_3_poster.jpg"
     },
     {
       "qid": "Q12495",
@@ -274,7 +274,7 @@
       "wikipediaSlug": "Burj_Khalifa",
       "image": "Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
       "pageViews": 326834,
-      "imageHash": "9/90"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg/250px-Burj_Khalifa_%28worlds_tallest_building%29_and_the_Dubai_skyline_%2825781049892%29.jpg"
     },
     {
       "qid": "Q628154",
@@ -285,7 +285,7 @@
       "wikipediaSlug": "Mission:_Impossible_%E2%80%93_Ghost_Protocol",
       "image": "Mission_impossible_ghost_protocol.jpg",
       "pageViews": 40873,
-      "imageHash": "b/b5"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Mission_impossible_ghost_protocol.jpg/250px-Mission_impossible_ghost_protocol.jpg"
     },
     {
       "qid": "Q643263",
@@ -296,7 +296,7 @@
       "wikipediaSlug": "Sense_and_Sensibility_(1995_film)",
       "image": "Sense_and_sensibility.jpg",
       "pageViews": 44863,
-      "imageHash": "6/69"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/Sense_and_sensibility.jpg/250px-Sense_and_sensibility.jpg"
     },
     {
       "qid": "Q2074880",
@@ -307,7 +307,7 @@
       "wikipediaSlug": "Mortal_Kombat_(2011_video_game)",
       "image": "Mortal_Kombat_box_art.png",
       "pageViews": 15017,
-      "imageHash": "1/1f"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Mortal_Kombat_box_art.png/250px-Mortal_Kombat_box_art.png"
     },
     {
       "qid": "Q272201",
@@ -318,7 +318,7 @@
       "wikipediaSlug": "Liz_Truss",
       "image": "Official_portrait_of_Liz_Truss_(3x4_cropped_b).jpg",
       "pageViews": 106702,
-      "imageHash": "d/db"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Official_portrait_of_Liz_Truss_%283x4_cropped_b%29.jpg/250px-Official_portrait_of_Liz_Truss_%283x4_cropped_b%29.jpg"
     },
     {
       "qid": "Q20875",
@@ -329,7 +329,7 @@
       "wikipediaSlug": "Edward_VII",
       "image": "King-Edward-VII_(cropped)_(b).jpg",
       "pageViews": 314252,
-      "imageHash": "5/56"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/King-Edward-VII_%28cropped%29_%28b%29.jpg/250px-King-Edward-VII_%28cropped%29_%28b%29.jpg"
     },
     {
       "qid": "Q1187416",
@@ -340,7 +340,7 @@
       "wikipediaSlug": "Chicago_Fire_(TV_series)",
       "image": "Chicago_Fire_Title_Card.jpg",
       "pageViews": 104840,
-      "imageHash": "e/e6"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Chicago_Fire_Title_Card.jpg/250px-Chicago_Fire_Title_Card.jpg"
     }
   ]
 }

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref, computed, watch } from 'vue';
 import type { Card } from '../../../shared/types.ts';
 
 const props = withDefaults(defineProps<{
@@ -7,6 +8,22 @@ const props = withDefaults(defineProps<{
   variant?: 'default' | 'correct' | 'incorrect' | 'placed' | 'pending';
   size?: 'sm' | 'md' | 'lg';
 }>(), { showYear: false, variant: 'default', size: 'md' });
+
+const imageError = ref(false);
+watch(() => props.card.qid, () => { imageError.value = false; });
+
+// Prefer the pre-resolved imageUrl; fall back to building from imageHash for
+// cards that the patch script couldn't resolve via the Wikipedia API.
+const imgSrc = computed(() => {
+  if (props.card.imageUrl) return props.card.imageUrl;
+  if (props.card.image && props.card.imageHash) {
+    const encoded = encodeURI(props.card.image);
+    const needsPng = /\.(svg|tif|tiff)$/i.test(props.card.image);
+    const base = `https://upload.wikimedia.org/wikipedia/commons/thumb/${props.card.imageHash}/${encoded}/250px-${encoded}`;
+    return needsPng ? base + '.png' : base;
+  }
+  return null;
+});
 
 const borderClass: Record<string, string> = {
   default:   'border-base-300',
@@ -37,11 +54,11 @@ const imageHeightClass: Record<string, string> = {
     <!-- Image -->
     <div :class="[imageHeightClass[props.size], 'bg-base-200 overflow-hidden']">
       <img
-        v-if="props.card.image"
-        :src="`https://upload.wikimedia.org/wikipedia/commons/thumb/${props.card.imageHash}/${props.card.image}/250px-${props.card.image}`"
+        v-if="imgSrc && !imageError"
+        :src="imgSrc"
         :alt="props.card.title"
         class="h-full w-full object-cover"
-        @error="($event.target as HTMLImageElement).style.display='none'"
+        @error="imageError = true"
       />
     </div>
 
