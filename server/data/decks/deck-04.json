@@ -9,7 +9,7 @@
     "wikipediaSlug": "George_V",
     "image": "King_George_1923_LCCN2014715558_(cropped).jpg",
     "pageViews": 353284,
-    "imageHash": "c/c9"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/King_George_1923_LCCN2014715558_%28cropped%29.jpg/250px-King_George_1923_LCCN2014715558_%28cropped%29.jpg"
   },
   "cards": [
     {
@@ -21,7 +21,7 @@
       "wikipediaSlug": "George_Grenville",
       "image": "George_Grenville_(1712–1770)_by_William_Hoare_(1707-1792).jpg",
       "pageViews": 4823,
-      "imageHash": "3/32"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/George_Grenville_%281712%E2%80%931770%29_by_William_Hoare_%281707-1792%29.jpg/250px-George_Grenville_%281712%E2%80%931770%29_by_William_Hoare_%281707-1792%29.jpg"
     },
     {
       "qid": "Q214132",
@@ -32,7 +32,7 @@
       "wikipediaSlug": "And_Then_There_Were_None",
       "image": "And_Then_There_Were_None_US_First_Edition_Cover_1940.jpg",
       "pageViews": 100775,
-      "imageHash": "2/26"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/And_Then_There_Were_None_US_First_Edition_Cover_1940.jpg/250px-And_Then_There_Were_None_US_First_Edition_Cover_1940.jpg"
     },
     {
       "qid": "Q1248594",
@@ -43,7 +43,7 @@
       "wikipediaSlug": "Resident_Evil_(1996_video_game)",
       "image": "Resident_Evil_1_cover.png",
       "pageViews": 212456,
-      "imageHash": "a/a6"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Resident_Evil_1_cover.png/250px-Resident_Evil_1_cover.png"
     },
     {
       "qid": "Q150901",
@@ -54,7 +54,7 @@
       "wikipediaSlug": "The_Dark_Side_of_the_Moon",
       "image": "The_Dark_Side_of_the_Moon_cover.svg",
       "pageViews": 109977,
-      "imageHash": "a/ab"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/The_Dark_Side_of_the_Moon_cover.svg/250px-The_Dark_Side_of_the_Moon_cover.svg.png"
     },
     {
       "qid": "Q211369",
@@ -65,7 +65,7 @@
       "wikipediaSlug": "Boeing_C-17_Globemaster_III",
       "image": "C-17_test_sortie.jpg",
       "pageViews": 137687,
-      "imageHash": "b/bc"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/C-17_test_sortie.jpg/250px-C-17_test_sortie.jpg"
     },
     {
       "qid": "Q652879",
@@ -76,7 +76,7 @@
       "wikipediaSlug": "Miami_Marlins",
       "image": "Marlins_team_logo.svg",
       "pageViews": 118124,
-      "imageHash": "f/fd"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Marlins_team_logo.svg/250px-Marlins_team_logo.svg.png"
     },
     {
       "qid": "Q464042",
@@ -87,7 +87,7 @@
       "wikipediaSlug": "Anaconda_(1997_film)",
       "image": "Anaconda_ver2.jpg",
       "pageViews": 73014,
-      "imageHash": "e/e6"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Anaconda_ver2.jpg/250px-Anaconda_ver2.jpg"
     },
     {
       "qid": "Q608920",
@@ -98,7 +98,7 @@
       "wikipediaSlug": "Mario_Party_9",
       "image": "Mario_Party_9_US_cover.jpg",
       "pageViews": 4546,
-      "imageHash": "f/f0"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Mario_Party_9_US_cover.jpg/250px-Mario_Party_9_US_cover.jpg"
     },
     {
       "qid": "Q230299",
@@ -109,7 +109,7 @@
       "wikipediaSlug": "Nellie_Bly",
       "image": "Nellie_Bly_2.jpg",
       "pageViews": 29025,
-      "imageHash": "5/52"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Nellie_Bly_2.jpg/250px-Nellie_Bly_2.jpg"
     },
     {
       "qid": "Q61157315",
@@ -120,7 +120,7 @@
       "wikipediaSlug": "When_We_All_Fall_Asleep,_Where_Do_We_Go%3F",
       "image": "When_We_All_Fall_Asleep,_Where_Do_We_Go?.png",
       "pageViews": 18493,
-      "imageHash": "3/38"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png/250px-When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png"
     },
     {
       "qid": "Q2343778",
@@ -131,7 +131,7 @@
       "wikipediaSlug": "La_belle_jardini%C3%A8re",
       "image": "La_Vierge_à_l'Enfant_avec_le_petit_saint_Jean_Baptiste_-_Raphaël_-_Musée_du_Louvre_Peintures_INV_602_;_MR_433.jpg",
       "pageViews": 2689,
-      "imageHash": "e/ec"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/La_Vierge_%C3%A0_l%27Enfant_avec_le_petit_saint_Jean_Baptiste_-_Rapha%C3%ABl_-_Mus%C3%A9e_du_Louvre_Peintures_INV_602_%3B_MR_433.jpg/250px-La_Vierge_%C3%A0_l%27Enfant_avec_le_petit_saint_Jean_Baptiste_-_Rapha%C3%ABl_-_Mus%C3%A9e_du_Louvre_Peintures_INV_602_%3B_MR_433.jpg"
     },
     {
       "qid": "Q882",
@@ -142,7 +142,7 @@
       "wikipediaSlug": "Charlie_Chaplin",
       "image": "Charlie_Chaplin_portrait_Getty_1739411952.jpg",
       "pageViews": 272914,
-      "imageHash": "8/82"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Charlie_Chaplin_portrait_Getty_1739411952.jpg/250px-Charlie_Chaplin_portrait_Getty_1739411952.jpg"
     },
     {
       "qid": "Q213911",
@@ -153,7 +153,7 @@
       "wikipediaSlug": "The_Legend_of_Zelda:_Ocarina_of_Time",
       "image": "The_Legend_of_Zelda_Ocarina_of_Time.jpg",
       "pageViews": 46833,
-      "imageHash": "5/57"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg/250px-The_Legend_of_Zelda_Ocarina_of_Time.jpg"
     },
     {
       "qid": "Q119132754",
@@ -164,7 +164,7 @@
       "wikipediaSlug": "Fattah-1",
       "image": "Unveiling_ceremony_of_Fattah_hypersonic_missile_(64).jpg",
       "pageViews": 109665,
-      "imageHash": "f/fc"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Unveiling_ceremony_of_Fattah_hypersonic_missile_%2864%29.jpg/250px-Unveiling_ceremony_of_Fattah_hypersonic_missile_%2864%29.jpg"
     },
     {
       "qid": "Q48796994",
@@ -175,7 +175,7 @@
       "wikipediaSlug": "The_Boys_(TV_series)",
       "image": "The_Boys_TV_series_logo.svg",
       "pageViews": 339224,
-      "imageHash": "6/68"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/The_Boys_TV_series_logo.svg/250px-The_Boys_TV_series_logo.svg.png"
     },
     {
       "qid": "Q188528",
@@ -186,7 +186,7 @@
       "wikipediaSlug": "Stari_Most",
       "image": "Mostar_Old_Town_Panorama_2007.jpg",
       "pageViews": 7821,
-      "imageHash": "d/d7"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mostar_Old_Town_Panorama_2007.jpg/250px-Mostar_Old_Town_Panorama_2007.jpg"
     },
     {
       "qid": "Q315979",
@@ -197,7 +197,7 @@
       "wikipediaSlug": "Malcolm_Fraser",
       "image": "Malcolm_Fraser_1977_(cropped).jpg",
       "pageViews": 10035,
-      "imageHash": "6/69"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Malcolm_Fraser_1977_%28cropped%29.jpg/250px-Malcolm_Fraser_1977_%28cropped%29.jpg"
     },
     {
       "qid": "Q14669",
@@ -208,7 +208,7 @@
       "wikipediaSlug": "Rust_in_Peace",
       "image": "Megadeth-RustInPeace.jpg",
       "pageViews": 17997,
-      "imageHash": "d/dc"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Megadeth-RustInPeace.jpg/250px-Megadeth-RustInPeace.jpg"
     },
     {
       "qid": "Q1137051",
@@ -219,7 +219,7 @@
       "wikipediaSlug": "Vickers_Viscount",
       "image": "Cambrian_Airways_Vickers_Viscount_Manteufel-5.jpg",
       "pageViews": 10838,
-      "imageHash": "e/e1"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Cambrian_Airways_Vickers_Viscount_Manteufel-5.jpg/250px-Cambrian_Airways_Vickers_Viscount_Manteufel-5.jpg"
     },
     {
       "qid": "Q1809044",
@@ -230,7 +230,7 @@
       "wikipediaSlug": "La_Jument",
       "image": "Breizh-176.JPG",
       "pageViews": 3260,
-      "imageHash": "0/03"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Breizh-176.JPG/250px-Breizh-176.JPG"
     },
     {
       "qid": "Q21463703",
@@ -241,7 +241,7 @@
       "wikipediaSlug": "TV_Time",
       "image": "Logo_TV_Time.svg",
       "pageViews": 2329,
-      "imageHash": "c/c9"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_TV_Time.svg/250px-Logo_TV_Time.svg.png"
     },
     {
       "qid": "Q1738764",
@@ -252,7 +252,7 @@
       "wikipediaSlug": "Kenilworth_Castle",
       "image": "Kenilworth_Castle_gatehouse_landscape.jpg",
       "pageViews": 5984,
-      "imageHash": "8/8c"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Kenilworth_Castle_gatehouse_landscape.jpg/250px-Kenilworth_Castle_gatehouse_landscape.jpg"
     },
     {
       "qid": "Q312978",
@@ -263,7 +263,7 @@
       "wikipediaSlug": "Faxian",
       "image": "Faxian_statue_in_Maritime_Experiential_Museum_&_Aquarium_Singapore.jpg",
       "pageViews": 6427,
-      "imageHash": "c/c5"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Faxian_statue_in_Maritime_Experiential_Museum_%26_Aquarium_Singapore.jpg/250px-Faxian_statue_in_Maritime_Experiential_Museum_%26_Aquarium_Singapore.jpg"
     },
     {
       "qid": "Q153826",
@@ -274,7 +274,7 @@
       "wikipediaSlug": "North_American_F-86_Sabre",
       "image": "F-86_Sabre_hertiage_flight.jpg",
       "pageViews": 41908,
-      "imageHash": "1/1e"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/F-86_Sabre_hertiage_flight.jpg/250px-F-86_Sabre_hertiage_flight.jpg"
     },
     {
       "qid": "Q1930409",
@@ -285,7 +285,7 @@
       "wikipediaSlug": "Mikhailovsky_Palace",
       "image": "Spb_06-2012_MichaelPalace.jpg",
       "pageViews": 1061,
-      "imageHash": "8/84"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spb_06-2012_MichaelPalace.jpg/250px-Spb_06-2012_MichaelPalace.jpg"
     },
     {
       "qid": "Q169705",
@@ -296,7 +296,7 @@
       "wikipediaSlug": "Xia_dynasty",
       "image": "Xia_dynasty.svg",
       "pageViews": 30645,
-      "imageHash": "4/45"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Xia_dynasty.svg/250px-Xia_dynasty.svg.png"
     },
     {
       "qid": "Q23628",
@@ -318,7 +318,7 @@
       "wikipediaSlug": "Disney_XD",
       "image": "2015_Disney_XD_logo.svg",
       "pageViews": 27440,
-      "imageHash": "a/a8"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/250px-2015_Disney_XD_logo.svg.png"
     },
     {
       "qid": "Q905308",
@@ -329,7 +329,7 @@
       "wikipediaSlug": "Neighbours_from_Hell",
       "image": "Neighbors_from_Hell_Coverart.png",
       "pageViews": 6025,
-      "imageHash": "9/92"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Neighbors_from_Hell_Coverart.png/250px-Neighbors_from_Hell_Coverart.png"
     },
     {
       "qid": "Q104000",
@@ -340,7 +340,7 @@
       "wikipediaSlug": "Lauren_Bacall",
       "image": "Lauren_Bacall_1945_press_photo.jpg",
       "pageViews": 123590,
-      "imageHash": "7/76"
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Lauren_Bacall_1945_press_photo.jpg/250px-Lauren_Bacall_1945_press_photo.jpg"
     }
   ]
 }

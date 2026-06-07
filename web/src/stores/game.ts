@@ -23,6 +23,24 @@ export const useGameStore = defineStore('game', () => {
     // Per-player card history accumulated from round_results, keyed by year for timeline ordering
     const playerHistory = ref<Record<string, { year: number; result: 'correct' | 'incorrect' }[]>>({});
 
+    // Keep strong references so the browser doesn't abort in-flight preload requests
+    const preloadCache = new Map<string, HTMLImageElement>();
+
+    function preloadCardImage(card: Card) {
+        if (preloadCache.has(card.qid)) return;
+        let src = card.imageUrl;
+        if (!src && card.image && card.imageHash) {
+            const encoded = encodeURI(card.image);
+            const needsPng = /\.(svg|tif|tiff)$/i.test(card.image);
+            const base = `https://upload.wikimedia.org/wikipedia/commons/thumb/${card.imageHash}/${encoded}/250px-${encoded}`;
+            src = needsPng ? base + '.png' : base;
+        }
+        if (!src) return;
+        const img = new window.Image();
+        img.src = src;
+        preloadCache.set(card.qid, img);
+    }
+
     function setSendFn(fn: (msg: ClientMessage) => void) {
         sendFn = fn;
     }
@@ -45,6 +63,7 @@ export const useGameStore = defineStore('game', () => {
     function handleMessage(msg: ServerMessage) {
         switch (msg.type) {
             case 'game_started':
+                preloadCardImage(msg.startingCard);
                 myTimeline.value = [msg.startingCard];
                 allPlayerStats.value = msg.playerStats;
                 timerSeconds.value = msg.timerSeconds;
@@ -63,6 +82,7 @@ export const useGameStore = defineStore('game', () => {
                 break;
 
             case 'card_revealed':
+                preloadCardImage(msg.card);
                 currentCard.value = msg.card;
                 myHasPlaced.value = false;
                 myPendingCardQid.value = null;
@@ -160,6 +180,7 @@ export const useGameStore = defineStore('game', () => {
 
     function reset() {
         stopCountdown();
+        preloadCache.clear();
         gamePhase.value = 'lobby';
         currentCard.value = null;
         myTimeline.value = [];

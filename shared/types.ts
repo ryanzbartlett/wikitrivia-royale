@@ -18,7 +18,8 @@ export interface Card {
     fact: string;
     wikipediaSlug: string;
     image: string;
-    imageHash: string; // MD5-based Wikimedia path prefix, e.g. "8/8f"
+    imageHash?: string; // MD5-based Wikimedia path prefix — used as fallback if imageUrl is absent
+    imageUrl?: string;  // Pre-resolved 250px Wikimedia thumbnail URL (preferred)
     pageViews: number;
 }
 
