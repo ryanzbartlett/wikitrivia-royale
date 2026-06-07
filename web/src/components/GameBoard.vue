@@ -81,18 +81,18 @@ function handlePlace(afterIndex: number) {
     </div>
 
     <!-- ── Main scroll area ───────────────────────── -->
-    <div class="flex-1 overflow-y-auto flex flex-col items-center px-4 py-5 gap-4">
+    <div class="flex-1 overflow-y-auto flex flex-col items-center py-5 gap-4">
 
       <!-- Spectating banner -->
       <div
         v-if="game.myEliminated"
-        class="w-full max-w-sm rounded-lg px-4 py-2 text-xs text-center text-base-content/50 bg-base-200 italic"
+        class="w-full max-w-sm px-4 rounded-lg py-2 text-xs text-center text-base-content/50 bg-base-200 italic"
       >
         You've been eliminated — spectating
       </div>
 
       <!-- Current card -->
-      <div class="flex flex-col items-center gap-2">
+      <div class="flex flex-col items-center gap-2 px-4">
         <p class="text-xs uppercase tracking-[0.2em] text-base-content/40">
           {{ isPlacing ? 'Where does this go?' : 'Answer revealed' }}
         </p>
@@ -110,15 +110,12 @@ function handlePlace(afterIndex: number) {
             size="lg"
           />
         </div>
-        <p v-if="canPlace" class="text-[10px] text-base-content/30 italic">
-          drag into timeline or tap a slot
-        </p>
       </div>
 
       <!-- Result feedback banner -->
       <div
         v-if="isResults && myResult"
-        class="w-full max-w-sm rounded-lg px-4 py-2.5 text-sm font-semibold text-center"
+        class="w-full max-w-sm mx-4 rounded-lg px-4 py-2.5 text-sm font-semibold text-center"
         :class="myResult.correct
           ? 'bg-success/15 text-success'
           : myResult.timedOut
@@ -133,15 +130,14 @@ function handlePlace(afterIndex: number) {
         <template v-else>✗ Incorrect! −1 life</template>
       </div>
 
-      <!-- Timeline -->
+      <!-- Timeline — no horizontal padding so it fills the full viewport width -->
       <div class="w-full">
-        <p class="text-xs uppercase tracking-[0.2em] text-base-content/40 mb-2">Your timeline</p>
+        <p class="text-xs uppercase tracking-[0.2em] text-base-content/40 mb-2 px-4">Your timeline</p>
         <Timeline
           :cards="game.myTimeline"
           :disabled="!isPlacing || game.myHasPlaced || game.myEliminated"
           :incorrect-card-qids="game.myIncorrectCardQids"
           :pending-card-qid="game.myPendingCardQid"
-          :is-dragging="isDragging"
           @place="handlePlace"
         />
       </div>

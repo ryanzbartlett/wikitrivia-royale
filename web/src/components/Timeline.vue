@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onUnmounted, computed } from 'vue';
+import { useEventListener } from '@vueuse/core';
 import type { Card } from '../../../shared/types.ts';
 import CardTile from './CardTile.vue';
 
@@ -8,107 +9,161 @@ const props = defineProps<{
   disabled?: boolean;
   incorrectCardQids?: string[];
   pendingCardQid?: string | null;
-  isDragging?: boolean;
 }>();
 
 const emit = defineEmits<{
   place: [afterIndex: number];
 }>();
 
-// null = no zone active; number = afterIndex of the active zone
-const dragOverIndex = ref<number | null>(null);
+// ── Drag-drop state ─────────────────────────────────────────────────────────
+const timelineRef = ref<HTMLElement | null>(null);
+const previewIndex = ref<number | null>(null);
 
-function onDragEnter(afterIndex: number) {
-  if (props.disabled) return;
-  dragOverIndex.value = afterIndex;
-}
-
-function onDragLeave() {
-  dragOverIndex.value = null;
-}
-
-function onDrop(afterIndex: number) {
-  dragOverIndex.value = null;
-  if (!props.disabled) {
-    emit('place', afterIndex);
+function getAfterIndexFromClientX(clientX: number): number {
+  const cardEls = timelineRef.value?.querySelectorAll<HTMLElement>('[data-timeline-card]') ?? [];
+  if (cardEls.length === 0) return -1;
+  for (let i = 0; i < cardEls.length; i++) {
+    const el = cardEls[i];
+    if (!el) continue;
+    const rect = el.getBoundingClientRect();
+    if (clientX < rect.left + rect.width / 2) return i - 1;
   }
+  return cardEls.length - 1;
 }
+
+// ── Flat item list for TransitionGroup ──────────────────────────────────────
+// A single keyed array avoids <template v-for> key placement issues and gives
+// TransitionGroup a clean flat list to FLIP-animate.
+interface GhostItem { key: string; isGhost: true }
+interface CardItem  { key: string; isGhost: false; card: Card; idx: number }
+type TLItem = GhostItem | CardItem;
+
+const timelineItems = computed((): TLItem[] => {
+  const result: TLItem[] = [];
+  if (previewIndex.value === -1) {
+    result.push({ key: 'ghost', isGhost: true });
+  }
+  props.cards.forEach((card, i) => {
+    result.push({ key: card.qid, isGhost: false, card, idx: i });
+    if (previewIndex.value === i) {
+      result.push({ key: 'ghost', isGhost: true });
+    }
+  });
+  return result;
+});
+
+// ── Auto-scroll while dragging near edges ───────────────────────────────────
+const SCROLL_ZONE = 64;
+const SCROLL_SPEED = 8;
+let scrollDir: -1 | 0 | 1 = 0;
+let rafId: number | null = null;
+
+function runScroll() {
+  if (!timelineRef.value || scrollDir === 0) return;
+  timelineRef.value.scrollLeft += scrollDir * SCROLL_SPEED;
+  rafId = requestAnimationFrame(runScroll);
+}
+
+function checkAutoScroll(clientX: number) {
+  if (!timelineRef.value) return;
+  const { left, right } = timelineRef.value.getBoundingClientRect();
+  const next: -1 | 0 | 1 =
+    clientX < left  + SCROLL_ZONE ? -1 :
+    clientX > right - SCROLL_ZONE ?  1 : 0;
+  if (next === scrollDir) return;
+  scrollDir = next;
+  if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null; }
+  if (scrollDir !== 0) rafId = requestAnimationFrame(runScroll);
+}
+
+function stopAutoScroll() {
+  scrollDir = 0;
+  if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null; }
+}
+
+onUnmounted(stopAutoScroll);
+
+// ── Drop-zone event listeners ────────────────────────────────────────────────
+let enterCount = 0;
+
+useEventListener(timelineRef, 'dragenter', (e: DragEvent) => {
+  e.preventDefault();
+  if (props.disabled) return;
+  enterCount++;
+  previewIndex.value = getAfterIndexFromClientX(e.clientX);
+});
+
+useEventListener(timelineRef, 'dragover', (e: DragEvent) => {
+  e.preventDefault();
+  if (props.disabled) return;
+  checkAutoScroll(e.clientX);
+  previewIndex.value = getAfterIndexFromClientX(e.clientX);
+});
+
+useEventListener(timelineRef, 'dragleave', () => {
+  enterCount--;
+  if (enterCount <= 0) {
+    enterCount = 0;
+    stopAutoScroll();
+    previewIndex.value = null;
+  }
+});
+
+useEventListener(timelineRef, 'drop', (e: DragEvent) => {
+  e.preventDefault();
+  enterCount = 0;
+  stopAutoScroll();
+  if (props.disabled || previewIndex.value === null) return;
+  const idx = previewIndex.value;
+  previewIndex.value = null;
+  emit('place', idx);
+});
 </script>
 
 <template>
-  <div class="flex items-stretch gap-0.5 overflow-x-auto pb-2 select-none">
-
-    <!-- Drop zone before first card -->
-    <button
-      v-if="!props.disabled"
-      class="group shrink-0 rounded border-2 border-dashed transition-all duration-150 flex flex-col overflow-hidden"
-      :class="dragOverIndex === -1
-        ? 'w-24 border-primary bg-primary/10'
-        : 'w-7 border-base-300 hover:border-primary hover:bg-primary/5 items-center justify-center'"
-      @click="emit('place', -1)"
-      @dragenter.prevent="onDragEnter(-1)"
-      @dragover.prevent="onDragEnter(-1)"
-      @dragleave="onDragLeave"
-      @drop.prevent="onDrop(-1)"
-    >
-      <!-- Ghost card interior when drag-active -->
-      <template v-if="dragOverIndex === -1">
-        <div class="pointer-events-none h-14 w-full bg-primary/10 flex items-center justify-center">
-          <svg class="w-5 h-5 text-primary/50" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-          </svg>
-        </div>
-        <div class="pointer-events-none flex-1 flex items-center justify-center p-1">
-          <span class="text-[10px] text-primary/60 font-semibold leading-tight text-center">Drop here</span>
-        </div>
-      </template>
-      <!-- Slim strip when idle -->
-      <template v-else>
-        <span class="pointer-events-none text-base-content/30 group-hover:text-primary text-xs transition-colors">+</span>
-      </template>
-    </button>
-    <div v-else class="w-1 shrink-0" />
-
-    <template v-for="(card, i) in props.cards" :key="card.qid">
-      <CardTile
-        :card="card"
-        :show-year="card.qid !== props.pendingCardQid"
-        :variant="card.qid === props.pendingCardQid ? 'pending'
-          : props.incorrectCardQids?.includes(card.qid) ? 'incorrect'
-          : 'placed'"
-        size="sm"
-      />
-
-      <!-- Drop zone after card i -->
-      <button
-        v-if="!props.disabled"
-        class="group shrink-0 rounded border-2 border-dashed transition-all duration-150 flex flex-col overflow-hidden"
-        :class="dragOverIndex === i
-          ? 'w-24 border-primary bg-primary/10'
-          : 'w-7 border-base-300 hover:border-primary hover:bg-primary/5 items-center justify-center'"
-        @click="emit('place', i)"
-        @dragenter.prevent="onDragEnter(i)"
-        @dragover.prevent="onDragEnter(i)"
-        @dragleave="onDragLeave"
-        @drop.prevent="onDrop(i)"
+  <div ref="timelineRef" class="w-full overflow-x-auto pb-2 select-none flex">
+    <TransitionGroup name="tl" tag="div" class="flex items-stretch gap-1 mx-auto">
+      <div
+        v-for="item in timelineItems"
+        :key="item.key"
+        :data-timeline-card="!item.isGhost ? '' : undefined"
+        :class="item.isGhost
+          ? 'tl-ghost w-24 shrink-0 pointer-events-none rounded border-2 border-dashed border-primary/50 bg-primary/8'
+          : 'shrink-0 flex flex-col'"
       >
-        <!-- Ghost card interior when drag-active -->
-        <template v-if="dragOverIndex === i">
-          <div class="pointer-events-none h-14 w-full bg-primary/10 flex items-center justify-center">
-            <svg class="w-5 h-5 text-primary/50" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-            </svg>
-          </div>
-          <div class="pointer-events-none flex-1 flex items-center justify-center p-1">
-            <span class="text-[10px] text-primary/60 font-semibold leading-tight text-center">Drop here</span>
-          </div>
-        </template>
-        <!-- Slim strip when idle -->
-        <template v-else>
-          <span class="pointer-events-none text-base-content/30 group-hover:text-primary text-xs transition-colors">+</span>
-        </template>
-      </button>
-      <div v-else class="w-1 shrink-0" />
-    </template>
+        <CardTile
+          v-if="!item.isGhost"
+          :card="item.card"
+          :show-year="item.card.qid !== props.pendingCardQid"
+          :variant="item.card.qid === props.pendingCardQid ? 'pending'
+            : props.incorrectCardQids?.includes(item.card.qid) ? 'incorrect'
+            : 'placed'"
+          size="sm"
+          class="flex-1"
+        />
+      </div>
+    </TransitionGroup>
   </div>
 </template>
+
+<style scoped>
+/* Surrounding cards slide to make/close room */
+.tl-move {
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Ghost scales in/out from its left edge */
+.tl-ghost { transform-origin: left center; }
+.tl-enter-active.tl-ghost {
+  transition: transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.15s ease;
+}
+.tl-leave-active.tl-ghost {
+  transition: transform 0.15s ease-in, opacity 0.1s ease;
+  position: absolute; /* out of flow so FLIP measures correctly */
+}
+.tl-enter-from.tl-ghost,
+.tl-leave-to.tl-ghost {
+  transform: scaleX(0);
+  opacity: 0;
+}
+</style>
