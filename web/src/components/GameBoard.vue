@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, ref } from 'vue';
 import { useGameStore } from '@/stores/game';
 import { useProfile } from '@/composables/useProfile';
 import CardTile from './CardTile.vue';
@@ -23,6 +23,24 @@ const currentCardVariant = computed(() => {
 
 const activePlayers = computed(() => game.allPlayerStats.filter(p => !p.eliminated));
 const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced).length);
+
+const canPlace = computed(() => isPlacing.value && !game.myHasPlaced && !game.myEliminated);
+const isDragging = ref(false);
+
+function onCardDragStart(e: DragEvent) {
+    e.dataTransfer?.setData('text/plain', 'card');
+    if (e.dataTransfer) e.dataTransfer.effectAllowed = 'move';
+    isDragging.value = true;
+}
+
+function onCardDragEnd() {
+    isDragging.value = false;
+}
+
+function handlePlace(afterIndex: number) {
+    isDragging.value = false;
+    game.placeCard(afterIndex);
+}
 </script>
 
 <template>
@@ -63,34 +81,41 @@ const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced
     </div>
 
     <!-- ── Main scroll area ───────────────────────── -->
-    <div class="flex-1 overflow-y-auto flex flex-col items-center px-4 py-5 gap-4">
+    <div class="flex-1 overflow-y-auto flex flex-col items-center py-5 gap-4">
 
       <!-- Spectating banner -->
       <div
         v-if="game.myEliminated"
-        class="w-full max-w-sm rounded-lg px-4 py-2 text-xs text-center text-base-content/50 bg-base-200 italic"
+        class="w-full max-w-sm px-4 rounded-lg py-2 text-xs text-center text-base-content/50 bg-base-200 italic"
       >
         You've been eliminated — spectating
       </div>
 
       <!-- Current card -->
-      <div class="flex flex-col items-center gap-2">
+      <div class="flex flex-col items-center gap-2 px-4">
         <p class="text-xs uppercase tracking-[0.2em] text-base-content/40">
           {{ isPlacing ? 'Where does this go?' : 'Answer revealed' }}
         </p>
-        <CardTile
-          v-if="game.currentCard"
-          :card="game.currentCard"
-          :show-year="isResults"
-          :variant="currentCardVariant"
-          size="lg"
-        />
+        <div
+          :draggable="canPlace"
+          :class="canPlace ? 'cursor-grab active:cursor-grabbing' : ''"
+          @dragstart="onCardDragStart"
+          @dragend="onCardDragEnd"
+        >
+          <CardTile
+            v-if="game.currentCard"
+            :card="game.currentCard"
+            :show-year="isResults"
+            :variant="currentCardVariant"
+            size="lg"
+          />
+        </div>
       </div>
 
       <!-- Result feedback banner -->
       <div
         v-if="isResults && myResult"
-        class="w-full max-w-sm rounded-lg px-4 py-2.5 text-sm font-semibold text-center"
+        class="w-full max-w-sm mx-4 rounded-lg px-4 py-2.5 text-sm font-semibold text-center"
         :class="myResult.correct
           ? 'bg-success/15 text-success'
           : myResult.timedOut
@@ -105,15 +130,15 @@ const placedCount   = computed(() => activePlayers.value.filter(p => p.hasPlaced
         <template v-else>✗ Incorrect! −1 life</template>
       </div>
 
-      <!-- Timeline -->
+      <!-- Timeline — no horizontal padding so it fills the full viewport width -->
       <div class="w-full">
-        <p class="text-xs uppercase tracking-[0.2em] text-base-content/40 mb-2">Your timeline</p>
+        <p class="text-xs uppercase tracking-[0.2em] text-base-content/40 mb-2 px-4">Your timeline</p>
         <Timeline
           :cards="game.myTimeline"
           :disabled="!isPlacing || game.myHasPlaced || game.myEliminated"
           :incorrect-card-qids="game.myIncorrectCardQids"
           :pending-card-qid="game.myPendingCardQid"
-          @place="game.placeCard"
+          @place="handlePlace"
         />
       </div>
     </div>

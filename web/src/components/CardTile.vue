@@ -57,7 +57,8 @@ const imageHeightClass: Record<string, string> = {
         v-if="imgSrc && !imageError"
         :src="imgSrc"
         :alt="props.card.title"
-        class="h-full w-full object-cover"
+        draggable="false"
+        class="h-full w-full object-cover pointer-events-none"
         @error="imageError = true"
       />
     </div>
